@@ -1,0 +1,3502 @@
+[
+    {
+       "question_id":"Q130",
+       "chief_complaint":"cough",
+       "is_first_question":false,
+       "is_last_question":false,
+       "question":"Do you have nasal congestion or runny nose?",
+       "options":[
+          "Yes",
+          "No"
+       ],
+       "type":"single type",
+       "next_path":[
+          {
+             "option_text":"Yes",
+             "next_question_id":"P138",
+             "potentialDiagnosis":[
+                {
+                   "diagnosis":"Allergic rhinitis with secondary cough",
+                   "probability":"70%"
+                }
+             ]
+          },
+          {
+             "option_text":"No",
+             "next_question_id":"P139",
+             "potentialDiagnosis":[
+                {
+                   "diagnosis":"Allergic cough",
+                   "probability":"60%"
+                }
+             ]
+          }
+       ],
+       "diagnosis":"Allergic rhinitis"
+    },
+    {
+       "question_id":"Q131",
+       "chief_complaint":"cough",
+       "is_first_question":false,
+       "is_last_question":false,
+       "question":"Have you recently started taking any medication?",
+       "options":[
+          "Yes",
+          "No"
+       ],
+       "type":"single type",
+       "next_path":[
+          {
+             "option_text":"Yes",
+             "next_question_id":"P140",
+             "potentialDiagnosis":[
+                {
+                   "diagnosis":"Drug-induced cough",
+                   "probability":"70%"
+                }
+             ]
+          },
+          {
+             "option_text":"No",
+             "next_question_id":"P141",
+             "potentialDiagnosis":[
+                {
+                   "diagnosis":"Non-specific cough",
+                   "probability":"50%"
+                }
+             ]
+          }
+       ],
+       "diagnosis":"Non-specific cough"
+    },
+    {
+       "question_id":"Q132",
+       "chief_complaint":"cough",
+       "is_first_question":false,
+       "is_last_question":false,
+       "question":"Do you have shortness of breath or chest pain?",
+       "options":[
+          "Yes",
+          "No"
+       ],
+       "type":"single type",
+       "next_path":[
+          {
+             "option_text":"Yes",
+             "next_question_id":"P142",
+             "potentialDiagnosis":[
+                {
+                   "diagnosis":"Metastatic lung cancer",
+                   "probability":"80%"
+                }
+             ]
+          },
+          {
+             "option_text":"No",
+             "next_question_id":"P143",
+             "potentialDiagnosis":[
+                {
+                   "diagnosis":"Lung cancer",
+                   "probability":"70%"
+                }
+             ]
+          }
+       ],
+       "diagnosis":"Lung cancer"
+    },
+    {
+       "question_id":"Q133",
+       "chief_complaint":"cough",
+       "is_first_question":false,
+       "is_last_question":false,
+       "question":"Do you have a history of smoking or exposure to secondhand smoke?",
+       "options":[
+          "Yes",
+          "No"
+       ],
+       "type":"single type",
+       "next_path":[
+          {
+             "option_text":"Yes",
+             "next_question_id":"P144",
+             "potentialDiagnosis":[
+                {
+                   "diagnosis":"Chronic obstructive pulmonary disease (COPD)",
+                   "probability":"70%"
+                }
+             ]
+          },
+          {
+             "option_text":"No",
+             "next_question_id":"P145",
+             "potentialDiagnosis":[
+                {
+                   "diagnosis":"Non-specific cough",
+                   "probability":"50%"
+                }
+             ]
+          }
+       ],
+       "diagnosis":"Non-specific cough"
+    },
+    {
+       "question_id":"Q134",
+       "chief_complaint":"cough",
+       "is_first_question":false,
+       "is_last_question":false,
+       "question":"Do you have a family history of alpha-1 antitrypsin deficiency?",
+       "options":[
+          "Yes",
+          "No"
+       ],
+       "type":"single type",
+       "next_path":[
+          {
+             "option_text":"Yes",
+             "next_question_id":"P146",
+             "potentialDiagnosis":[
+                {
+                   "diagnosis":"Alpha-1 antitrypsin deficiency",
+                   "probability":"70%"
+                }
+             ]
+          },
+          {
+             "option_text":"No",
+             "next_question_id":"P147",
+             "potentialDiagnosis":[
+                {
+                   "diagnosis":"Genetic predisposition to lung disease",
+                   "probability":"60%"
+                }
+             ]
+          }
+       ],
+       "diagnosis":"Genetic predisposition to lung disease"
+    },
+    {
+       "question_id":"Q135",
+       "chief_complaint":"cough",
+       "is_first_question":false,
+       "is_last_question":false,
+       "question":"Do you have a history of gastroesophageal reflux disease (GERD)?",
+       "options":[
+          "Yes",
+          "No"
+       ],
+       "type":"single type",
+       "next_path":[
+          {
+             "option_text":"Yes",
+             "next_question_id":"P148",
+             "potentialDiagnosis":[
+                {
+                   "diagnosis":"GERD-associated cough",
+                   "probability":"70%"
+                }
+             ]
+          },
+          {
+             "option_text":"No",
+             "next_question_id":"P149",
+             "potentialDiagnosis":[
+                {
+                   "diagnosis":"Non-specific cough",
+                   "probability":"50%"
+                }
+             ]
+          }
+       ],
+       "diagnosis":"Non-specific cough"
+    },
+    {
+       "question_id":"Q136",
+       "chief_complaint":"cough",
+       "is_first_question":false,
+       "is_last_question":false,
+       "question":"Do you have swelling in your legs or shortness of breath?",
+       "options":[
+          "Yes",
+          "No"
+       ],
+       "type":"single type",
+       "next_path":[
+          {
+             "option_text":"Yes",
+             "next_question_id":"P150",
+             "potentialDiagnosis":[
+                {
+                   "diagnosis":"Congestive heart failure with associated cough",
+                   "probability":"80%"
+                }
+             ]
+          },
+          {
+             "option_text":"No",
+             "next_question_id":"P151",
+             "potentialDiagnosis":[
+                {
+                   "diagnosis":"Cardiac cough",
+                   "probability":"60%"
+                }
+             ]
+          }
+       ],
+       "diagnosis":"Congestive heart failure"
+    },
+    {
+       "question_id":"P138",
+       "chief_complaint":"cough",
+       "is_first_question":false,
+       "is_last_question":false,
+       "question":"Do you have a history of asthma?",
+       "options":[
+          "Yes",
+          "No"
+       ],
+       "type":"single type",
+       "next_path":[
+          {
+             "option_text":"Yes",
+             "next_question_id":"P152",
+             "potentialDiagnosis":[
+                {
+                   "diagnosis":"Allergic asthma with associated cough",
+                   "probability":"80%"
+                }
+             ]
+          },
+          {
+             "option_text":"No",
+             "next_question_id":"P153",
+             "potentialDiagnosis":[
+                {
+                   "diagnosis":"Allergic rhinitis with secondary cough",
+                   "probability":"70%"
+                }
+             ]
+          }
+       ],
+       "diagnosis":"Allergic rhinitis with secondary cough"
+    },
+    {
+       "question_id":"P139",
+       "chief_complaint":"cough",
+       "is_first_question":false,
+       "is_last_question":false,
+       "question":"Do you have a history of exposure to allergens or irritants?",
+       "options":[
+          "Yes",
+          "No"
+       ],
+       "type":"single type",
+       "next_path":[
+          {
+             "option_text":"Yes",
+             "next_question_id":"P154",
+             "potentialDiagnosis":[
+                {
+                   "diagnosis":"Allergic cough due to environmental exposure",
+                   "probability":"70%"
+                }
+             ]
+          },
+          {
+             "option_text":"No",
+             "next_question_id":"P155",
+             "potentialDiagnosis":[
+                {
+                   "diagnosis":"Allergic cough",
+                   "probability":"60%"
+                }
+             ]
+          }
+       ],
+       "diagnosis":"Allergic cough"
+    },
+    {
+       "question_id":"P140",
+       "chief_complaint":"cough",
+       "is_first_question":false,
+       "is_last_question":false,
+       "question":"Have you recently started taking an ACE inhibitor medication?",
+       "options":[
+          "Yes",
+          "No"
+       ],
+       "type":"single type",
+       "next_path":[
+          {
+             "option_text":"Yes",
+             "next_question_id":"P156",
+             "potentialDiagnosis":[
+                {
+                   "diagnosis":"ACE inhibitor-induced cough",
+                   "probability":"80%"
+                }
+             ]
+          },
+          {
+             "option_text":"No",
+             "next_question_id":"P157",
+             "potentialDiagnosis":[
+                {
+                   "diagnosis":"Drug-induced cough",
+                   "probability":"70%"
+                }
+             ]
+          }
+       ],
+       "diagnosis":"Drug-induced cough"
+    },
+    {
+       "question_id":"P141",
+       "chief_complaint":"cough",
+       "is_first_question":false,
+       "is_last_question":false,
+       "question":"Have you been exposed to any chemicals or toxins at work?",
+       "options":[
+          "Yes",
+          "No"
+       ],
+       "type":"single type",
+       "next_path":[
+          {
+             "option_text":"Yes",
+             "next_question_id":"P158",
+             "potentialDiagnosis":[
+                {
+                   "diagnosis":"Occupational cough",
+                   "probability":"70%"
+                }
+             ]
+          },
+          {
+             "option_text":"No",
+             "next_question_id":"P159",
+             "potentialDiagnosis":[
+                {
+                   "diagnosis":"Non-specific cough",
+                   "probability":"50%"
+                }
+             ]
+          }
+       ],
+       "diagnosis":"Non-specific cough"
+    },
+    {
+       "question_id":"P142",
+       "chief_complaint":"cough",
+       "is_first_question":false,
+       "is_last_question":false,
+       "question":"Have you had any recent weight loss or loss of appetite?",
+       "options":[
+          "Yes",
+          "No"
+       ],
+       "type":"single type",
+       "next_path":[
+          {
+             "option_text":"Yes",
+             "next_question_id":"P160",
+             "potentialDiagnosis":[
+                {
+                   "diagnosis":"Advanced lung cancer",
+                   "probability":"80%"
+                }
+             ]
+          },
+          {
+             "option_text":"No",
+             "next_question_id":"P161",
+             "potentialDiagnosis":[
+                {
+                   "diagnosis":"Metastatic lung cancer",
+                   "probability":"70%"
+                }
+             ]
+          }
+       ],
+       "diagnosis":"Metastatic lung cancer"
+    },
+    {
+       "question_id":"P143",
+       "chief_complaint":"cough",
+       "is_first_question":false,
+       "is_last_question":false,
+       "question":"Do you have a history of exposure to radon or asbestos?",
+       "options":[
+          "Yes",
+          "No"
+       ],
+       "type":"single type",
+       "next_path":[
+          {
+             "option_text":"Yes",
+             "next_question_id":"P162",
+             "potentialDiagnosis":[
+                {
+                   "diagnosis":"Radon or asbestos-induced lung cancer",
+                   "probability":"80%"
+                }
+             ]
+          },
+          {
+             "option_text":"No",
+             "next_question_id":"P163",
+             "potentialDiagnosis":[
+                {
+                   "diagnosis":"Lung cancer",
+                   "probability":"70%"
+                }
+             ]
+          }
+       ],
+       "diagnosis":"Lung cancer"
+    },
+    {
+       "question_id":"P144",
+       "chief_complaint":"cough",
+       "is_first_question":false,
+       "is_last_question":false,
+       "question":"Do you have a history of smoking or exposure to secondhand smoke?",
+       "options":[
+          "Yes",
+          "No"
+       ],
+       "type":"single type",
+       "next_path":[
+          {
+             "option_text":"Yes",
+             "next_question_id":"P164",
+             "potentialDiagnosis":[
+                {
+                   "diagnosis":"Chronic obstructive pulmonary disease (COPD)",
+                   "probability":"80%"
+                }
+             ]
+          },
+          {
+             "option_text":"No",
+             "next_question_id":"P165",
+             "potentialDiagnosis":[
+                {
+                   "diagnosis":"Non-specific cough",
+                   "probability":"50%"
+                }
+             ]
+          }
+       ],
+       "diagnosis":"Chronic obstructive pulmonary disease (COPD)"
+    },
+    {
+       "question_id":"P145",
+       "chief_complaint":"cough",
+       "is_first_question":false,
+       "is_last_question":false,
+       "question":"Do you have a history of viral respiratory infections?",
+       "options":[
+          "Yes",
+          "No"
+       ],
+       "type":"single type",
+       "next_path":[
+          {
+             "option_text":"Yes",
+             "next_question_id":"P166",
+             "potentialDiagnosis":[
+                {
+                   "diagnosis":"Post-infectious cough",
+                   "probability":"70%"
+                }
+             ]
+          },
+          {
+             "option_text":"No",
+             "next_question_id":"P167",
+             "potentialDiagnosis":[
+                {
+                   "diagnosis":"Non-specific cough",
+                   "probability":"50%"
+                }
+             ]
+          }
+       ],
+       "diagnosis":"Non-specific cough"
+    },
+    {
+       "question_id":"P146",
+       "chief_complaint":"cough",
+       "is_first_question":false,
+       "is_last_question":false,
+       "question":"Have you been tested for alpha-1 antitrypsin deficiency?",
+       "options":[
+          "Yes",
+          "No"
+       ],
+       "type":"single type",
+       "next_path":[
+          {
+             "option_text":"Yes",
+             "next_question_id":"P168",
+             "potentialDiagnosis":[
+                {
+                   "diagnosis":"Alpha-1 antitrypsin deficiency",
+                   "probability":"90%"
+                }
+             ]
+          },
+          {
+             "option_text":"No",
+             "next_question_id":"P169",
+             "potentialDiagnosis":[
+                {
+                   "diagnosis":"Genetic predisposition to lung disease",
+                   "probability":"70%"
+                }
+             ]
+          }
+       ],
+       "diagnosis":"Alpha-1 antitrypsin deficiency"
+    },
+    {
+       "question_id":"P147",
+       "chief_complaint":"cough",
+       "is_first_question":false,
+       "is_last_question":false,
+       "question":"Have you been exposed to any environmental toxins or pollution?",
+       "options":[
+          "Yes",
+          "No"
+       ],
+       "type":"single type",
+       "next_path":[
+          {
+             "option_text":"Yes",
+             "next_question_id":"P170",
+             "potentialDiagnosis":[
+                {
+                   "diagnosis":"Toxin-induced lung disease",
+                   "probability":"70%"
+                }
+             ]
+          },
+          {
+             "option_text":"No",
+             "next_question_id":"P171",
+             "potentialDiagnosis":[
+                {
+                   "diagnosis":"Genetic predisposition to lung disease",
+                   "probability":"60%"
+                }
+             ]
+          }
+       ],
+       "diagnosis":"Genetic predisposition to lung disease"
+    },
+    {
+       "question_id":"P148",
+       "chief_complaint":"cough",
+       "is_first_question":false,
+       "is_last_question":false,
+       "question":"Do you have a history of heartburn or regurgitation?",
+       "options":[
+          "Yes",
+          "No"
+       ],
+       "type":"single type",
+       "next_path":[
+          {
+             "option_text":"Yes",
+             "next_question_id":"P172",
+             "potentialDiagnosis":[
+                {
+                   "diagnosis":"GERD-associated cough",
+                   "probability":"80%"
+                }
+             ]
+          },
+          {
+             "option_text":"No",
+             "next_question_id":"P173",
+             "potentialDiagnosis":[
+                {
+                   "diagnosis":"Non-specific cough",
+                   "probability":"50%"
+                }
+             ]
+          }
+       ],
+       "diagnosis":"GERD-associated cough"
+    },
+    {
+       "question_id":"P149",
+       "chief_complaint":"cough",
+       "is_first_question":false,
+       "is_last_question":false,
+       "question":"Have you had a recent upper respiratory tract infection?",
+       "options":[
+          "Yes",
+          "No"
+       ],
+       "type":"single type",
+       "next_path":[
+          {
+             "option_text":"Yes",
+             "next_question_id":"P174",
+             "potentialDiagnosis":[
+                {
+                   "diagnosis":"Post-infectious cough",
+                   "probability":"70%"
+                }
+             ]
+          },
+          {
+             "option_text":"No",
+             "next_question_id":"P175",
+             "potentialDiagnosis":[
+                {
+                   "diagnosis":"Non-specific cough",
+                   "probability":"50%"
+                }
+             ]
+          }
+       ],
+       "diagnosis":"Non-specific cough"
+    },
+    {
+       "question_id":"P150",
+       "chief_complaint":"cough",
+       "is_first_question":false,
+       "is_last_question":false,
+       "question":"Do you have a history of hypertension or coronary artery disease?",
+       "options":[
+          "Yes",
+          "No"
+       ],
+       "type":"single type",
+       "next_path":[
+          {
+             "option_text":"Yes",
+             "next_question_id":"P176",
+             "potentialDiagnosis":[
+                {
+                   "diagnosis":"Congestive heart failure with associated cough",
+                   "probability":"80%"
+                }
+             ]
+          },
+          {
+             "option_text":"No",
+             "next_question_id":"P177",
+             "potentialDiagnosis":[
+                {
+                   "diagnosis":"Cardiac cough",
+                   "probability":"60%"
+                }
+             ]
+          }
+       ],
+       "diagnosis":"Congestive heart failure with associated cough"
+    },
+    {
+       "question_id":"P152",
+       "chief_complaint":"cough",
+       "is_first_question":false,
+       "is_last_question":false,
+       "question":"Do you experience wheezing or shortness of breath?",
+       "options":[
+          "Yes",
+          "No"
+       ],
+       "type":"single type",
+       "next_path":[
+          {
+             "option_text":"Yes",
+             "next_question_id":"P178",
+             "potentialDiagnosis":[
+                {
+                   "diagnosis":"Allergic asthma with associated cough",
+                   "probability":"80%"
+                }
+             ]
+          },
+          {
+             "option_text":"No",
+             "next_question_id":"P179",
+             "potentialDiagnosis":[
+                {
+                   "diagnosis":"Allergic cough",
+                   "probability":"70%"
+                }
+             ]
+          }
+       ],
+       "diagnosis":"Allergic asthma with associated cough"
+    },
+    {
+       "question_id":"P153",
+       "chief_complaint":"cough",
+       "is_first_question":false,
+       "is_last_question":false,
+       "question":"Do you have a history of seasonal allergies?",
+       "options":[
+          "Yes",
+          "No"
+       ],
+       "type":"single type",
+       "next_path":[
+          {
+             "option_text":"Yes",
+             "next_question_id":"P180",
+             "potentialDiagnosis":[
+                {
+                   "diagnosis":"Seasonal allergic rhinitis with associated cough",
+                   "probability":"70%"
+                }
+             ]
+          },
+          {
+             "option_text":"No",
+             "next_question_id":"P181",
+             "potentialDiagnosis":[
+                {
+                   "diagnosis":"Allergic rhinitis with secondary cough",
+                   "probability":"60%"
+                }
+             ]
+          }
+       ],
+       "diagnosis":"Allergic rhinitis with secondary cough"
+    },
+    {
+       "question_id":"P154",
+       "chief_complaint":"cough",
+       "is_first_question":false,
+       "is_last_question":false,
+       "question":"Do you work in an environment with exposure to allergens or irritants?",
+       "options":[
+          "Yes",
+          "No"
+       ],
+       "type":"single type",
+       "next_path":[
+          {
+             "option_text":"Yes",
+             "next_question_id":"P182",
+             "potentialDiagnosis":[
+                {
+                   "diagnosis":"Occupational cough due to allergen exposure",
+                   "probability":"70%"
+                }
+             ]
+          },
+          {
+             "option_text":"No",
+             "next_question_id":"P183",
+             "potentialDiagnosis":[
+                {
+                   "diagnosis":"Allergic cough due to environmental exposure",
+                   "probability":"60%"
+                }
+             ]
+          }
+       ],
+       "diagnosis":"Allergic cough due to environmental exposure"
+    },
+    {
+       "question_id":"P155",
+       "chief_complaint":"cough",
+       "is_first_question":false,
+       "is_last_question":false,
+       "question":"Do you have a history of food allergies or sensitivities?",
+       "options":[
+          "Yes",
+          "No"
+       ],
+       "type":"single type",
+       "next_path":[
+          {
+             "option_text":"Yes",
+             "next_question_id":"P184",
+             "potentialDiagnosis":[
+                {
+                   "diagnosis":"Eosinophilic esophagitis with associated cough",
+                   "probability":"70%"
+                }
+             ]
+          },
+          {
+             "option_text":"No",
+             "next_question_id":"P185",
+             "potentialDiagnosis":[
+                {
+                   "diagnosis":"Allergic cough",
+                   "probability":"60%"
+                }
+             ]
+          }
+       ],
+       "diagnosis":"Allergic cough"
+    },
+    {
+       "question_id":"P156",
+       "chief_complaint":"cough",
+       "is_first_question":false,
+       "is_last_question":false,
+       "question":"Have you stopped taking the ACE inhibitor medication?",
+       "options":[
+          "Yes",
+          "No"
+       ],
+       "type":"single type",
+       "next_path":[
+          {
+             "option_text":"Yes",
+             "next_question_id":"P186",
+             "potentialDiagnosis":[
+                {
+                   "diagnosis":"ACE inhibitor-induced cough resolved",
+                   "probability":"80%"
+                }
+             ]
+          },
+          {
+             "option_text":"No",
+             "next_question_id":"P187",
+             "potentialDiagnosis":[
+                {
+                   "diagnosis":"Ongoing ACE inhibitor-induced cough",
+                   "probability":"70%"
+                }
+             ]
+          }
+       ],
+       "diagnosis":"Ongoing ACE inhibitor-induced cough"
+    },
+    {
+       "question_id":"P158",
+       "chief_complaint":"cough",
+       "is_first_question":false,
+       "is_last_question":false,
+       "question":"Do you work in an environment with exposure to chemicals or toxins?",
+       "options":[
+          "Yes",
+          "No"
+       ],
+       "type":"single type",
+       "next_path":[
+          {
+             "option_text":"Yes",
+             "next_question_id":"P188",
+             "potentialDiagnosis":[
+                {
+                   "diagnosis":"Toxin-induced lung disease",
+                   "probability":"70%"
+                }
+             ]
+          },
+          {
+             "option_text":"No",
+             "next_question_id":"P189",
+             "potentialDiagnosis":[
+                {
+                   "diagnosis":"Non-specific cough",
+                   "probability":"50%"
+                }
+             ]
+          }
+       ],
+       "diagnosis":"Toxin-induced lung disease"
+    },
+    {
+       "question_id":"P160",
+       "chief_complaint":"cough",
+       "is_first_question":false,
+       "is_last_question":false,
+       "question":"Have you been diagnosed with advanced lung cancer?",
+       "options":[
+          "Yes",
+          "No"
+       ],
+       "type":"single type",
+       "next_path":[
+          {
+             "option_text":"Yes",
+             "next_question_id":"P190",
+             "potentialDiagnosis":[
+                {
+                   "diagnosis":"Advanced lung cancer with associated cough",
+                   "probability":"90%"
+                }
+             ]
+          },
+          {
+             "option_text":"No",
+             "next_question_id":"P191",
+             "potentialDiagnosis":[
+                {
+                   "diagnosis":"Metastatic lung cancer",
+                   "probability":"70%"
+                }
+             ]
+          }
+       ],
+       "diagnosis":"Advanced lung cancer with associated cough"
+    },
+    {
+       "question_id":"P162",
+       "chief_complaint":"cough",
+       "is_first_question":false,
+       "is_last_question":false,
+       "question":"Have you been exposed to radon or asbestos in your home or workplace?",
+       "options":[
+          "Yes",
+          "No"
+       ],
+       "type":"single type",
+       "next_path":[
+          {
+             "option_text":"Yes",
+             "next_question_id":"P192",
+             "potentialDiagnosis":[
+                {
+                   "diagnosis":"Radon or asbestos-induced lung cancer",
+                   "probability":"80%"
+                }
+             ]
+          },
+          {
+             "option_text":"No",
+             "next_question_id":"P193",
+             "potentialDiagnosis":[
+                {
+                   "diagnosis":"Lung cancer",
+                   "probability":"70%"
+                }
+             ]
+          }
+       ],
+       "diagnosis":"Radon or asbestos-induced lung cancer"
+    },
+    {
+       "question_id":"P164",
+       "chief_complaint":"cough",
+       "is_first_question":false,
+       "is_last_question":false,
+       "question":"Do you experience shortness of breath or wheezing?",
+       "options":[
+          "Yes",
+          "No"
+       ],
+       "type":"single type",
+       "next_path":[
+          {
+             "option_text":"Yes",
+             "next_question_id":"P194",
+             "potentialDiagnosis":[
+                {
+                   "diagnosis":"COPD with associated cough",
+                   "probability":"80%"
+                }
+             ]
+          },
+          {
+             "option_text":"No",
+             "next_question_id":"P195",
+             "potentialDiagnosis":[
+                {
+                   "diagnosis":"Non-specific cough",
+                   "probability":"50%"
+                }
+             ]
+          }
+       ],
+       "diagnosis":"COPD with associated cough"
+    },
+    {
+       "question_id":"P166",
+       "chief_complaint":"cough",
+       "is_first_question":false,
+       "is_last_question":false,
+       "question":"Has your cough persisted for more than 8 weeks after a viral respiratory infection?",
+       "options":[
+          "Yes",
+          "No"
+       ],
+       "type":"single type",
+       "next_path":[
+          {
+             "option_text":"Yes",
+             "next_question_id":"P196",
+             "potentialDiagnosis":[
+                {
+                   "diagnosis":"Post-viral cough",
+                   "probability":"70%"
+                }
+             ]
+          },
+          {
+             "option_text":"No",
+             "next_question_id":"P197",
+             "potentialDiagnosis":[
+                {
+                   "diagnosis":"Non-specific cough",
+                   "probability":"50%"
+                }
+             ]
+          }
+       ],
+       "diagnosis":"Non-specific cough"
+    },
+    {
+       "question_id":"P168",
+       "chief_complaint":"cough",
+       "is_first_question":false,
+       "is_last_question":false,
+       "question":"Have you been diagnosed with alpha-1 antitrypsin deficiency?",
+       "options":[
+          "Yes",
+          "No"
+       ],
+       "type":"single type",
+       "next_path":[
+          {
+             "option_text":"Yes",
+             "next_question_id":"P198",
+             "potentialDiagnosis":[
+                {
+                   "diagnosis":"Alpha-1 antitrypsin deficiency with associated cough",
+                   "probability":"90%"
+                }
+             ]
+          },
+          {
+             "option_text":"No",
+             "next_question_id":"P199",
+             "potentialDiagnosis":[
+                {
+                   "diagnosis":"Genetic predisposition to lung disease",
+                   "probability":"70%"
+                }
+             ]
+          }
+       ],
+       "diagnosis":"Alpha-1 antitrypsin deficiency with associated cough"
+    },
+    {
+       "question_id":"P170",
+       "chief_complaint":"cough",
+       "is_first_question":false,
+       "is_last_question":false,
+       "question":"Have you been exposed to toxins or pollutants in your workplace?",
+       "options":[
+          "Yes",
+          "No"
+       ],
+       "type":"single type",
+       "next_path":[
+          {
+             "option_text":"Yes",
+             "next_question_id":"P200",
+             "potentialDiagnosis":[
+                {
+                   "diagnosis":"Occupational cough due to toxin exposure",
+                   "probability":"70%"
+                }
+             ]
+          },
+          {
+             "option_text":"No",
+             "next_question_id":"P201",
+             "potentialDiagnosis":[
+                {
+                   "diagnosis":"Non-specific cough",
+                   "probability":"50%"
+                }
+             ]
+          }
+       ],
+       "diagnosis":"Occupational cough due to toxin exposure"
+    },
+    {
+       "question_id":"P172",
+       "chief_complaint":"cough",
+       "is_first_question":false,
+       "is_last_question":false,
+       "question":"Do you experience heartburn or regurgitation?",
+       "options":[
+          "Yes",
+          "No"
+       ],
+       "type":"single type",
+       "next_path":[
+          {
+             "option_text":"Yes",
+             "next_question_id":"P202",
+             "potentialDiagnosis":[
+                {
+                   "diagnosis":"GERD-associated cough",
+                   "probability":"80%"
+                }
+             ]
+          },
+          {
+             "option_text":"No",
+             "next_question_id":"P203",
+             "potentialDiagnosis":[
+                {
+                   "diagnosis":"Non-specific cough",
+                   "probability":"50%"
+                }
+             ]
+          }
+       ],
+       "diagnosis":"GERD-associated cough"
+    },
+    {
+       "question_id":"P176",
+       "chief_complaint":"cough",
+       "is_first_question":false,
+       "is_last_question":false,
+       "question":"Do you experience shortness of breath or swelling in the legs?",
+       "options":[
+          "Yes",
+          "No"
+       ],
+       "type":"single type",
+       "next_path":[
+          {
+             "option_text":"Yes",
+             "next_question_id":"P204",
+             "potentialDiagnosis":[
+                {
+                   "diagnosis":"Congestive heart failure with associated cough",
+                   "probability":"80%"
+                }
+             ]
+          },
+          {
+             "option_text":"No",
+             "next_question_id":"P205",
+             "potentialDiagnosis":[
+                {
+                   "diagnosis":"Non-specific cough",
+                   "probability":"50%"
+                }
+             ]
+          }
+       ],
+       "diagnosis":"Congestive heart failure with associated cough"
+    },
+    {
+       "question_id":"P178",
+       "chief_complaint":"cough",
+       "is_first_question":false,
+       "is_last_question":false,
+       "question":"Do you experience wheezing or shortness of breath?",
+       "options":[
+          "Yes",
+          "No"
+       ],
+       "type":"single type",
+       "next_path":[
+          {
+             "option_text":"Yes",
+             "next_question_id":"P206",
+             "potentialDiagnosis":[
+                {
+                   "diagnosis":"Allergic asthma with associated cough",
+                   "probability":"80%"
+                }
+             ]
+          },
+          {
+             "option_text":"No",
+             "next_question_id":"P207",
+             "potentialDiagnosis":[
+                {
+                   "diagnosis":"Allergic cough",
+                   "probability":"70%"
+                }
+             ]
+          }
+       ],
+       "diagnosis":"Allergic asthma with associated cough"
+    },
+    {
+       "question_id":"P180",
+       "chief_complaint":"cough",
+       "is_first_question":false,
+       "is_last_question":false,
+       "question":"Do you experience itchy or watery eyes or a runny nose?",
+       "options":[
+          "Yes",
+          "No"
+       ],
+       "type":"single type",
+       "next_path":[
+          {
+             "option_text":"Yes",
+             "next_question_id":"P208",
+             "potentialDiagnosis":[
+                {
+                   "diagnosis":"Allergic rhinitis with associated cough",
+                   "probability":"70%"
+                }
+             ]
+          },
+          {
+             "option_text":"No",
+             "next_question_id":"P209",
+             "potentialDiagnosis":[
+                {
+                   "diagnosis":"Allergic rhinitis with secondary cough",
+                   "probability":"60%"
+                }
+             ]
+          }
+       ],
+       "diagnosis":"Allergic rhinitis with associated cough"
+    },
+    {
+       "question_id":"P182",
+       "chief_complaint":"cough",
+       "is_first_question":false,
+       "is_last_question":false,
+       "question":"Have you been exposed to specific allergens in your workplace?",
+       "options":[
+          "Yes",
+          "No"
+       ],
+       "type":"single type",
+       "next_path":[
+          {
+             "option_text":"Yes",
+             "next_question_id":"P210",
+             "potentialDiagnosis":[
+                {
+                   "diagnosis":"Occupational cough due to specific allergen exposure",
+                   "probability":"70%"
+                }
+             ]
+          },
+          {
+             "option_text":"No",
+             "next_question_id":"P211",
+             "potentialDiagnosis":[
+                {
+                   "diagnosis":"Allergic cough due to environmental exposure",
+                   "probability":"60%"
+                }
+             ]
+          }
+       ],
+       "diagnosis":"Occupational cough due to specific allergen exposure"
+    },
+    {
+       "question_id":"P184",
+       "chief_complaint":"cough",
+       "is_first_question":false,
+       "is_last_question":false,
+       "question":"Do you experience difficulty swallowing or food impaction?",
+       "options":[
+          "Yes",
+          "No"
+       ],
+       "type":"single type",
+       "next_path":[
+          {
+             "option_text":"Yes",
+             "next_question_id":"P212",
+             "potentialDiagnosis":[
+                {
+                   "diagnosis":"Eosinophilic esophagitis with associated cough",
+                   "probability":"70%"
+                }
+             ]
+          },
+          {
+             "option_text":"No",
+             "next_question_id":"P213",
+             "potentialDiagnosis":[
+                {
+                   "diagnosis":"Non-specific cough",
+                   "probability":"50%"
+                }
+             ]
+          }
+       ],
+       "diagnosis":"Eosinophilic esophagitis with associated cough"
+    },
+    {
+       "question_id":"P186",
+       "chief_complaint":"cough",
+       "is_first_question":false,
+       "is_last_question":false,
+       "question":"Did your cough resolve after stopping the ACE inhibitor medication?",
+       "options":[
+          "Yes",
+          "No"
+       ],
+       "type":"single type",
+       "next_path":[
+          {
+             "option_text":"Yes",
+             "next_question_id":"P214",
+             "potentialDiagnosis":[
+                {
+                   "diagnosis":"ACE inhibitor-induced cough resolved",
+                   "probability":"80%"
+                }
+             ]
+          },
+          {
+             "option_text":"No",
+             "next_question_id":"P215",
+             "potentialDiagnosis":[
+                {
+                   "diagnosis":"Non-ACE inhibitor-induced cough",
+                   "probability":"50%"
+                }
+             ]
+          }
+       ],
+       "diagnosis":"ACE inhibitor-induced cough resolved"
+    },
+    {
+       "question_id":"P188",
+       "chief_complaint":"cough",
+       "is_first_question":false,
+       "is_last_question":false,
+       "question":"Have you been exposed to asbestos or other toxic materials?",
+       "options":[
+          "Yes",
+          "No"
+       ],
+       "type":"single type",
+       "next_path":[
+          {
+             "option_text":"Yes",
+             "next_question_id":"P216",
+             "potentialDiagnosis":[
+                {
+                   "diagnosis":"Toxin-induced lung disease",
+                   "probability":"70%"
+                }
+             ]
+          },
+          {
+             "option_text":"No",
+             "next_question_id":"P217",
+             "potentialDiagnosis":[
+                {
+                   "diagnosis":"Non-specific cough",
+                   "probability":"50%"
+                }
+             ]
+          }
+       ],
+       "diagnosis":"Toxin-induced lung disease"
+    },
+    {
+       "question_id":"P190",
+       "chief_complaint":"cough",
+       "is_first_question":false,
+       "is_last_question":false,
+       "question":"Have you received treatment for your advanced lung cancer?",
+       "options":[
+          "Yes",
+          "No"
+       ],
+       "type":"single type",
+       "next_path":[
+          {
+             "option_text":"Yes",
+             "next_question_id":"P218",
+             "potentialDiagnosis":[
+                {
+                   "diagnosis":"Advanced lung cancer with associated cough but treated",
+                   "probability":"90%"
+                }
+             ]
+          },
+          {
+             "option_text":"No",
+             "next_question_id":"P219",
+             "potentialDiagnosis":[
+                {
+                   "diagnosis":"Advanced lung cancer with associated cough but untreated",
+                   "probability":"80%"
+                }
+             ]
+          }
+       ],
+       "diagnosis":"Advanced lung cancer with associated cough but untreated"
+    },
+    {
+       "question_id":"P192",
+       "chief_complaint":"cough",
+       "is_first_question":false,
+       "is_last_question":false,
+       "question":"Do you have a history of smoking?",
+       "options":[
+          "Yes",
+          "No"
+       ],
+       "type":"single type",
+       "next_path":[
+          {
+             "option_text":"Yes",
+             "next_question_id":"P220",
+             "potentialDiagnosis":[
+                {
+                   "diagnosis":"Radon or asbestos-induced lung cancer in a smoker",
+                   "probability":"90%"
+                }
+             ]
+          },
+          {
+             "option_text":"No",
+             "next_question_id":"P221",
+             "potentialDiagnosis":[
+                {
+                   "diagnosis":"Radon or asbestos-induced lung cancer in a non-smoker",
+                   "probability":"80%"
+                }
+             ]
+          }
+       ],
+       "diagnosis":"Radon or asbestos-induced lung cancer"
+    },
+    {
+       "question_id":"P194",
+       "chief_complaint":"cough",
+       "is_first_question":false,
+       "is_last_question":false,
+       "question":"Have you been diagnosed with chronic bronchitis or emphysema?",
+       "options":[
+          "Yes",
+          "No"
+       ],
+       "type":"single type",
+       "next_path":[
+          {
+             "option_text":"Yes",
+             "next_question_id":"P222",
+             "potentialDiagnosis":[
+                {
+                   "diagnosis":"COPD with associated cough",
+                   "probability":"80%"
+                }
+             ]
+          },
+          {
+             "option_text":"No",
+             "next_question_id":"P223",
+             "potentialDiagnosis":[
+                {
+                   "diagnosis":"Non-specific cough",
+                   "probability":"50%"
+                }
+             ]
+          }
+       ],
+       "diagnosis":"COPD with associated cough"
+    },
+    {
+       "question_id":"P196",
+       "chief_complaint":"cough",
+       "is_first_question":false,
+       "is_last_question":false,
+       "question":"Have you been treated with antibiotics or other medications for your post-viral cough?",
+       "options":[
+          "Yes",
+          "No"
+       ],
+       "type":"single type",
+       "next_path":[
+          {
+             "option_text":"Yes",
+             "next_question_id":"P224",
+             "potentialDiagnosis":[
+                {
+                   "diagnosis":"Post-viral cough with associated bacterial infection",
+                   "probability":"70%"
+                }
+             ]
+          },
+          {
+             "option_text":"No",
+             "next_question_id":"P225",
+             "potentialDiagnosis":[
+                {
+                   "diagnosis":"Post-viral cough without associated bacterial infection",
+                   "probability":"60%"
+                }
+             ]
+          }
+       ],
+       "diagnosis":"Post-viral cough without associated bacterial infection"
+    },
+    {
+       "question_id":"P198",
+       "chief_complaint":"cough",
+       "is_first_question":false,
+       "is_last_question":false,
+       "question":"Do you have a family history of alpha-1 antitrypsin deficiency?",
+       "options":[
+          "Yes",
+          "No"
+       ],
+       "type":"single type",
+       "next_path":[
+          {
+             "option_text":"Yes",
+             "next_question_id":"P226",
+             "potentialDiagnosis":[
+                {
+                   "diagnosis":"Alpha-1 antitrypsin deficiency with associated cough and family history",
+                   "probability":"90%"
+                }
+             ]
+          },
+          {
+             "option_text":"No",
+             "next_question_id":"P227",
+             "potentialDiagnosis":[
+                {
+                   "diagnosis":"Alpha-1 antitrypsin deficiency with associated cough but no family history",
+                   "probability":"70%"
+                }
+             ]
+          }
+       ],
+       "diagnosis":"Alpha-1 antitrypsin deficiency with associated cough but no family history"
+    },
+    {
+       "question_id":"P200",
+       "chief_complaint":"cough",
+       "is_first_question":false,
+       "is_last_question":false,
+       "question":"Have you been exposed to organic dusts or fumes?",
+       "options":[
+          "Yes",
+          "No"
+       ],
+       "type":"single type",
+       "next_path":[
+          {
+             "option_text":"Yes",
+             "next_question_id":"P228",
+             "potentialDiagnosis":[
+                {
+                   "diagnosis":"Occupational cough due to organic dust or fume exposure",
+                   "probability":"70%"
+                }
+             ]
+          },
+          {
+             "option_text":"No",
+             "next_question_id":"P229",
+             "potentialDiagnosis":[
+                {
+                   "diagnosis":"Non-specific cough",
+                   "probability":"50%"
+                }
+             ]
+          }
+       ],
+       "diagnosis":"Occupational cough due to organic dust or fume exposure"
+    },
+    {
+       "question_id":"P202",
+       "chief_complaint":"cough",
+       "is_first_question":false,
+       "is_last_question":false,
+       "question":"Have you been diagnosed with GERD?",
+       "options":[
+          "Yes",
+          "No"
+       ],
+       "type":"single type",
+       "next_path":[
+          {
+             "option_text":"Yes",
+             "next_question_id":"P230",
+             "potentialDiagnosis":[
+                {
+                   "diagnosis":"GERD-associated cough in a diagnosed patient",
+                   "probability":"80%"
+                }
+             ]
+          },
+          {
+             "option_text":"No",
+             "next_question_id":"P231",
+             "potentialDiagnosis":[
+                {
+                   "diagnosis":"GERD-associated cough in an undiagnosed patient",
+                   "probability":"70%"
+                }
+             ]
+          }
+       ],
+       "diagnosis":"GERD-associated cough"
+    },
+    {
+       "question_id":"P204",
+       "chief_complaint":"cough",
+       "is_first_question":false,
+       "is_last_question":false,
+       "question":"Have you been diagnosed with congestive heart failure?",
+       "options":[
+          "Yes",
+          "No"
+       ],
+       "type":"single type",
+       "next_path":[
+          {
+             "option_text":"Yes",
+             "next_question_id":"P232",
+             "potentialDiagnosis":[
+                {
+                   "diagnosis":"Congestive heart failure with associated cough in a diagnosed patient",
+                   "probability":"80%"
+                }
+             ]
+          },
+          {
+             "option_text":"No",
+             "next_question_id":"P233",
+             "potentialDiagnosis":[
+                {
+                   "diagnosis":"Congestive heart failure with associated cough in an undiagnosed patient",
+                   "probability":"70%"
+                }
+             ]
+          }
+       ],
+       "diagnosis":"Congestive heart failure with associated cough"
+    },
+    {
+       "question_id":"P206",
+       "chief_complaint":"cough",
+       "is_first_question":false,
+       "is_last_question":false,
+       "question":"Have you been diagnosed with allergic asthma?",
+       "options":[
+          "Yes",
+          "No"
+       ],
+       "type":"single type",
+       "next_path":[
+          {
+             "option_text":"Yes",
+             "next_question_id":"P234",
+             "potentialDiagnosis":[
+                {
+                   "diagnosis":"Allergic asthma with associated cough in a diagnosed patient",
+                   "probability":"80%"
+                }
+             ]
+          },
+          {
+             "option_text":"No",
+             "next_question_id":"P235",
+             "potentialDiagnosis":[
+                {
+                   "diagnosis":"Allergic asthma with associated cough in an undiagnosed patient",
+                   "probability":"70%"
+                }
+             ]
+          }
+       ],
+       "diagnosis":"Allergic asthma with associated cough"
+    },
+    {
+       "question_id":"P208",
+       "chief_complaint":"cough",
+       "is_first_question":false,
+       "is_last_question":false,
+       "question":"Have you been diagnosed with allergic rhinitis?",
+       "options":[
+          "Yes",
+          "No"
+       ],
+       "type":"single type",
+       "next_path":[
+          {
+             "option_text":"Yes",
+             "next_question_id":"P236",
+             "potentialDiagnosis":[
+                {
+                   "diagnosis":"Allergic rhinitis with associated cough in a diagnosed patient",
+                   "probability":"70%"
+                }
+             ]
+          },
+          {
+             "option_text":"No",
+             "next_question_id":"P237",
+             "potentialDiagnosis":[
+                {
+                   "diagnosis":"Allergic rhinitis with associated cough in an undiagnosed patient",
+                   "probability":"60%"
+                }
+             ]
+          }
+       ],
+       "diagnosis":"Allergic rhinitis with associated cough"
+    },
+    {
+       "question_id":"P210",
+       "chief_complaint":"cough",
+       "is_first_question":false,
+       "is_last_question":false,
+       "question":"Have you been exposed to animals or their products in your workplace?",
+       "options":[
+          "Yes",
+          "No"
+       ],
+       "type":"single type",
+       "next_path":[
+          {
+             "option_text":"Yes",
+             "next_question_id":"P238",
+             "potentialDiagnosis":[
+                {
+                   "diagnosis":"Occupational cough due to animal exposure",
+                   "probability":"70%"
+                }
+             ]
+          },
+          {
+             "option_text":"No",
+             "next_question_id":"P239",
+             "potentialDiagnosis":[
+                {
+                   "diagnosis":"Allergic cough due to environmental exposure",
+                   "probability":"60%"
+                }
+             ]
+          }
+       ],
+       "diagnosis":"Occupational cough due to animal exposure"
+    },
+    {
+       "question_id":"P212",
+       "chief_complaint":"cough",
+       "is_first_question":false,
+       "is_last_question":false,
+       "question":"Have you been diagnosed with eosinophilic esophagitis?",
+       "options":[
+          "Yes",
+          "No"
+       ],
+       "type":"single type",
+       "next_path":[
+          {
+             "option_text":"Yes",
+             "next_question_id":"P240",
+             "potentialDiagnosis":[
+                {
+                   "diagnosis":"Eosinophilic esophagitis with associated cough in a diagnosed patient",
+                   "probability":"70%"
+                }
+             ]
+          },
+          {
+             "option_text":"No",
+             "next_question_id":"P241",
+             "potentialDiagnosis":[
+                {
+                   "diagnosis":"Eosinophilic esophagitis with associated cough in an undiagnosed patient",
+                   "probability":"60%"
+                }
+             ]
+          }
+       ],
+       "diagnosis":"Eosinophilic esophagitis with associated cough"
+    },
+    {
+       "question_id":"P214",
+       "chief_complaint":"cough",
+       "is_first_question":false,
+       "is_last_question":false,
+       "question":"Have you been started on an alternative medication after stopping the ACE inhibitor?",
+       "options":[
+          "Yes",
+          "No"
+       ],
+       "type":"single type",
+       "next_path":[
+          {
+             "option_text":"Yes",
+             "next_question_id":"P242",
+             "potentialDiagnosis":[
+                {
+                   "diagnosis":"Cough resolved with alternative medication after ACE inhibitor-induced cough",
+                   "probability":"80%"
+                }
+             ]
+          },
+          {
+             "option_text":"No",
+             "next_question_id":"P243",
+             "potentialDiagnosis":[
+                {
+                   "diagnosis":"Non-specific cough",
+                   "probability":"50%"
+                }
+             ]
+          }
+       ],
+       "diagnosis":"Cough resolved with alternative medication after ACE inhibitor-induced cough"
+    },
+    {
+       "question_id":"P216",
+       "chief_complaint":"cough",
+       "is_first_question":false,
+       "is_last_question":false,
+       "question":"Have you been diagnosed with a specific toxin-induced lung disease?",
+       "options":[
+          "Yes",
+          "No"
+       ],
+       "type":"single type",
+       "next_path":[
+          {
+             "option_text":"Yes",
+             "next_question_id":"P244",
+             "potentialDiagnosis":[
+                {
+                   "diagnosis":"Toxin-induced lung disease with associated cough in a diagnosed patient",
+                   "probability":"80%"
+                }
+             ]
+          },
+          {
+             "option_text":"No",
+             "next_question_id":"P245",
+             "potentialDiagnosis":[
+                {
+                   "diagnosis":"Toxin-induced lung disease with associated cough in an undiagnosed patient",
+                   "probability":"70%"
+                }
+             ]
+          }
+       ],
+       "diagnosis":"Toxin-induced lung disease with associated cough"
+    },
+    {
+       "question_id":"P218",
+       "chief_complaint":"cough",
+       "is_first_question":false,
+       "is_last_question":false,
+       "question":"Are you currently undergoing chemotherapy for your advanced lung cancer?",
+       "options":[
+          "Yes",
+          "No"
+       ],
+       "type":"single type",
+       "next_path":[
+          {
+             "option_text":"Yes",
+             "next_question_id":"P246",
+             "potentialDiagnosis":[
+                {
+                   "diagnosis":"Advanced lung cancer with associated cough undergoing chemotherapy",
+                   "probability":"90%"
+                }
+             ]
+          },
+          {
+             "option_text":"No",
+             "next_question_id":"P247",
+             "potentialDiagnosis":[
+                {
+                   "diagnosis":"Advanced lung cancer with associated cough not undergoing chemotherapy",
+                   "probability":"80%"
+                }
+             ]
+          }
+       ],
+       "diagnosis":"Advanced lung cancer with associated cough not undergoing chemotherapy"
+    },
+    {
+       "question_id":"P220",
+       "chief_complaint":"cough",
+       "is_first_question":false,
+       "is_last_question":false,
+       "question":"Have you been diagnosed with lung cancer?",
+       "options":[
+          "Yes",
+          "No"
+       ],
+       "type":"single type",
+       "next_path":[
+          {
+             "option_text":"Yes",
+             "next_question_id":"P248",
+             "potentialDiagnosis":[
+                {
+                   "diagnosis":"Radon or asbestos-induced lung cancer in a smoker with associated cough",
+                   "probability":"90%"
+                }
+             ]
+          },
+          {
+             "option_text":"No",
+             "next_question_id":"P249",
+             "potentialDiagnosis":[
+                {
+                   "diagnosis":"Radon or asbestos-induced lung cancer in a non-smoker with associated cough",
+                   "probability":"80%"
+                }
+             ]
+          }
+       ],
+       "diagnosis":"Radon or asbestos-induced lung cancer with associated cough"
+    },
+    {
+       "question_id":"P222",
+       "chief_complaint":"cough",
+       "is_first_question":false,
+       "is_last_question":false,
+       "question":"Do you have a history of smoking?",
+       "options":[
+          "Yes",
+          "No"
+       ],
+       "type":"single type",
+       "next_path":[
+          {
+             "option_text":"Yes",
+             "next_question_id":"P250",
+             "potentialDiagnosis":[
+                {
+                   "diagnosis":"COPD with associated cough in a smoker",
+                   "probability":"80%"
+                }
+             ]
+          },
+          {
+             "option_text":"No",
+             "next_question_id":"P251",
+             "potentialDiagnosis":[
+                {
+                   "diagnosis":"COPD with associated cough in a non-smoker",
+                   "probability":"70%"
+                }
+             ]
+          }
+       ],
+       "diagnosis":"COPD with associated cough"
+    },
+    {
+       "question_id":"P224",
+       "chief_complaint":"cough",
+       "is_first_question":false,
+       "is_last_question":false,
+       "question":"Have you received antibiotics in the past month for your post-viral cough?",
+       "options":[
+          "Yes",
+          "No"
+       ],
+       "type":"single type",
+       "next_path":[
+          {
+             "option_text":"Yes",
+             "next_question_id":"P252",
+             "potentialDiagnosis":[
+                {
+                   "diagnosis":"Post-viral cough with associated antibiotic-resistant bacterial infection",
+                   "probability":"70%"
+                }
+             ]
+          },
+          {
+             "option_text":"No",
+             "next_question_id":"P253",
+             "potentialDiagnosis":[
+                {
+                   "diagnosis":"Post-viral cough without associated bacterial infection",
+                   "probability":"60%"
+                }
+             ]
+          }
+       ],
+       "diagnosis":"Post-viral cough without associated bacterial infection"
+    },
+    {
+       "question_id":"P226",
+       "chief_complaint":"cough",
+       "is_first_question":false,
+       "is_last_question":false,
+       "question":"Do you have a family history of liver disease?",
+       "options":[
+          "Yes",
+          "No"
+       ],
+       "type":"single type",
+       "next_path":[
+          {
+             "option_text":"Yes",
+             "next_question_id":"P254",
+             "potentialDiagnosis":[
+                {
+                   "diagnosis":"Alpha-1 antitrypsin deficiency with associated cough and family history of liver disease",
+                   "probability":"90%"
+                }
+             ]
+          },
+          {
+             "option_text":"No",
+             "next_question_id":"P255",
+             "potentialDiagnosis":[
+                {
+                   "diagnosis":"Alpha-1 antitrypsin deficiency with associated cough but no family history of liver disease",
+                   "probability":"80%"
+                }
+             ]
+          }
+       ],
+       "diagnosis":"Alpha-1 antitrypsin deficiency with associated cough"
+    },
+    {
+       "question_id":"P228",
+       "chief_complaint":"cough",
+       "is_first_question":false,
+       "is_last_question":false,
+       "question":"Have you been diagnosed with farmer's lung, bird fancier's lung, or another related disease?",
+       "options":[
+          "Yes",
+          "No"
+       ],
+       "type":"single type",
+       "next_path":[
+          {
+             "option_text":"Yes",
+             "next_question_id":"P256",
+             "potentialDiagnosis":[
+                {
+                   "diagnosis":"Hypersensitivity pneumonitis with associated cough in a diagnosed patient",
+                   "probability":"80%"
+                }
+             ]
+          },
+          {
+             "option_text":"No",
+             "next_question_id":"P257",
+             "potentialDiagnosis":[
+                {
+                   "diagnosis":"Allergic cough due to environmental exposure",
+                   "probability":"70%"
+                }
+             ]
+          }
+       ],
+       "diagnosis":"Hypersensitivity pneumonitis with associated cough"
+    },
+    {
+       "question_id":"P230",
+       "chief_complaint":"cough",
+       "is_first_question":false,
+       "is_last_question":false,
+       "question":"Have you received treatment for your GERD?",
+       "options":[
+          "Yes",
+          "No"
+       ],
+       "type":"single type",
+       "next_path":[
+          {
+             "option_text":"Yes",
+             "next_question_id":"P258",
+             "potentialDiagnosis":[
+                {
+                   "diagnosis":"GERD-associated cough in a diagnosed and treated patient",
+                   "probability":"80%"
+                }
+             ]
+          },
+          {
+             "option_text":"No",
+             "next_question_id":"P259",
+             "potentialDiagnosis":[
+                {
+                   "diagnosis":"GERD-associated cough in an undiagnosed or untreated patient",
+                   "probability":"70%"
+                }
+             ]
+          }
+       ],
+       "diagnosis":"GERD-associated cough"
+    },
+    {
+       "question_id":"P232",
+       "chief_complaint":"cough",
+       "is_first_question":false,
+       "is_last_question":false,
+       "question":"Have you been treated for your congestive heart failure?",
+       "options":[
+          "Yes",
+          "No"
+       ],
+       "type":"single type",
+       "next_path":[
+          {
+             "option_text":"Yes",
+             "next_question_id":"P260",
+             "potentialDiagnosis":[
+                {
+                   "diagnosis":"Congestive heart failure with associated cough in a diagnosed and treated patient",
+                   "probability":"80%"
+                }
+             ]
+          },
+          {
+             "option_text":"No",
+             "next_question_id":"P261",
+             "potentialDiagnosis":[
+                {
+                   "diagnosis":"Congestive heart failure with associated cough in an undiagnosed or untreated patient",
+                   "probability":"70%"
+                }
+             ]
+          }
+       ],
+       "diagnosis":"Congestive heart failure with associated cough"
+    },
+    {
+       "question_id":"P234",
+       "chief_complaint":"cough",
+       "is_first_question":false,
+       "is_last_question":false,
+       "question":"Have you been treated for your allergic asthma?",
+       "options":[
+          "Yes",
+          "No"
+       ],
+       "type":"single type",
+       "next_path":[
+          {
+             "option_text":"Yes",
+             "next_question_id":"P262",
+             "potentialDiagnosis":[
+                {
+                   "diagnosis":"Allergic asthma with associated cough in a diagnosed and treated patient",
+                   "probability":"80%"
+                }
+             ]
+          },
+          {
+             "option_text":"No",
+             "next_question_id":"P263",
+             "potentialDiagnosis":[
+                {
+                   "diagnosis":"Allergic asthma with associated cough in an undiagnosed or untreated patient",
+                   "probability":"70%"
+                }
+             ]
+          }
+       ],
+       "diagnosis":"Allergic asthma with associated cough"
+    },
+    {
+       "question_id":"P236",
+       "chief_complaint":"cough",
+       "is_first_question":false,
+       "is_last_question":false,
+       "question":"Have you been treated for your allergic rhinitis?",
+       "options":[
+          "Yes",
+          "No"
+       ],
+       "type":"single type",
+       "next_path":[
+          {
+             "option_text":"Yes",
+             "next_question_id":"P264",
+             "potentialDiagnosis":[
+                {
+                   "diagnosis":"Allergic rhinitis with associated cough in a diagnosed and treated patient",
+                   "probability":"70%"
+                }
+             ]
+          },
+          {
+             "option_text":"No",
+             "next_question_id":"P265",
+             "potentialDiagnosis":[
+                {
+                   "diagnosis":"Allergic rhinitis with associated cough in an undiagnosed or untreated patient",
+                   "probability":"60%"
+                }
+             ]
+          }
+       ],
+       "diagnosis":"Allergic rhinitis with associated cough"
+    },
+    {
+       "question_id":"P238",
+       "chief_complaint":"cough",
+       "is_first_question":false,
+       "is_last_question":false,
+       "question":"Have you stopped animal exposure and received treatment for your occupational cough?",
+       "options":[
+          "Yes",
+          "No"
+       ],
+       "type":"single type",
+       "next_path":[
+          {
+             "option_text":"Yes",
+             "next_question_id":"P266",
+             "potentialDiagnosis":[
+                {
+                   "diagnosis":"Occupational cough due to animal exposure resolved with treatment and avoidance",
+                   "probability":"80%"
+                }
+             ]
+          },
+          {
+             "option_text":"No",
+             "next_question_id":"P267",
+             "potentialDiagnosis":[
+                {
+                   "diagnosis":"Occupational cough due to animal exposure with ongoing exposure and lack of treatment",
+                   "probability":"70%"
+                }
+             ]
+          }
+       ],
+       "diagnosis":"Occupational cough due to animal exposure with ongoing exposure and lack of treatment"
+    },
+    {
+       "question_id":"P240",
+       "chief_complaint":"cough",
+       "is_first_question":false,
+       "is_last_question":false,
+       "question":"Have you been treated for your eosinophilic esophagitis?",
+       "options":[
+          "Yes",
+          "No"
+       ],
+       "type":"single type",
+       "next_path":[
+          {
+             "option_text":"Yes",
+             "next_question_id":"P268",
+             "potentialDiagnosis":[
+                {
+                   "diagnosis":"Eosinophilic esophagitis with associated cough in a diagnosed and treated patient",
+                   "probability":"70%"
+                }
+             ]
+          },
+          {
+             "option_text":"No",
+             "next_question_id":"P269",
+             "potentialDiagnosis":[
+                {
+                   "diagnosis":"Eosinophilic esophagitis with associated cough in an undiagnosed or untreated patient",
+                   "probability":"60%"
+                }
+             ]
+          }
+       ],
+       "diagnosis":"Eosinophilic esophagitis with associated cough"
+    },
+    {
+       "question_id":"P242",
+       "chief_complaint":"cough",
+       "is_first_question":false,
+       "is_last_question":false,
+       "question":"Have you experienced resolution of your cough with the alternative medication?",
+       "options":[
+          "Yes",
+          "No"
+       ],
+       "type":"single type",
+       "next_path":[
+          {
+             "option_text":"Yes",
+             "next_question_id":"P270",
+             "potentialDiagnosis":[
+                {
+                   "diagnosis":"Cough resolved with alternative medication after ACE inhibitor-induced cough in a patient on alternative medication",
+                   "probability":"90%"
+                }
+             ]
+          },
+          {
+             "option_text":"No",
+             "next_question_id":"P271",
+             "potentialDiagnosis":[
+                {
+                   "diagnosis":"Cough unresolved with alternative medication after ACE inhibitor-induced cough",
+                   "probability":"80%"
+                }
+             ]
+          }
+       ],
+       "diagnosis":"Cough resolved with alternative medication after ACE inhibitor-induced cough in a patient on alternative medication"
+    },
+    {
+       "question_id":"P244",
+       "chief_complaint":"cough",
+       "is_first_question":false,
+       "is_last_question":false,
+       "question":"Have you stopped exposure to the toxin and undergone treatment for your toxin-induced lung disease?",
+       "options":[
+          "Yes",
+          "No"
+       ],
+       "type":"single type",
+       "next_path":[
+          {
+             "option_text":"Yes",
+             "next_question_id":"P272",
+             "potentialDiagnosis":[
+                {
+                   "diagnosis":"Toxin-induced lung disease with associated cough resolved with treatment and avoidance",
+                   "probability":"80%"
+                }
+             ]
+          },
+          {
+             "option_text":"No",
+             "next_question_id":"P273",
+             "potentialDiagnosis":[
+                {
+                   "diagnosis":"Toxin-induced lung disease with associated cough in a patient with ongoing exposure and lack of treatment",
+                   "probability":"70%"
+                }
+             ]
+          }
+       ],
+       "diagnosis":"Toxin-induced lung disease with associated cough in a patient with ongoing exposure and lack of treatment"
+    },
+    {
+       "question_id":"P246",
+       "chief_complaint":"cough",
+       "is_first_question":false,
+       "is_last_question":false,
+       "question":"Are you experiencing improvement in your cough with chemotherapy?",
+       "options":[
+          "Yes",
+          "No"
+       ],
+       "type":"single type",
+       "next_path":[
+          {
+             "option_text":"Yes",
+             "next_question_id":"P274",
+             "potentialDiagnosis":[
+                {
+                   "diagnosis":"Advanced lung cancer with associated cough undergoing chemotherapy and improvement of cough",
+                   "probability":"90%"
+                }
+             ]
+          },
+          {
+             "option_text":"No",
+             "next_question_id":"P275",
+             "potentialDiagnosis":[
+                {
+                   "diagnosis":"Advanced lung cancer with associated cough undergoing chemotherapy and no improvement of cough",
+                   "probability":"80%"
+                }
+             ]
+          }
+       ],
+       "diagnosis":"Advanced lung cancer with associated cough undergoing chemotherapy"
+    },
+    {
+       "question_id":"P248",
+       "chief_complaint":"cough",
+       "is_first_question":false,
+       "is_last_question":false,
+       "question":"Do you have a history of exposure to radon or asbestos?",
+       "options":[
+          "Yes",
+          "No"
+       ],
+       "type":"single type",
+       "next_path":[
+          {
+             "option_text":"Yes",
+             "next_question_id":"P276",
+             "potentialDiagnosis":[
+                {
+                   "diagnosis":"Radon or asbestos-induced lung cancer in a smoker with associated cough and history of exposure",
+                   "probability":"90%"
+                }
+             ]
+          },
+          {
+             "option_text":"No",
+             "next_question_id":"P277",
+             "potentialDiagnosis":[
+                {
+                   "diagnosis":"Radon or asbestos-induced lung cancer in a non-smoker with associated cough and history of exposure",
+                   "probability":"80%"
+                }
+             ]
+          }
+       ],
+       "diagnosis":"Radon or asbestos-induced lung cancer with associated cough and history of exposure"
+    },
+    {
+       "question_id":"P250",
+       "chief_complaint":"cough",
+       "is_first_question":false,
+       "is_last_question":false,
+       "question":"Do you have a history of heavy smoking?",
+       "options":[
+          "Yes",
+          "No"
+       ],
+       "type":"single type",
+       "next_path":[
+          {
+             "option_text":"Yes",
+             "next_question_id":"P278",
+             "potentialDiagnosis":[
+                {
+                   "diagnosis":"COPD with associated cough in a heavy smoker",
+                   "probability":"80%"
+                }
+             ]
+          },
+          {
+             "option_text":"No",
+             "next_question_id":"P279",
+             "potentialDiagnosis":[
+                {
+                   "diagnosis":"COPD with associated cough in a non-heavy smoker",
+                   "probability":"70%"
+                }
+             ]
+          }
+       ],
+       "diagnosis":"COPD with associated cough"
+    },
+    {
+       "question_id":"P252",
+       "chief_complaint":"cough",
+       "is_first_question":false,
+       "is_last_question":false,
+       "question":"Have you received treatment for your post-viral cough with alternative antibiotics?",
+       "options":[
+          "Yes",
+          "No"
+       ],
+       "type":"single type",
+       "next_path":[
+          {
+             "option_text":"Yes",
+             "next_question_id":"P280",
+             "potentialDiagnosis":[
+                {
+                   "diagnosis":"Post-viral cough with associated antibiotic-resistant bacterial infection resolved with alternative antibiotics",
+                   "probability":"70%"
+                }
+             ]
+          },
+          {
+             "option_text":"No",
+             "next_question_id":"P281",
+             "potentialDiagnosis":[
+                {
+                   "diagnosis":"Post-viral cough with associated antibiotic-resistant bacterial infection",
+                   "probability":"60%"
+                }
+             ]
+          }
+       ],
+       "diagnosis":"Post-viral cough with associated antibiotic-resistant bacterial infection"
+    },
+    {
+       "question_id":"P254",
+       "chief_complaint":"cough",
+       "is_first_question":false,
+       "is_last_question":false,
+       "question":"Have you undergone genetic testing for alpha-1 antitrypsin deficiency?",
+       "options":[
+          "Yes",
+          "No"
+       ],
+       "type":"single type",
+       "next_path":[
+          {
+             "option_text":"Yes",
+             "next_question_id":"P282",
+             "potentialDiagnosis":[
+                {
+                   "diagnosis":"Alpha-1 antitrypsin deficiency with associated cough in a patient with confirmed genetic testing",
+                   "probability":"90%"
+                }
+             ]
+          },
+          {
+             "option_text":"No",
+             "next_question_id":"P283",
+             "potentialDiagnosis":[
+                {
+                   "diagnosis":"Alpha-1 antitrypsin deficiency with associated cough in a patient without genetic testing",
+                   "probability":"80%"
+                }
+             ]
+          }
+       ],
+       "diagnosis":"Alpha-1 antitrypsin deficiency with associated cough"
+    },
+    {
+       "question_id":"P256",
+       "chief_complaint":"cough",
+       "is_first_question":false,
+       "is_last_question":false,
+       "question":"Have you received treatment for your hypersensitivity pneumonitis?",
+       "options":[
+          "Yes",
+          "No"
+       ],
+       "type":"single type",
+       "next_path":[
+          {
+             "option_text":"Yes",
+             "next_question_id":"P284",
+             "potentialDiagnosis":[
+                {
+                   "diagnosis":"Hypersensitivity pneumonitis with associated cough in a diagnosed and treated patient",
+                   "probability":"80%"
+                }
+             ]
+          },
+          {
+             "option_text":"No",
+             "next_question_id":"P285",
+             "potentialDiagnosis":[
+                {
+                   "diagnosis":"Hypersensitivity pneumonitis with associated cough in an undiagnosed or untreated patient",
+                   "probability":"70%"
+                }
+             ]
+          }
+       ],
+       "diagnosis":"Hypersensitivity pneumonitis with associated cough"
+    },
+    {
+       "question_id":"P258",
+       "chief_complaint":"cough",
+       "is_first_question":false,
+       "is_last_question":false,
+       "question":"Are you experiencing improvement in your cough with proton pump inhibitors?",
+       "options":[
+          "Yes",
+          "No"
+       ],
+       "type":"single type",
+       "next_path":[
+          {
+             "option_text":"Yes",
+             "next_question_id":"P286",
+             "potentialDiagnosis":[
+                {
+                   "diagnosis":"GERD-associated cough in a diagnosed and treated patient with improvement with proton pump inhibitors",
+                   "probability":"80%"
+                }
+             ]
+          },
+          {
+             "option_text":"No",
+             "next_question_id":"P287",
+             "potentialDiagnosis":[
+                {
+                   "diagnosis":"GERD-associated cough in a diagnosed and treated patient without improvement with proton pump inhibitors",
+                   "probability":"70%"
+                }
+             ]
+          }
+       ],
+       "diagnosis":"GERD-associated cough in a diagnosed and treated patient"
+    },
+    {
+       "question_id":"P260",
+       "chief_complaint":"cough",
+       "is_first_question":false,
+       "is_last_question":false,
+       "question":"Have you received treatment for your congestive heart failure with diuretics and ACE inhibitors?",
+       "options":[
+          "Yes",
+          "No"
+       ],
+       "type":"single type",
+       "next_path":[
+          {
+             "option_text":"Yes",
+             "next_question_id":"P288",
+             "potentialDiagnosis":[
+                {
+                   "diagnosis":"Congestive heart failure with associated cough in a diagnosed and treated patient with improvement with diuretics and ACE inhibitors",
+                   "probability":"80%"
+                }
+             ]
+          },
+          {
+             "option_text":"No",
+             "next_question_id":"P289",
+             "potentialDiagnosis":[
+                {
+                   "diagnosis":"Congestive heart failure with associated cough in a diagnosed and treated patient without improvement with diuretics and ACE inhibitors",
+                   "probability":"70%"
+                }
+             ]
+          }
+       ],
+       "diagnosis":"Congestive heart failure with associated cough in a diagnosed and treated patient"
+    },
+    {
+       "question_id":"P262",
+       "chief_complaint":"cough",
+       "is_first_question":false,
+       "is_last_question":false,
+       "question":"Have you been adherent to your inhaled corticosteroids?",
+       "options":[
+          "Yes",
+          "No"
+       ],
+       "type":"single type",
+       "next_path":[
+          {
+             "option_text":"Yes",
+             "next_question_id":"P290",
+             "potentialDiagnosis":[
+                {
+                   "diagnosis":"Allergic asthma with associated cough in a diagnosed and treated patient adherent to inhaled corticosteroids",
+                   "probability":"80%"
+                }
+             ]
+          },
+          {
+             "option_text":"No",
+             "next_question_id":"P291",
+             "potentialDiagnosis":[
+                {
+                   "diagnosis":"Allergic asthma with associated cough in a diagnosed and treated patient non-adherent to inhaled corticosteroids",
+                   "probability":"70%"
+                }
+             ]
+          }
+       ],
+       "diagnosis":"Allergic asthma with associated cough in a diagnosed and treated patient"
+    },
+    {
+       "question_id":"P264",
+       "chief_complaint":"cough",
+       "is_first_question":false,
+       "is_last_question":false,
+       "question":"Have you experienced improvement in your symptoms with allergy immunotherapy?",
+       "options":[
+          "Yes",
+          "No"
+       ],
+       "type":"single type",
+       "next_path":[
+          {
+             "option_text":"Yes",
+             "next_question_id":"P292",
+             "potentialDiagnosis":[
+                {
+                   "diagnosis":"Allergic rhinitis with associated cough in a diagnosed and treated patient with improvement with allergy immunotherapy",
+                   "probability":"80%"
+                }
+             ]
+          },
+          {
+             "option_text":"No",
+             "next_question_id":"P293",
+             "potentialDiagnosis":[
+                {
+                   "diagnosis":"Allergic rhinitis with associated cough in a diagnosed and treated patient without improvement with allergy immunotherapy",
+                   "probability":"70%"
+                }
+             ]
+          }
+       ],
+       "diagnosis":"Allergic rhinitis with associated cough in a diagnosed and treated patient"
+    },
+    {
+       "question_id":"P266",
+       "chief_complaint":"cough",
+       "is_first_question":false,
+       "is_last_question":false,
+       "question":"Have you experienced resolution of your cough with treatment and avoidance of animal exposure?",
+       "options":[
+          "Yes",
+          "No"
+       ],
+       "type":"single type",
+       "next_path":[
+          {
+             "option_text":"Yes",
+             "next_question_id":"P294",
+             "potentialDiagnosis":[
+                {
+                   "diagnosis":"Occupational cough due to animal exposure resolved with treatment and avoidance",
+                   "probability":"80%"
+                }
+             ]
+          },
+          {
+             "option_text":"No",
+             "next_question_id":"P295",
+             "potentialDiagnosis":[
+                {
+                   "diagnosis":"Occupational cough due to animal exposure with ongoing exposure and lack of treatment",
+                   "probability":"70%"
+                }
+             ]
+          }
+       ],
+       "diagnosis":"Occupational cough due to animal exposure"
+    },
+    {
+       "question_id":"P268",
+       "chief_complaint":"cough",
+       "is_first_question":false,
+       "is_last_question":false,
+       "question":"Are you experiencing improvement in your symptoms with eosinophilic esophagitis treatment?",
+       "options":[
+          "Yes",
+          "No"
+       ],
+       "type":"single type",
+       "next_path":[
+          {
+             "option_text":"Yes",
+             "next_question_id":"P296",
+             "potentialDiagnosis":[
+                {
+                   "diagnosis":"Eosinophilic esophagitis with associated cough in a diagnosed and treated patient with improvement with treatment",
+                   "probability":"80%"
+                }
+             ]
+          },
+          {
+             "option_text":"No",
+             "next_question_id":"P297",
+             "potentialDiagnosis":[
+                {
+                   "diagnosis":"Eosinophilic esophagitis with associated cough in a diagnosed and treated patient without improvement with treatment",
+                   "probability":"70%"
+                }
+             ]
+          }
+       ],
+       "diagnosis":"Eosinophilic esophagitis with associated cough in a diagnosed and treated patient"
+    },
+    {
+       "question_id":"P272",
+       "chief_complaint":"cough",
+       "is_first_question":false,
+       "is_last_question":false,
+       "question":"Have you experienced resolution of your symptoms with treatment and avoidance of the toxin?",
+       "options":[
+          "Yes",
+          "No"
+       ],
+       "type":"single type",
+       "next_path":[
+          {
+             "option_text":"Yes",
+             "next_question_id":"P298",
+             "potentialDiagnosis":[
+                {
+                   "diagnosis":"Toxin-induced lung disease with associated cough resolved with treatment and avoidance",
+                   "probability":"80%"
+                }
+             ]
+          },
+          {
+             "option_text":"No",
+             "next_question_id":"P299",
+             "potentialDiagnosis":[
+                {
+                   "diagnosis":"Toxin-induced lung disease with associated cough in a patient with ongoing exposure and lack of treatment",
+                   "probability":"70%"
+                }
+             ]
+          }
+       ],
+       "diagnosis":"Toxin-induced lung disease with associated cough"
+    },
+    {
+       "question_id":"P280",
+       "chief_complaint":"cough",
+       "is_first_question":false,
+       "is_last_question":false,
+       "question":"Have you undergone further testing for antibiotic-resistant bacterial infection?",
+       "options":[
+          "Yes",
+          "No"
+       ],
+       "type":"single type",
+       "next_path":[
+          {
+             "option_text":"Yes",
+             "next_question_id":"P300",
+             "potentialDiagnosis":[
+                {
+                   "diagnosis":"Post-viral cough with associated antibiotic-resistant bacterial infection and improved with alternative antibiotics after further testing",
+                   "probability":"80%"
+                }
+             ]
+          },
+          {
+             "option_text":"No",
+             "next_question_id":"P301",
+             "potentialDiagnosis":[
+                {
+                   "diagnosis":"Post-viral cough with associated antibiotic-resistant bacterial infection and not improved with alternative antibiotics without further testing",
+                   "probability":"70 %"
+                }
+             ]
+          }
+       ],
+       "diagnosis":"Post-viral cough with associated antibiotic-resistant bacterial infection and improved with alternative antibiotics"
+    },
+    {
+       "question_id":"P282",
+       "chief_complaint":"cough",
+       "is_first_question":false,
+       "is_last_question":false,
+       "question":"Have you received augmentation therapy?",
+       "options":[
+          "Yes",
+          "No"
+       ],
+       "type":"single type",
+       "next_path":[
+          {
+             "option_text":"Yes",
+             "next_question_id":"P302",
+             "potentialDiagnosis":[
+                {
+                   "diagnosis":"Alpha-1 antitrypsin deficiency with associated cough in a diagnosed and treated patient receiving augmentation therapy",
+                   "probability":"90%"
+                }
+             ]
+          },
+          {
+             "option_text":"No",
+             "next_question_id":"P303",
+             "potentialDiagnosis":[
+                {
+                   "diagnosis":"Alpha-1 antitrypsin deficiency with associated cough in a diagnosed and treated patient not receiving augmentation therapy",
+                   "probability":"80%"
+                }
+             ]
+          }
+       ],
+       "diagnosis":"Alpha-1 antitrypsin deficiency with associated cough in a diagnosed and treated patient"
+    },
+    {
+       "question_id":"P284",
+       "chief_complaint":"cough",
+       "is_first_question":false,
+       "is_last_question":false,
+       "question":"Have you experienced recurrence of your symptoms with subsequent exposure to the antigen?",
+       "options":[
+          "Yes",
+          "No"
+       ],
+       "type":"single type",
+       "next_path":[
+          {
+             "option_text":"Yes",
+             "next_question_id":"P304",
+             "potentialDiagnosis":[
+                {
+                   "diagnosis":"Hypersensitivity pneumonitis with associated cough in a diagnosed and treated patient with recurrence of symptoms with subsequent antigen exposure",
+                   "probability":"80%"
+                }
+             ]
+          },
+          {
+             "option_text":"No",
+             "next_question_id":"P305",
+             "potentialDiagnosis":[
+                {
+                   "diagnosis":"Hypersensitivity pneumonitis with associated cough in a diagnosed and treated patient without recurrence of symptoms with subsequent antigen exposure",
+                   "probability":"70%"
+                }
+             ]
+          }
+       ],
+       "diagnosis":"Hypersensitivity pneumonitis with associated cough in a diagnosed and treated patient"
+    },
+    {
+       "question_id":"P290",
+       "chief_complaint":"cough",
+       "is_first_question":false,
+       "is_last_question":false,
+       "question":"Have you been evaluated for environmental triggers?",
+       "options":[
+          "Yes",
+          "No"
+       ],
+       "type":"single type",
+       "next_path":[
+          {
+             "option_text":"Yes",
+             "next_question_id":"P306",
+             "potentialDiagnosis":[
+                {
+                   "diagnosis":"Allergic asthma with associated cough in a diagnosed and treated patient evaluated and treated for environmental triggers",
+                   "probability":"80%"
+                }
+             ]
+          },
+          {
+             "option_text":"No",
+             "next_question_id":"P307",
+             "potentialDiagnosis":[
+                {
+                   "diagnosis":"Allergic asthma with associated cough in a diagnosed and treated patient without evaluation and treatment for environmental triggers",
+                   "probability":"70%"
+                }
+             ]
+          }
+       ],
+       "diagnosis":"Allergic asthma with associated cough in a diagnosed and treated patient"
+    },
+    {
+       "question_id":"P298",
+       "chief_complaint":"cough",
+       "is_first_question":false,
+       "is_last_question":false,
+       "question":"Have you undergone further testing for the toxin?",
+       "options":[
+          "Yes",
+          "No"
+       ],
+       "type":"single type",
+       "next_path":[
+          {
+             "option_text":"Yes",
+             "next_question_id":"P308",
+             "potentialDiagnosis":[
+                {
+                   "diagnosis":"Toxin-induced lung disease with associated cough resolved with further testing and treatment",
+                   "probability":"80%"
+                }
+             ]
+          },
+          {
+             "option_text":"No",
+             "next_question_id":"P309",
+             "potentialDiagnosis":[
+                {
+                   "diagnosis":"Toxin-induced lung disease with associated cough in a patient with ongoing exposure and lack of treatment without further testing",
+                   "probability":"70%"
+                }
+             ]
+          }
+       ],
+       "diagnosis":"Toxin-induced lung disease with associated cough resolved with further testing and treatment"
+    },
+    {
+       "question_id":"P306",
+       "chief_complaint":"cough",
+       "is_first_question":false,
+       "is_last_question":false,
+       "question":"Have you undergone desensitization to the identified environmental triggers?",
+       "options":[
+          "Yes",
+          "No"
+       ],
+       "type":"single type",
+       "next_path":[
+          {
+             "option_text":"Yes",
+             "next_question_id":"P310",
+             "potentialDiagnosis":[
+                {
+                   "diagnosis":"Allergic asthma with associated cough in a diagnosed and treated patient undergoing desensitization to identified environmental triggers",
+                   "probability":"80%"
+                }
+             ]
+          },
+          {
+             "option_text":"No",
+             "next_question_id":"P311",
+             "potentialDiagnosis":[
+                {
+                   "diagnosis":"Allergic asthma with associated cough in a diagnosed and treated patient not undergoing desensitization to identified environmental triggers",
+                   "probability":"70%"
+                }
+             ]
+          }
+       ],
+       "diagnosis":"Allergic asthma with associated cough in a diagnosed and treated patient undergoing desensitization to identified environmental triggers"
+    },
+    {
+       "question_id":"P308",
+       "chief_complaint":"cough",
+       "is_first_question":false,
+       "is_last_question":false,
+       "question":"Have you experienced recurrence of your symptoms with subsequent exposure to the toxin?",
+       "options":[
+          "Yes",
+          "No"
+       ],
+       "type":"single type",
+       "next_path":[
+          {
+             "option_text":"Yes",
+             "next_question_id":"P312",
+             "potentialDiagnosis":[
+                {
+                   "diagnosis":"Toxin-induced lung disease with associated cough in a diagnosed and treated patient with recurrence of symptoms with subsequent toxin exposure",
+                   "probability":"80%"
+                }
+             ]
+          },
+          {
+             "option_text":"No",
+             "next_question_id":"P313",
+             "potentialDiagnosis":[
+                {
+                   "diagnosis":"Toxin-induced lung disease with associated cough in a diagnosed and treated patient without recurrence of symptoms with subsequent toxin exposure",
+                   "probability":"70%"
+                }
+             ]
+          }
+       ],
+       "diagnosis":"Toxin-induced lung disease with associated cough in a diagnosed and treated patient"
+    },
+    {
+       "question_id":"P310",
+       "chief_complaint":"cough",
+       "is_first_question":false,
+       "is_last_question":false,
+       "question":"Are you experiencing improvement in your cough with desensitization to the identified environmental triggers?",
+       "options":[
+          "Yes",
+          "No"
+       ],
+       "type":"single type",
+       "next_path":[
+          {
+             "option_text":"Yes",
+             "next_question_id":"P314",
+             "potentialDiagnosis":[
+                {
+                   "diagnosis":"Allergic asthma with associated cough in a diagnosed and treated patient undergoing desensitization to identified environmental triggers with improvement in cough",
+                   "probability":"80%"
+                }
+             ]
+          },
+          {
+             "option_text":"No",
+             "next_question_id":"P315",
+             "potentialDiagnosis":[
+                {
+                   "diagnosis":"Allergic asthma with associated cough in a diagnosed and treated patient undergoing desensitization to identified environmental triggers without improvement in cough",
+                   "probability":"70%"
+                }
+             ]
+          }
+       ],
+       "diagnosis":"Allergic asthma with associated cough in a diagnosed and treated patient undergoing desensitization to identified environmental triggers with improvement in cough"
+    },
+    {
+       "question_id":"P312",
+       "chief_complaint":"cough",
+       "is_first_question":false,
+       "is_last_question":false,
+       "question":"Have you undergone further testing for the toxin?",
+       "options":[
+          "Yes",
+          "No"
+       ],
+       "type":"single type",
+       "next_path":[
+          {
+             "option_text":"Yes",
+             "next_question_id":"P316",
+             "potentialDiagnosis":[
+                {
+                   "diagnosis":"Toxin-induced lung disease with associated cough resolved with further testing and treatment",
+                   "probability":"80%"
+                }
+             ]
+          },
+          {
+             "option_text":"No",
+             "next_question_id":"P317",
+             "potentialDiagnosis":[
+                {
+                   "diagnosis":"Toxin-induced lung disease with associated cough in a patient with ongoing exposure and lack of treatment without further testing",
+                   "probability":"70%"
+                }
+             ]
+          }
+       ],
+       "diagnosis":"Toxin-induced lung disease with associated cough resolved with further testing and treatment"
+    },
+    {
+       "question_id":"P314",
+       "chief_complaint":"cough",
+       "is_first_question":false,
+       "is_last_question":false,
+       "question":"Are you adherent to your inhaled corticosteroids?",
+       "options":[
+          "Yes",
+          "No"
+       ],
+       "type":"single type",
+       "next_path":[
+          {
+             "option_text":"Yes",
+             "next_question_id":"P318",
+             "potentialDiagnosis":[
+                {
+                   "diagnosis":"Allergic asthma with associated cough in a diagnosed and treated patient undergoing desensitization to identified environmental triggers adherent to inhaled corticosteroids",
+                   "probability":"80%"
+                }
+             ]
+          },
+          {
+             "option_text":"No",
+             "next_question_id":"P319",
+             "potentialDiagnosis":[
+                {
+                   "diagnosis":"Allergic asthma with associated cough in a diagnosed and treated patient undergoing desensitization to identified environmental triggers not adherent to inhaled corticosteroids",
+                   "probability":"70%"
+                }
+             ]
+          }
+       ],
+       "diagnosis":"Allergic asthma with associated cough in a diagnosed and treated patient undergoing desensitization to identified environmental triggers adherent to inhaled corticosteroids"
+    },
+    {
+       "question_id":"P316",
+       "chief_complaint":"cough",
+       "is_first_question":false,
+       "is_last_question":false,
+       "question":"Have you experienced recurrence of your symptoms with subsequent exposure to the toxin?",
+       "options":[
+          "Yes",
+          "No"
+       ],
+       "type":"single type",
+       "next_path":[
+          {
+             "option_text":"Yes",
+             "next_question_id":"P320",
+             "potentialDiagnosis":[
+                {
+                   "diagnosis":"Toxin-induced lung disease with associated cough in a diagnosed and treated patient with recurrence of symptoms with subsequent toxin exposure",
+                   "probability":"80%"
+                }
+             ]
+          },
+          {
+             "option_text":"No",
+             "next_question_id":"P321",
+             "potentialDiagnosis":[
+                {
+                   "diagnosis":"Toxin-induced lung disease with associated cough in a diagnosed and treated patient without recurrence of symptoms with subsequent toxin exposure",
+                   "probability":"70%"
+                }
+             ]
+          }
+       ],
+       "diagnosis":"Toxin-induced lung disease with associated cough in a diagnosed and treated patient"
+    },
+    {
+       "question_id":"P318",
+       "chief_complaint":"cough",
+       "is_first_question":false,
+       "is_last_question":false,
+       "question":"Have you undergone evaluation for gastroesophageal reflux disease (GERD)?",
+       "options":[
+          "Yes",
+          "No"
+       ],
+       "type":"single type",
+       "next_path":[
+          {
+             "option_text":"Yes",
+             "next_question_id":"P322",
+             "potentialDiagnosis":[
+                {
+                   "diagnosis":"Allergic asthma with associated cough in a diagnosed and treated patient undergoing desensitization to identified environmental triggers and evaluation for GERD",
+                   "probability":"80%"
+                }
+             ]
+          },
+          {
+             "option_text":"No",
+             "next_question_id":"P323",
+             "potentialDiagnosis":[
+                {
+                   "diagnosis":"Allergic asthma with associated cough in a diagnosed and treated patient undergoing desensitization to identified environmental triggers without evaluation for GERD",
+                   "probability":"70%"
+                }
+             ]
+          }
+       ],
+       "diagnosis":"Allergic asthma with associated cough in a diagnosed and treated patient undergoing desensitization to identified environmental triggers and evaluation for GERD"
+    },
+    {
+       "question_id":"P322",
+       "chief_complaint":"cough",
+       "is_first_question":false,
+       "is_last_question":false,
+       "question":"Are you experiencing improvement in your cough with GERD treatment?",
+       "options":[
+          "Yes",
+          "No"
+       ],
+       "type":"single type",
+       "next_path":[
+          {
+             "option_text":"Yes",
+             "next_question_id":"P324",
+             "potentialDiagnosis":[
+                {
+                   "diagnosis":"Allergic asthma with associated cough in a diagnosed and treated patient undergoing desensitization to identified environmental triggers and evaluation for GERD with improvement in cough with GERD treatment",
+                   "probability":"80%"
+                }
+             ]
+          },
+          {
+             "option_text":"No",
+             "next_question_id":"P325",
+             "potentialDiagnosis":[
+                {
+                   "diagnosis":"Allergic asthma with associated cough in a diagnosed and treated patient undergoing desensitization to identified environmental triggers and evaluation for GERD without improvement in cough with GERD treatment",
+                   "probability":"70%"
+                }
+             ]
+          }
+       ],
+       "diagnosis":"Allergic asthma with associated cough in a diagnosed and treated patient undergoing desensitization to identified environmental triggers and evaluation for GERD with improvement in cough with GERD treatment"
+    },
+    {
+       "question_id":"P324",
+       "chief_complaint":"cough",
+       "is_first_question":false,
+       "is_last_question":false,
+       "question":"Are you adherent to your inhaled corticosteroids and GERD treatment?",
+       "options":[
+          "Yes",
+          "No"
+       ],
+       "type":"single type",
+       "next_path":[
+          {
+             "option_text":"Yes",
+             "next_question_id":"P326",
+             "potentialDiagnosis":[
+                {
+                   "diagnosis":"Allergic asthma with associated cough in a diagnosed and treated patient undergoing desensitization to identified environmental triggers, evaluation for GERD, and adherent to inhaled corticosteroids and GERD treatment",
+                   "probability":"80%"
+                }
+             ]
+          },
+          {
+             "option_text":"No",
+             "next_question_id":"P327",
+             "potentialDiagnosis":[
+                {
+                   "diagnosis":"Allergic asthma with associated cough in a diagnosed and treated patient undergoing desensitization to identified environmental triggers, evaluation for GERD, and not adherent to inhaled corticosteroids and/or GERD treatment",
+                   "probability":"70%"
+                }
+             ]
+          }
+       ],
+       "diagnosis":"Allergic asthma with associated cough in a diagnosed and treated patient undergoing desensitization to identified environmental triggers, evaluation for GERD, and adherent to inhaled corticosteroids and GERD treatment"
+    },
+    {
+       "question_id":"P320",
+       "chief_complaint":"cough",
+       "is_first_question":false,
+       "is_last_question":false,
+       "question":"Have you undergone further testing for the toxin?",
+       "options":[
+          "Yes",
+          "No"
+       ],
+       "type":"single type",
+       "next_path":[
+          {
+             "option_text":"Yes",
+             "next_question_id":"P328",
+             "potentialDiagnosis":[
+                {
+                   "diagnosis":"Toxin-induced lung disease with associated cough resolved with further testing and treatment",
+                   "probability":"80%"
+                }
+             ]
+          },
+          {
+             "option_text":"No",
+             "next_question_id":"P329",
+             "potentialDiagnosis":[
+                {
+                   "diagnosis":"Toxin-induced lung disease with associated cough in a patient with ongoing exposure and lack of treatment without further testing",
+                   "probability":"70%"
+                }
+             ]
+          }
+       ],
+       "diagnosis":"Toxin-induced lung disease with associated cough resolved with further testing and treatment"
+    },
+    {
+       "question_id":"P326",
+       "chief_complaint":"cough",
+       "is_first_question":false,
+       "is_last_question":true,
+       "question":"Do you have any other respiratory symptoms?",
+       "options":[
+          "Yes",
+          "No"
+       ],
+       "type":"single type",
+       "next_path":[
+          {
+             "option_text":"Yes",
+             "next_question_id":"P330",
+             "potentialDiagnosis":[
+                {
+                   "diagnosis":"Allergic asthma with associated cough in a diagnosed and treated patient undergoing desensitization to identified environmental triggers, evaluation for GERD, and adherent to inhaled corticosteroids and GERD treatment with other respiratory symptoms",
+                   "probability":"80%"
+                }
+             ]
+          },
+          {
+             "option_text":"No",
+             "next_question_id":"",
+             "potentialDiagnosis":[
+                {
+                   "diagnosis":"Allergic asthma with associated cough in a diagnosed and treated patient undergoing desensitization to identified environmental triggers, evaluation for GERD, and adherent to inhaled corticosteroids and GERD treatment without other respiratory symptoms",
+                   "probability":"70%"
+                }
+             ]
+          }
+       ],
+       "diagnosis":"Allergic asthma with associated cough in a diagnosed and treated patient undergoing desensitization to identified environmental triggers, evaluation for GERD, and adherent to inhaled corticosteroids and GERD treatment with other respiratory symptoms"
+    },
+    {
+       "question_id":"P330",
+       "chief_complaint":"respiratory symptoms",
+       "is_first_question":false,
+       "is_last_question":true,
+       "question":"Have you had a pulmonary function test?",
+       "options":[
+          "Yes",
+          "No"
+       ],
+       "type":"single type",
+       "next_path":[
+          {
+             "option_text":"Yes",
+             "next_question_id":"P331",
+             "potentialDiagnosis":[
+                {
+                   "diagnosis":"Allergic asthma with associated respiratory symptoms in a diagnosed and treated patient undergoing desensitization to identified environmental triggers, evaluation for GERD, and adherent to inhaled corticosteroids and GERD treatment with positive pulmonary function test",
+                   "probability":"80%"
+                }
+             ]
+          },
+          {
+             "option_text":"No",
+             "next_question_id":"",
+             "potentialDiagnosis":[
+                {
+                   "diagnosis":"Allergic asthma with associated respiratory symptoms in a diagnosed and treated patient undergoing desensitization to identified environmental triggers, evaluation for GERD, and adherent to inhaled corticosteroids and GERD treatment without pulmonary function test",
+                   "probability":"70%"
+                }
+             ]
+          }
+       ],
+       "diagnosis":"Allergic asthma with associated respiratory symptoms in a diagnosed and treated patient undergoing desensitization to identified environmental triggers, evaluation for GERD, and adherent to inhaled corticosteroids and GERD treatment with positive pulmonary function"
+    },
+    {
+       "question_id":"P331",
+       "chief_complaint":"respiratory symptoms",
+       "is_first_question":false,
+       "is_last_question":true,
+       "question":"Have you been evaluated for other causes of respiratory symptoms, such as pulmonary embolism or lung cancer?",
+       "options":[
+          "Yes",
+          "No"
+       ],
+       "type":"single type",
+       "next_path":[
+          {
+             "option_text":"Yes",
+             "next_question_id":"P332",
+             "potentialDiagnosis":[
+                {
+                   "diagnosis":"Allergic asthma with associated respiratory symptoms in a diagnosed and treated patient undergoing desensitization to identified environmental triggers, evaluation for GERD, and adherent to inhaled corticosteroids and GERD treatment with positive pulmonary function test and negative evaluation for other causes of respiratory symptoms",
+                   "probability":"80%"
+                }
+             ]
+          },
+          {
+             "option_text":"No",
+             "next_question_id":"",
+             "potentialDiagnosis":[
+                {
+                   "diagnosis":"Allergic asthma with associated respiratory symptoms in a diagnosed and treated patient undergoing desensitization to identified environmental triggers, evaluation for GERD, and adherent to inhaled corticosteroids and GERD treatment with positive pulmonary function test and without evaluation for other causes of respiratory symptoms",
+                   "probability":"70%"
+                }
+             ]
+          }
+       ],
+       "diagnosis":"Allergic asthma with associated respiratory symptoms in a diagnosed and treated patient undergoing desensitization to identified environmental triggers, evaluation for GERD, and adherent to inhaled corticosteroids and GERD treatment with positive pulmonary function test and negative evaluation for other causes of respiratory symptoms"
+    },
+    {
+       "question_id":"P332",
+       "chief_complaint":"respiratory symptoms",
+       "is_first_question":false,
+       "is_last_question":true,
+       "question":"Are you currently on maintenance therapy for your asthma?",
+       "options":[
+          "Yes",
+          "No"
+       ],
+       "type":"single type",
+       "next_path":[
+          {
+             "option_text":"Yes",
+             "next_question_id":"",
+             "potentialDiagnosis":[
+                {
+                   "diagnosis":"Allergic asthma with associated respiratory symptoms in a diagnosed and treated patient undergoing desensitization to identified environmental triggers, evaluation for GERD, and adherent to inhaled corticosteroids and GERD treatment with positive pulmonary function test, negative evaluation for other causes of respiratory symptoms, and currently on maintenance therapy for asthma",
+                   "probability":"80%"
+                }
+             ]
+          },
+          {
+             "option_text":"No",
+             "next_question_id":"",
+             "potentialDiagnosis":[
+                {
+                   "diagnosis":"Allergic asthma with associated respiratory symptoms in a diagnosed and treated patient undergoing desensitization to identified environmental triggers, evaluation for GERD, and adherent to inhaled corticosteroids and GERD treatment with positive pulmonary function test, negative evaluation for other causes of respiratory symptoms, and not on maintenance therapy for asthma",
+                   "probability":"70%"
+                }
+             ]
+          }
+       ],
+       "diagnosis":"Allergic asthma with associated respiratory symptoms in a diagnosed and treated patient undergoing desensitization to identified environmental triggers, evaluation for GERD, and adherent to inhaled corticosteroids and GERD treatment with positive pulmonary function test and currently on maintenance therapy for asthma"
+    }
+ ]

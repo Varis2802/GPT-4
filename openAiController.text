@@ -1,0 +1,157 @@
+
+
+
+// import { ChatCompletionRequestMessage } from 'openai/dist/api';
+// import { Controller, Get, Query, Post, Body } from '@nestjs/common';
+// import { OpenaiService } from './openai.service';
+// import { CreatePromptDto } from './dto/create-prompt.dto';
+
+// @Controller()
+// export class OpenaiController {
+//   constructor(private readonly openaiService: OpenaiService) {}
+
+//   arr: ChatCompletionRequestMessage[] = [
+//     {
+//       role: 'system',
+//       content:
+//         'You are a doctor, I am a patient. you will ask me a series of questions and then give the diagnosis',
+//     },
+//   ];
+//   @Get('getMM')
+//   async getHello(@Query('prompt') prompt: string): Promise<string> {
+//     // this.arr.push({ role: 'system', content: prompt )
+//     this.arr.push({ role: 'user', content: prompt });
+//     const completion = await this.openaiService.createChatCompletion(
+//       'gpt-3.5-turbo',
+//       this.arr,
+//     );
+//     const textAns = completion.data.choices[0].message.content;
+//     this.arr.push({ role: 'assistant', content: textAns });
+//     console.log(completion.data.usage);
+//     return completion.data.choices[0].message.content;
+//   }
+// }
+
+// import { ChatCompletionRequestMessage } from 'openai/dist/api';
+// import { Controller, Get, Query, Post, Body } from '@nestjs/common';
+// import { OpenaiService } from './openai.service';
+
+// //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
+// @Controller()
+// export class OpenaiController {
+//   constructor(private readonly openaiService: OpenaiService) {}
+
+//   private conversation: ChatCompletionRequestMessage[] = [];
+
+//   @Get('getMM')
+//   async getHello(@Query('prompt') prompt: string): Promise<string> {
+//     // Add user message to conversation history
+//     this.conversation.push({ role: 'user', content: prompt });
+
+//     const completion = await this.openaiService.createChatCompletion(
+//       'gpt-3.5-turbo-0301',
+//       this.conversation
+//     );
+
+//     // Add model message to conversation history
+//     const modelResponse = completion.data.choices[0].message.content;
+//     this.conversation.push({ role: 'assistant', content: modelResponse });
+//     // console.log(completion.data.choices[0]);
+//     // console.log(completion);
+//     console.log(completion.config.data);
+
+//     return modelResponse;
+//   }
+// }
+
+// import { Controller, Get, Query } from '@nestjs/common';
+// import { OpenaiService } from './openai.service';
+
+// @Controller()
+// export class OpenaiController {
+//   constructor(private readonly openaiService: OpenaiService) {}
+
+//   private conversation: any[] = [];
+
+//   @Get('getMM')
+//   async getHello(@Query('prompt') prompt: string): Promise<string> {
+//     // Add user message to conversation history
+
+//     this.conversation.push({ role: 'user', content: prompt });
+
+//     const completion = await this.openaiService.createChatCompletion(
+//       'gpt-4-0314', // Replace with the correct GPT-4 model identifier
+//       this.conversation
+//     );
+
+//     // Add model message to conversation history
+//     const modelResponse = completion.data.choices[0].message.content;
+//     this.conversation.push({ role: 'assistant', content: modelResponse });
+
+//     console.log(completion.data.usage);
+//     console.log(this.conversation)
+//     return modelResponse;
+//   }
+// }
+import { Controller, Get, Query } from "@nestjs/common";
+import { OpenaiService } from "./openai.service";
+import * as fs from "fs";
+
+@Controller()
+export class OpenaiController {
+  constructor(private readonly openaiService: OpenaiService) {}
+
+  private conversation: any[] = [];
+  private currentLevel: number = 0;
+  private outputData: string = '';
+
+  @Get("getMM")
+  async getHello(@Query("prompt") prompt: string): Promise<string> {
+    let inputPrompt = prompt;
+
+    while (true) {
+      // Use the first prompt only once, and then use the second prompt continuously
+      if (this.currentLevel === 0) {
+        inputPrompt =
+          'Please generate a comprehensive decision tree for diagnosing the cause of the chief complaint as Back Pain using the Breadth First Search method. The decision tree should have a depth of only 8-10 levels, starting from the first question and covering all possible option mappings. The decision tree should consider factors such as patient demographics, medical history, diet, lifestyle, medications, and symptoms. Use a format that begins with basic questions and gradually moves on to more specific and medically-based questions. At each level, provide multiple options for users to choose from, and ensure that all options are explored in a BFS manner, maintaining a depth of only 8-10 levels for each path. If an option leads to a question with the same text and options as a previous question, reuse the previous question ID instead of creating a new one. After exploring all paths, provide a final diagnosis at the end of each path once the only 8-10 levels are reached. The response should adhere to the specified format without any additional explanations or context. Generate the response without spaces, and use the following format for the decision tree:{ question : "QID", question : "text", options : [ "op1":nextQID, "op2":nextQID,......], level:""}. Generate 2 levels only.'; // Replace with the text of the first prompt
+        this.currentLevel += 1;
+      } else {
+        inputPrompt =
+        "Continue from where are you left off.If any option have same question then don’t create new question_id assign old question_id multiple times. If possible so generate those question which have option other than yes or no only. If You reach 6-8 levels of each and every questions of each option with each all paths then give me diagnosis."; // Replace with the text of the second prompt
+        this.currentLevel += 1;
+      }
+
+      // Add user message to conversation history
+      this.conversation.push({ role: "user", content: inputPrompt});
+
+      const completion = await this.openaiService.createChatCompletion(
+        "gpt-4-0312", // Replace with the correct GPT-4 model identifier
+        this.conversation
+      );
+
+      // Add model message to conversation history
+      const modelResponse = completion.data.choices[0].message.content;
+      this.conversation.push({ role: "assistant", content: modelResponse });
+
+      // Remove objects with indexes 2, 3, 4, 5, and 6 from the conversation array
+       //if (this.conversation.length > 16) this.conversation.splice(1, 4); // start from index 2 and remove 5 elements
+
+      // Append generated data to outputData string
+    this.outputData += modelResponse + '\n';
+
+    // Save outputData to a text file
+    fs.writeFile('outputData89.txt', this.outputData, (err) => {
+      if (err) {
+        console.error('Error writing text file:', err);
+      } else {
+        console.log('Data successfully saved to outputData.txt');
+      }
+    });
+
+      console.log(completion.data.usage);
+    }
+    //console.log(this.conversation);
+    return "modelResponse";
+  }
+}
+

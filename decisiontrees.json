@@ -1,0 +1,7513 @@
+[{
+  "_id": {
+    "$oid": "6442004ec03169a3584be088"
+  },
+  "question_id": "Q1",
+  "chief_complaint": "cough",
+  "is_first_question": true,
+  "is_last_question": false,
+  "question": "How long have you had the cough?",
+  "options": [
+    "Less than 3 weeks",
+    "3-8 weeks",
+    "More than 8 weeks"
+  ],
+  "type": "single type",
+  "next_path": [
+    {
+      "option_text": "Less than 3 weeks",
+      "next_question_id": "Q2",
+      "potentialDiagnosis": [
+        {
+          "diagnosis": "",
+          "probability": ""
+        }
+      ]
+    },
+    {
+      "option_text": "3-8 weeks",
+      "next_question_id": "Q3",
+      "potentialDiagnosis": [
+        {
+          "diagnosis": "",
+          "probability": ""
+        }
+      ]
+    },
+    {
+      "option_text": "More than 8 weeks",
+      "next_question_id": "Q4",
+      "potentialDiagnosis": [
+        {
+          "diagnosis": "",
+          "probability": ""
+        }
+      ]
+    }
+  ],
+  "diagnosis": ""
+},{
+  "_id": {
+    "$oid": "6442004ec03169a3584be089"
+  },
+  "question_id": "Q2",
+  "chief_complaint": "cough",
+  "is_first_question": false,
+  "is_last_question": false,
+  "question": "Are you experiencing fever or chills?",
+  "options": [
+    "Yes",
+    "No"
+  ],
+  "type": "single type",
+  "next_path": [
+    {
+      "option_text": "Yes",
+      "next_question_id": "Q5",
+      "potentialDiagnosis": [
+        {
+          "diagnosis": "",
+          "probability": ""
+        }
+      ]
+    },
+    {
+      "option_text": "No",
+      "next_question_id": "Q6",
+      "potentialDiagnosis": [
+        {
+          "diagnosis": "",
+          "probability": ""
+        }
+      ]
+    }
+  ],
+  "diagnosis": ""
+},{
+  "_id": {
+    "$oid": "6442004ec03169a3584be08a"
+  },
+  "question_id": "Q3",
+  "chief_complaint": "cough",
+  "is_first_question": false,
+  "is_last_question": false,
+  "question": "Do you have a history of asthma?",
+  "options": [
+    "Yes",
+    "No"
+  ],
+  "type": "single type",
+  "next_path": [
+    {
+      "option_text": "Yes",
+      "next_question_id": "Q7",
+      "potentialDiagnosis": [
+        {
+          "diagnosis": "",
+          "probability": ""
+        }
+      ]
+    },
+    {
+      "option_text": "No",
+      "next_question_id": "Q8",
+      "potentialDiagnosis": [
+        {
+          "diagnosis": "",
+          "probability": ""
+        }
+      ]
+    }
+  ],
+  "diagnosis": ""
+},{
+  "_id": {
+    "$oid": "6442004ec03169a3584be08b"
+  },
+  "question_id": "Q4",
+  "chief_complaint": "cough",
+  "is_first_question": false,
+  "is_last_question": false,
+  "question": "Do you smoke or have a history of smoking?",
+  "options": [
+    "Yes",
+    "No"
+  ],
+  "type": "single type",
+  "next_path": [
+    {
+      "option_text": "Yes",
+      "next_question_id": "Q9",
+      "potentialDiagnosis": [
+        {
+          "diagnosis": "",
+          "probability": ""
+        }
+      ]
+    },
+    {
+      "option_text": "No",
+      "next_question_id": "Q10",
+      "potentialDiagnosis": [
+        {
+          "diagnosis": "",
+          "probability": ""
+        }
+      ]
+    }
+  ],
+  "diagnosis": ""
+},{
+  "_id": {
+    "$oid": "6442004ec03169a3584be08c"
+  },
+  "question_id": "Q5",
+  "chief_complaint": "cough",
+  "is_first_question": false,
+  "is_last_question": false,
+  "question": "Do you have difficulty breathing?",
+  "options": [
+    "Yes",
+    "No"
+  ],
+  "type": "single type",
+  "next_path": [
+    {
+      "option_text": "Yes",
+      "next_question_id": "Q11",
+      "potentialDiagnosis": [
+        {
+          "diagnosis": "",
+          "probability": ""
+        }
+      ]
+    },
+    {
+      "option_text": "No",
+      "next_question_id": "Q12",
+      "potentialDiagnosis": [
+        {
+          "diagnosis": "",
+          "probability": ""
+        }
+      ]
+    }
+  ],
+  "diagnosis": ""
+},{
+  "_id": {
+    "$oid": "6442004ec03169a3584be08d"
+  },
+  "question_id": "Q6",
+  "chief_complaint": "cough",
+  "is_first_question": false,
+  "is_last_question": false,
+  "question": "Is the cough dry or productive?",
+  "options": [
+    "Dry",
+    "Productive"
+  ],
+  "type": "single type",
+  "next_path": [
+    {
+      "option_text": "Dry",
+      "next_question_id": "Q13",
+      "potentialDiagnosis": [
+        {
+          "diagnosis": "",
+          "probability": ""
+        }
+      ]
+    },
+    {
+      "option_text": "Productive",
+      "next_question_id": "Q14",
+      "potentialDiagnosis": [
+        {
+          "diagnosis": "",
+          "probability": ""
+        }
+      ]
+    }
+  ],
+  "diagnosis": ""
+},{
+  "_id": {
+    "$oid": "6442004ec03169a3584be08e"
+  },
+  "question_id": "Q7",
+  "chief_complaint": "cough",
+  "is_first_question": false,
+  "is_last_question": false,
+  "question": "Have you been using your inhaler?",
+  "options": [
+    "Yes",
+    "No"
+  ],
+  "type": "single type",
+  "next_path": [
+    {
+      "option_text": "Yes",
+      "next_question_id": "Q15",
+      "potentialDiagnosis": [
+        {
+          "diagnosis": "",
+          "probability": ""
+        }
+      ]
+    },
+    {
+      "option_text": "No",
+      "next_question_id": "Q16",
+      "potentialDiagnosis": [
+        {
+          "diagnosis": "",
+          "probability": ""
+        }
+      ]
+    }
+  ],
+  "diagnosis": ""
+},{
+  "_id": {
+    "$oid": "6442004ec03169a3584be08f"
+  },
+  "question_id": "Q8",
+  "chief_complaint": "cough",
+  "is_first_question": false,
+  "is_last_question": false,
+  "question": "Do you have any known allergies?",
+  "options": [
+    "Yes",
+    "No"
+  ],
+  "type": "single type",
+  "next_path": [
+    {
+      "option_text": "Yes",
+      "next_question_id": "Q17",
+      "potentialDiagnosis": [
+        {
+          "diagnosis": "",
+          "probability": ""
+        }
+      ]
+    },
+    {
+      "option_text": "No",
+      "next_question_id": "Q18",
+      "potentialDiagnosis": [
+        {
+          "diagnosis": "",
+          "probability": ""
+        }
+      ]
+    }
+  ],
+  "diagnosis": ""
+},{
+  "_id": {
+    "$oid": "6442004ec03169a3584be090"
+  },
+  "question_id": "Q9",
+  "chief_complaint": "cough",
+  "is_first_question": false,
+  "is_last_question": false,
+  "question": "Do you have shortness of breath?",
+  "options": [
+    "Yes",
+    "No"
+  ],
+  "type": "single type",
+  "next_path": [
+    {
+      "option_text": "Yes",
+      "next_question_id": "Q19",
+      "potentialDiagnosis": [
+        {
+          "diagnosis": "",
+          "probability": ""
+        }
+      ]
+    },
+    {
+      "option_text": "No",
+      "next_question_id": "Q20",
+      "potentialDiagnosis": [
+        {
+          "diagnosis": "",
+          "probability": ""
+        }
+      ]
+    }
+  ],
+  "diagnosis": ""
+},{
+  "_id": {
+    "$oid": "6442004ec03169a3584be091"
+  },
+  "question_id": "Q10",
+  "chief_complaint": "cough",
+  "is_first_question": false,
+  "is_last_question": false,
+  "question": "Do you have any other respiratory symptoms?",
+  "options": [
+    "Yes",
+    "No"
+  ],
+  "type": "single type",
+  "next_path": [
+    {
+      "option_text": "Yes",
+      "next_question_id": "Q21",
+      "potentialDiagnosis": [
+        {
+          "diagnosis": "",
+          "probability": ""
+        }
+      ]
+    },
+    {
+      "option_text": "No",
+      "next_question_id": "Q22",
+      "potentialDiagnosis": [
+        {
+          "diagnosis": "",
+          "probability": ""
+        }
+      ]
+    }
+  ],
+  "diagnosis": ""
+},{
+  "_id": {
+    "$oid": "6442004ec03169a3584be092"
+  },
+  "question_id": "Q11",
+  "chief_complaint": "cough",
+  "is_first_question": false,
+  "is_last_question": false,
+  "question": "Have you recently traveled or been exposed to someone with respiratory illness?",
+  "options": [
+    "Yes",
+    "No"
+  ],
+  "type": "single type",
+  "next_path": [
+    {
+      "option_text": "Yes",
+      "next_question_id": "Q23",
+      "potentialDiagnosis": [
+        {
+          "diagnosis": "",
+          "probability": ""
+        }
+      ]
+    },
+    {
+      "option_text": "No",
+      "next_question_id": "Q24",
+      "potentialDiagnosis": [
+        {
+          "diagnosis": "",
+          "probability": ""
+        }
+      ]
+    }
+  ],
+  "diagnosis": ""
+},{
+  "_id": {
+    "$oid": "6442004ec03169a3584be093"
+  },
+  "question_id": "Q12",
+  "chief_complaint": "cough",
+  "is_first_question": false,
+  "is_last_question": false,
+  "question": "Are you experiencing nasal congestion or runny nose?",
+  "options": [
+    "Yes",
+    "No"
+  ],
+  "type": "single type",
+  "next_path": [
+    {
+      "option_text": "Yes",
+      "next_question_id": "Q25",
+      "potentialDiagnosis": [
+        {
+          "diagnosis": "",
+          "probability": ""
+        }
+      ]
+    },
+    {
+      "option_text": "No",
+      "next_question_id": "Q26",
+      "potentialDiagnosis": [
+        {
+          "diagnosis": "",
+          "probability": ""
+        }
+      ]
+    }
+  ],
+  "diagnosis": ""
+},{
+  "_id": {
+    "$oid": "6442004ec03169a3584be094"
+  },
+  "question_id": "Q13",
+  "chief_complaint": "cough",
+  "is_first_question": false,
+  "is_last_question": false,
+  "question": "Are you experiencing fatigue or weakness?",
+  "options": [
+    "Yes",
+    "No"
+  ],
+  "type": "single type",
+  "next_path": [
+    {
+      "option_text": "Yes",
+      "next_question_id": "Q27",
+      "potentialDiagnosis": [
+        {
+          "diagnosis": "",
+          "probability": ""
+        }
+      ]
+    },
+    {
+      "option_text": "No",
+      "next_question_id": "Q28",
+      "potentialDiagnosis": [
+        {
+          "diagnosis": "",
+          "probability": ""
+        }
+      ]
+    }
+  ],
+  "diagnosis": ""
+},{
+  "_id": {
+    "$oid": "6442004ec03169a3584be095"
+  },
+  "question_id": "Q14",
+  "chief_complaint": "cough",
+  "is_first_question": false,
+  "is_last_question": false,
+  "question": "What color is the mucus?",
+  "options": [
+    "Clear",
+    "Yellow-green",
+    "Rusty-brown"
+  ],
+  "type": "single type",
+  "next_path": [
+    {
+      "option_text": "Clear",
+      "next_question_id": "Q29",
+      "potentialDiagnosis": [
+        {
+          "diagnosis": "",
+          "probability": ""
+        }
+      ]
+    },
+    {
+      "option_text": "Yellow-green",
+      "next_question_id": "Q30",
+      "potentialDiagnosis": [
+        {
+          "diagnosis": "",
+          "probability": ""
+        }
+      ]
+    },
+    {
+      "option_text": "Rusty-brown",
+      "next_question_id": "Q31",
+      "potentialDiagnosis": [
+        {
+          "diagnosis": "",
+          "probability": ""
+        }
+      ]
+    }
+  ],
+  "diagnosis": ""
+},{
+  "_id": {
+    "$oid": "6442004ec03169a3584be096"
+  },
+  "question_id": "Q15",
+  "chief_complaint": "cough",
+  "is_first_question": false,
+  "is_last_question": false,
+  "question": "Has your inhaler relieved your cough?",
+  "options": [
+    "Yes",
+    "No"
+  ],
+  "type": "single type",
+  "next_path": [
+    {
+      "option_text": "Yes",
+      "next_question_id": "Q32",
+      "potentialDiagnosis": [
+        {
+          "diagnosis": "",
+          "probability": ""
+        }
+      ]
+    },
+    {
+      "option_text": "No",
+      "next_question_id": "Q33",
+      "potentialDiagnosis": [
+        {
+          "diagnosis": "",
+          "probability": ""
+        }
+      ]
+    }
+  ],
+  "diagnosis": ""
+},{
+  "_id": {
+    "$oid": "6442004ec03169a3584be097"
+  },
+  "question_id": "Q16",
+  "chief_complaint": "cough",
+  "is_first_question": false,
+  "is_last_question": false,
+  "question": "Do you have chest tightness?",
+  "options": [
+    "Yes",
+    "No"
+  ],
+  "type": "single type",
+  "next_path": [
+    {
+      "option_text": "Yes",
+      "next_question_id": "Q34",
+      "potentialDiagnosis": [
+        {
+          "diagnosis": "",
+          "probability": ""
+        }
+      ]
+    },
+    {
+      "option_text": "No",
+      "next_question_id": "Q35",
+      "potentialDiagnosis": [
+        {
+          "diagnosis": "",
+          "probability": ""
+        }
+      ]
+    }
+  ],
+  "diagnosis": ""
+},{
+  "_id": {
+    "$oid": "6442004ec03169a3584be098"
+  },
+  "question_id": "Q17",
+  "chief_complaint": "cough",
+  "is_first_question": false,
+  "is_last_question": false,
+  "question": "Have you been exposed to any known allergens recently?",
+  "options": [
+    "Yes",
+    "No"
+  ],
+  "type": "single type",
+  "next_path": [
+    {
+      "option_text": "Yes",
+      "next_question_id": "Q36",
+      "potentialDiagnosis": [
+        {
+          "diagnosis": "",
+          "probability": ""
+        }
+      ]
+    },
+    {
+      "option_text": "No",
+      "next_question_id": "Q37",
+      "potentialDiagnosis": [
+        {
+          "diagnosis": "",
+          "probability": ""
+        }
+      ]
+    }
+  ],
+  "diagnosis": ""
+},{
+  "_id": {
+    "$oid": "6442004ec03169a3584be099"
+  },
+  "question_id": "Q18",
+  "chief_complaint": "cough",
+  "is_first_question": false,
+  "is_last_question": false,
+  "question": "Are you experiencing weight loss or night sweats?",
+  "options": [
+    "Yes",
+    "No"
+  ],
+  "type": "single type",
+  "next_path": [
+    {
+      "option_text": "Yes",
+      "next_question_id": "Q38",
+      "potentialDiagnosis": [
+        {
+          "diagnosis": "",
+          "probability": ""
+        }
+      ]
+    },
+    {
+      "option_text": "No",
+      "next_question_id": "Q39",
+      "potentialDiagnosis": [
+        {
+          "diagnosis": "",
+          "probability": ""
+        }
+      ]
+    }
+  ],
+  "diagnosis": ""
+},{
+  "_id": {
+    "$oid": "6442004ec03169a3584be09a"
+  },
+  "question_id": "Q19",
+  "chief_complaint": "cough",
+  "is_first_question": false,
+  "is_last_question": false,
+  "question": "Have you experienced any chest pain?",
+  "options": [
+    "Yes",
+    "No"
+  ],
+  "type": "single type",
+  "next_path": [
+    {
+      "option_text": "Yes",
+      "next_question_id": "Q40",
+      "potentialDiagnosis": [
+        {
+          "diagnosis": "",
+          "probability": ""
+        }
+      ]
+    },
+    {
+      "option_text": "No",
+      "next_question_id": "Q41",
+      "potentialDiagnosis": [
+        {
+          "diagnosis": "",
+          "probability": ""
+        }
+      ]
+    }
+  ],
+  "diagnosis": ""
+},{
+  "_id": {
+    "$oid": "6442004ec03169a3584be09b"
+  },
+  "question_id": "Q20",
+  "chief_complaint": "cough",
+  "is_first_question": false,
+  "is_last_question": false,
+  "question": "Are you wheezing?",
+  "options": [
+    "Yes",
+    "No"
+  ],
+  "type": "single type",
+  "next_path": [
+    {
+      "option_text": "Yes",
+      "next_question_id": "Q42",
+      "potentialDiagnosis": [
+        {
+          "diagnosis": "",
+          "probability": ""
+        }
+      ]
+    },
+    {
+      "option_text": "No",
+      "next_question_id": "Q43",
+      "potentialDiagnosis": [
+        {
+          "diagnosis": "",
+          "probability": ""
+        }
+      ]
+    }
+  ],
+  "diagnosis": ""
+},{
+  "_id": {
+    "$oid": "6442004ec03169a3584be09c"
+  },
+  "question_id": "Q21",
+  "chief_complaint": "cough",
+  "is_first_question": false,
+  "is_last_question": false,
+  "question": "Do you have a history of heartburn or acid reflux?",
+  "options": [
+    "Yes",
+    "No"
+  ],
+  "type": "single type",
+  "next_path": [
+    {
+      "option_text": "Yes",
+      "next_question_id": "Q44",
+      "potentialDiagnosis": [
+        {
+          "diagnosis": "",
+          "probability": ""
+        }
+      ]
+    },
+    {
+      "option_text": "No",
+      "next_question_id": "Q45",
+      "potentialDiagnosis": [
+        {
+          "diagnosis": "",
+          "probability": ""
+        }
+      ]
+    }
+  ],
+  "diagnosis": ""
+},{
+  "_id": {
+    "$oid": "6442004ec03169a3584be09d"
+  },
+  "question_id": "Q22",
+  "chief_complaint": "cough",
+  "is_first_question": false,
+  "is_last_question": false,
+  "question": "Do you have any known lung conditions?",
+  "options": [
+    "Yes",
+    "No"
+  ],
+  "type": "single type",
+  "next_path": [
+    {
+      "option_text": "Yes",
+      "next_question_id": "Q46",
+      "potentialDiagnosis": [
+        {
+          "diagnosis": "",
+          "probability": ""
+        }
+      ]
+    },
+    {
+      "option_text": "No",
+      "next_question_id": "Q47",
+      "potentialDiagnosis": [
+        {
+          "diagnosis": "",
+          "probability": ""
+        }
+      ]
+    }
+  ],
+  "diagnosis": ""
+},{
+  "_id": {
+    "$oid": "6442004ec03169a3584be09e"
+  },
+  "question_id": "Q23",
+  "chief_complaint": "cough",
+  "is_first_question": false,
+  "is_last_question": false,
+  "question": "Do you have muscle aches or joint pain?",
+  "options": [
+    "Yes",
+    "No"
+  ],
+  "type": "single type",
+  "next_path": [
+    {
+      "option_text": "Yes",
+      "next_question_id": "Q48",
+      "potentialDiagnosis": [
+        {
+          "diagnosis": "Influenza",
+          "probability": "60%"
+        }
+      ]
+    },
+    {
+      "option_text": "No",
+      "next_question_id": "Q49",
+      "potentialDiagnosis": [
+        {
+          "diagnosis": "Common cold",
+          "probability": "50%"
+        }
+      ]
+    }
+  ],
+  "diagnosis": ""
+},{
+  "_id": {
+    "$oid": "6442004ec03169a3584be09f"
+  },
+  "question_id": "Q24",
+  "chief_complaint": "cough",
+  "is_first_question": false,
+  "is_last_question": false,
+  "question": "Have you recently started taking any new medications?",
+  "options": [
+    "Yes",
+    "No"
+  ],
+  "type": "single type",
+  "next_path": [
+    {
+      "option_text": "Yes",
+      "next_question_id": "Q50",
+      "potentialDiagnosis": [
+        {
+          "diagnosis": "Drug-induced cough",
+          "probability": "40%"
+        }
+      ]
+    },
+    {
+      "option_text": "No",
+      "next_question_id": "Q51",
+      "potentialDiagnosis": [
+        {
+          "diagnosis": "Post-viral cough",
+          "probability": "45%"
+        }
+      ]
+    }
+  ],
+  "diagnosis": ""
+},{
+  "_id": {
+    "$oid": "6442004ec03169a3584be0a0"
+  },
+  "question_id": "Q25",
+  "chief_complaint": "cough",
+  "is_first_question": false,
+  "is_last_question": false,
+  "question": "Do you have a sore throat?",
+  "options": [
+    "Yes",
+    "No"
+  ],
+  "type": "single type",
+  "next_path": [
+    {
+      "option_text": "Yes",
+      "next_question_id": "Q52",
+      "potentialDiagnosis": [
+        {
+          "diagnosis": "Viral upper respiratory infection",
+          "probability": "70%"
+        }
+      ]
+    },
+    {
+      "option_text": "No",
+      "next_question_id": "Q53",
+      "potentialDiagnosis": [
+        {
+          "diagnosis": "Allergic rhinitis",
+          "probability": "65%"
+        }
+      ]
+    }
+  ],
+  "diagnosis": ""
+},{
+  "_id": {
+    "$oid": "6442004ec03169a3584be0a1"
+  },
+  "question_id": "Q26",
+  "chief_complaint": "cough",
+  "is_first_question": false,
+  "is_last_question": false,
+  "question": "Have you been experiencing headaches?",
+  "options": [
+    "Yes",
+    "No"
+  ],
+  "type": "single type",
+  "next_path": [
+    {
+      "option_text": "Yes",
+      "next_question_id": "Q54",
+      "potentialDiagnosis": [
+        {
+          "diagnosis": "Tension headache",
+          "probability": "55%"
+        }
+      ]
+    },
+    {
+      "option_text": "No",
+      "next_question_id": "Q55",
+      "potentialDiagnosis": [
+        {
+          "diagnosis": "Non-specific cough",
+          "probability": "50%"
+        }
+      ]
+    }
+  ],
+  "diagnosis": ""
+},{
+  "_id": {
+    "$oid": "6442004ec03169a3584be0a2"
+  },
+  "question_id": "Q27",
+  "chief_complaint": "cough",
+  "is_first_question": false,
+  "is_last_question": false,
+  "question": "Do you have a history of chronic fatigue syndrome?",
+  "options": [
+    "Yes",
+    "No"
+  ],
+  "type": "single type",
+  "next_path": [
+    {
+      "option_text": "Yes",
+      "next_question_id": "Q56",
+      "potentialDiagnosis": [
+        {
+          "diagnosis": "Chronic fatigue syndrome exacerbation",
+          "probability": "75%"
+        }
+      ]
+    },
+    {
+      "option_text": "No",
+      "next_question_id": "Q57",
+      "potentialDiagnosis": [
+        {
+          "diagnosis": "Viral infection",
+          "probability": "60%"
+        }
+      ]
+    }
+  ],
+  "diagnosis": ""
+},{
+  "_id": {
+    "$oid": "6442004ec03169a3584be0a3"
+  },
+  "question_id": "Q28",
+  "chief_complaint": "cough",
+  "is_first_question": false,
+  "is_last_question": false,
+  "question": "Are you exposed to irritants, such as dust or chemical fumes?",
+  "options": [
+    "Yes",
+    "No"
+  ],
+  "type": "single type",
+  "next_path": [
+    {
+      "option_text": "Yes",
+      "next_question_id": "Q58",
+      "potentialDiagnosis": [
+        {
+          "diagnosis": "Irritant-induced cough",
+          "probability": "80%"
+        }
+      ]
+    },
+    {
+      "option_text": "No",
+      "next_question_id": "Q59",
+      "potentialDiagnosis": [
+        {
+          "diagnosis": "Non-specific cough",
+          "probability": "50%"
+        }
+      ]
+    }
+  ],
+  "diagnosis": ""
+},{
+  "_id": {
+    "$oid": "6442004ec03169a3584be0a4"
+  },
+  "question_id": "Q29",
+  "chief_complaint": "cough",
+  "is_first_question": false,
+  "is_last_question": false,
+  "question": "Do you have a history of sinus problems?",
+  "options": [
+    "Yes",
+    "No"
+  ],
+  "type": "single type",
+  "next_path": [
+    {
+      "option_text": "Yes",
+      "next_question_id": "Q60",
+      "potentialDiagnosis": [
+        {
+          "diagnosis": "Sinusitis",
+          "probability": "75%"
+        }
+      ]
+    },
+    {
+      "option_text": "No",
+      "next_question_id": "Q61",
+      "potentialDiagnosis": [
+        {
+          "diagnosis": "Non-specific cough",
+          "probability": "50%"
+        }
+      ]
+    }
+  ],
+  "diagnosis": ""
+},{
+  "_id": {
+    "$oid": "6442004ec03169a3584be0a5"
+  },
+  "question_id": "Q30",
+  "chief_complaint": "cough",
+  "is_first_question": false,
+  "is_last_question": false,
+  "question": "Do you have facial pain or pressure?",
+  "options": [
+    "Yes",
+    "No"
+  ],
+  "type": "single type",
+  "next_path": [
+    {
+      "option_text": "Yes",
+      "next_question_id": "Q62",
+      "potentialDiagnosis": [
+        {
+          "diagnosis": "Sinusitis",
+          "probability": "85%"
+        }
+      ]
+    },
+    {
+      "option_text": "No",
+      "next_question_id": "Q63",
+      "potentialDiagnosis": [
+        {
+          "diagnosis": "Non-specific cough",
+          "probability": "50%"
+        }
+      ]
+    }
+  ],
+  "diagnosis": ""
+},{
+  "_id": {
+    "$oid": "6442004ec03169a3584be0a6"
+  },
+  "question_id": "Q31",
+  "chief_complaint": "cough",
+  "is_first_question": false,
+  "is_last_question": false,
+  "question": "Do you have a fever?",
+  "options": [
+    "Yes",
+    "No"
+  ],
+  "type": "single type",
+  "next_path": [
+    {
+      "option_text": "Yes",
+      "next_question_id": "Q64",
+      "potentialDiagnosis": [
+        {
+          "diagnosis": "Pneumonia",
+          "probability": "60%"
+        }
+      ]
+    },
+    {
+      "option_text": "No",
+      "next_question_id": "Q65",
+      "potentialDiagnosis": [
+        {
+          "diagnosis": "Bronchitis",
+          "probability": "50%"
+        }
+      ]
+    }
+  ],
+  "diagnosis": ""
+},{
+  "_id": {
+    "$oid": "6442004ec03169a3584be0a7"
+  },
+  "question_id": "Q32",
+  "chief_complaint": "cough",
+  "is_first_question": false,
+  "is_last_question": false,
+  "question": "Do you have a rapid heart rate?",
+  "options": [
+    "Yes",
+    "No"
+  ],
+  "type": "single type",
+  "next_path": [
+    {
+      "option_text": "Yes",
+      "next_question_id": "Q66",
+      "potentialDiagnosis": [
+        {
+          "diagnosis": "Pneumonia",
+          "probability": "70%"
+        }
+      ]
+    },
+    {
+      "option_text": "No",
+      "next_question_id": "Q67",
+      "potentialDiagnosis": [
+        {
+          "diagnosis": "Non-specific cough",
+          "probability": "50%"
+        }
+      ]
+    }
+  ],
+  "diagnosis": ""
+},{
+  "_id": {
+    "$oid": "6442004ec03169a3584be0a8"
+  },
+  "question_id": "Q33",
+  "chief_complaint": "cough",
+  "is_first_question": false,
+  "is_last_question": false,
+  "question": "Do you have a history of asthma?",
+  "options": [
+    "Yes",
+    "No"
+  ],
+  "type": "single type",
+  "next_path": [
+    {
+      "option_text": "Yes",
+      "next_question_id": "Q68",
+      "potentialDiagnosis": [
+        {
+          "diagnosis": "Asthma exacerbation",
+          "probability": "80%"
+        }
+      ]
+    },
+    {
+      "option_text": "No",
+      "next_question_id": "Q69",
+      "potentialDiagnosis": [
+        {
+          "diagnosis": "Bronchitis",
+          "probability": "60%"
+        }
+      ]
+    }
+  ],
+  "diagnosis": ""
+},{
+  "_id": {
+    "$oid": "6442004ec03169a3584be0a9"
+  },
+  "question_id": "Q34",
+  "chief_complaint": "cough",
+  "is_first_question": false,
+  "is_last_question": false,
+  "question": "Do you smoke or have a history of smoking?",
+  "options": [
+    "Yes",
+    "No"
+  ],
+  "type": "single type",
+  "next_path": [
+    {
+      "option_text": "Yes",
+      "next_question_id": "Q70",
+      "potentialDiagnosis": [
+        {
+          "diagnosis": "Chronic obstructive pulmonary disease (COPD)",
+          "probability": "75%"
+        }
+      ]
+    },
+    {
+      "option_text": "No",
+      "next_question_id": "Q71",
+      "potentialDiagnosis": [
+        {
+          "diagnosis": "Non-specific cough",
+          "probability": "50%"
+        }
+      ]
+    }
+  ],
+  "diagnosis": ""
+},{
+  "_id": {
+    "$oid": "6442004ec03169a3584be0aa"
+  },
+  "question_id": "Q35",
+  "chief_complaint": "cough",
+  "is_first_question": false,
+  "is_last_question": false,
+  "question": "Do you have shortness of breath?",
+  "options": [
+    "Yes",
+    "No"
+  ],
+  "type": "single type",
+  "next_path": [
+    {
+      "option_text": "Yes",
+      "next_question_id": "Q72",
+      "potentialDiagnosis": [
+        {
+          "diagnosis": "Chronic obstructive pulmonary disease (COPD) exacerbation",
+          "probability": "80%"
+        }
+      ]
+    },
+    {
+      "option_text": "No",
+      "next_question_id": "Q73",
+      "potentialDiagnosis": [
+        {
+          "diagnosis": "Bronchitis",
+          "probability": "60%"
+        }
+      ]
+    }
+  ],
+  "diagnosis": ""
+},{
+  "_id": {
+    "$oid": "6442004ec03169a3584be0ab"
+  },
+  "question_id": "Q36",
+  "chief_complaint": "cough",
+  "is_first_question": false,
+  "is_last_question": false,
+  "question": "Do you have a history of allergies?",
+  "options": [
+    "Yes",
+    "No"
+  ],
+  "type": "single type",
+  "next_path": [
+    {
+      "option_text": "Yes",
+      "next_question_id": "Q74",
+      "potentialDiagnosis": [
+        {
+          "diagnosis": "Allergic rhinitis",
+          "probability": "70%"
+        }
+      ]
+    },
+    {
+      "option_text": "No",
+      "next_question_id": "Q75",
+      "potentialDiagnosis": [
+        {
+          "diagnosis": "Viral infection",
+          "probability": "55%"
+        }
+      ]
+    }
+  ],
+  "diagnosis": ""
+},{
+  "_id": {
+    "$oid": "6442004ec03169a3584be0ac"
+  },
+  "question_id": "Q37",
+  "chief_complaint": "cough",
+  "is_first_question": false,
+  "is_last_question": false,
+  "question": "Do you have a runny or stuffy nose?",
+  "options": [
+    "Yes",
+    "No"
+  ],
+  "type": "single type",
+  "next_path": [
+    {
+      "option_text": "Yes",
+      "next_question_id": "Q76",
+      "potentialDiagnosis": [
+        {
+          "diagnosis": "Common cold",
+          "probability": "65%"
+        }
+      ]
+    },
+    {
+      "option_text": "No",
+      "next_question_id": "Q77",
+      "potentialDiagnosis": [
+        {
+          "diagnosis": "Non-specific cough",
+          "probability": "50%"
+        }
+      ]
+    }
+  ],
+  "diagnosis": ""
+},{
+  "_id": {
+    "$oid": "6442004ec03169a3584be0ad"
+  },
+  "question_id": "Q38",
+  "chief_complaint": "cough",
+  "is_first_question": false,
+  "is_last_question": false,
+  "question": "Do you have chest pain?",
+  "options": [
+    "Yes",
+    "No"
+  ],
+  "type": "single type",
+  "next_path": [
+    {
+      "option_text": "Yes",
+      "next_question_id": "Q78",
+      "potentialDiagnosis": [
+        {
+          "diagnosis": "Pneumonia",
+          "probability": "75%"
+        }
+      ]
+    },
+    {
+      "option_text": "No",
+      "next_question_id": "Q79",
+      "potentialDiagnosis": [
+        {
+          "diagnosis": "Bronchitis",
+          "probability": "60%"
+        }
+      ]
+    }
+  ],
+  "diagnosis": ""
+},{
+  "_id": {
+    "$oid": "6442004ec03169a3584be0ae"
+  },
+  "question_id": "Q39",
+  "chief_complaint": "cough",
+  "is_first_question": false,
+  "is_last_question": false,
+  "question": "Do you have nausea or vomiting?",
+  "options": [
+    "Yes",
+    "No"
+  ],
+  "type": "single type",
+  "next_path": [
+    {
+      "option_text": "Yes",
+      "next_question_id": "Q80",
+      "potentialDiagnosis": [
+        {
+          "diagnosis": "Pneumonia",
+          "probability": "60%"
+        }
+      ]
+    },
+    {
+      "option_text": "No",
+      "next_question_id": "Q81",
+      "potentialDiagnosis": [
+        {
+          "diagnosis": "Non-specific cough",
+          "probability": "50%"
+        }
+      ]
+    }
+  ],
+  "diagnosis": ""
+},{
+  "_id": {
+    "$oid": "6442004ec03169a3584be0af"
+  },
+  "question_id": "Q40",
+  "chief_complaint": "cough",
+  "is_first_question": false,
+  "is_last_question": false,
+  "question": "Do you have diarrhea?",
+  "options": [
+    "Yes",
+    "No"
+  ],
+  "type": "single type",
+  "next_path": [
+    {
+      "option_text": "Yes",
+      "next_question_id": "Q82",
+      "potentialDiagnosis": [
+        {
+          "diagnosis": "Gastroesophageal reflux disease (GERD)",
+          "probability": "70%"
+        }
+      ]
+    },
+    {
+      "option_text": "No",
+      "next_question_id": "Q83",
+      "potentialDiagnosis": [
+        {
+          "diagnosis": "Non-specific cough",
+          "probability": "50%"
+        }
+      ]
+    }
+  ],
+  "diagnosis": ""
+},{
+  "_id": {
+    "$oid": "6442004ec03169a3584be0b0"
+  },
+  "question_id": "Q41",
+  "chief_complaint": "cough",
+  "is_first_question": false,
+  "is_last_question": false,
+  "question": "Have you recently traveled to a foreign country?",
+  "options": [
+    "Yes",
+    "No"
+  ],
+  "type": "single type",
+  "next_path": [
+    {
+      "option_text": "Yes",
+      "next_question_id": "Q84",
+      "potentialDiagnosis": [
+        {
+          "diagnosis": "Tuberculosis",
+          "probability": "80%"
+        }
+      ]
+    },
+    {
+      "option_text": "No",
+      "next_question_id": "Q85",
+      "potentialDiagnosis": [
+        {
+          "diagnosis": "Non-specific cough",
+          "probability": "50%"
+        }
+      ]
+    }
+  ],
+  "diagnosis": ""
+},{
+  "_id": {
+    "$oid": "6442004ec03169a3584be0b1"
+  },
+  "question_id": "Q42",
+  "chief_complaint": "cough",
+  "is_first_question": false,
+  "is_last_question": false,
+  "question": "Do you have a persistent cough lasting longer than 3 weeks?",
+  "options": [
+    "Yes",
+    "No"
+  ],
+  "type": "single type",
+  "next_path": [
+    {
+      "option_text": "Yes",
+      "next_question_id": "Q86",
+      "potentialDiagnosis": [
+        {
+          "diagnosis": "Tuberculosis",
+          "probability": "70%"
+        }
+      ]
+    },
+    {
+      "option_text": "No",
+      "next_question_id": "Q87",
+      "potentialDiagnosis": [
+        {
+          "diagnosis": "Non-specific cough",
+          "probability": "50%"
+        }
+      ]
+    }
+  ],
+  "diagnosis": ""
+},{
+  "_id": {
+    "$oid": "6442004ec03169a3584be0b2"
+  },
+  "question_id": "Q43",
+  "chief_complaint": "cough",
+  "is_first_question": false,
+  "is_last_question": false,
+  "question": "Have you been exposed to anyone with a chronic cough?",
+  "options": [
+    "Yes",
+    "No"
+  ],
+  "type": "single type",
+  "next_path": [
+    {
+      "option_text": "Yes",
+      "next_question_id": "Q88",
+      "potentialDiagnosis": [
+        {
+          "diagnosis": "Tuberculosis",
+          "probability": "80%"
+        }
+      ]
+    },
+    {
+      "option_text": "No",
+      "next_question_id": "Q89",
+      "potentialDiagnosis": [
+        {
+          "diagnosis": "Non-specific cough",
+          "probability": "50%"
+        }
+      ]
+    }
+  ],
+  "diagnosis": ""
+},{
+  "_id": {
+    "$oid": "6442004ec03169a3584be0b3"
+  },
+  "question_id": "Q44",
+  "chief_complaint": "cough",
+  "is_first_question": false,
+  "is_last_question": false,
+  "question": "Have you been diagnosed with lung cancer?",
+  "options": [
+    "Yes",
+    "No"
+  ],
+  "type": "single type",
+  "next_path": [
+    {
+      "option_text": "Yes",
+      "next_question_id": "Q90",
+      "potentialDiagnosis": [
+        {
+          "diagnosis": "Lung cancer",
+          "probability": "90%"
+        }
+      ]
+    },
+    {
+      "option_text": "No",
+      "next_question_id": "Q91",
+      "potentialDiagnosis": [
+        {
+          "diagnosis": "Non-specific cough",
+          "probability": "50%"
+        }
+      ]
+    }
+  ],
+  "diagnosis": ""
+},{
+  "_id": {
+    "$oid": "6442004ec03169a3584be0b4"
+  },
+  "question_id": "Q45",
+  "chief_complaint": "cough",
+  "is_first_question": false,
+  "is_last_question": false,
+  "question": "Do you have a family history of lung disease?",
+  "options": [
+    "Yes",
+    "No"
+  ],
+  "type": "single type",
+  "next_path": [
+    {
+      "option_text": "Yes",
+      "next_question_id": "Q92",
+      "potentialDiagnosis": [
+        {
+          "diagnosis": "Genetic predisposition to lung disease",
+          "probability": "70%"
+        }
+      ]
+    },
+    {
+      "option_text": "No",
+      "next_question_id": "Q93",
+      "potentialDiagnosis": [
+        {
+          "diagnosis": "Non-specific cough",
+          "probability": "50%"
+        }
+      ]
+    }
+  ],
+  "diagnosis": ""
+},{
+  "_id": {
+    "$oid": "6442004ec03169a3584be0b5"
+  },
+  "question_id": "Q46",
+  "chief_complaint": "cough",
+  "is_first_question": false,
+  "is_last_question": false,
+  "question": "Have you been exposed to environmental pollutants or irritants?",
+  "options": [
+    "Yes",
+    "No"
+  ],
+  "type": "single type",
+  "next_path": [
+    {
+      "option_text": "Yes",
+      "next_question_id": "Q94",
+      "potentialDiagnosis": [
+        {
+          "diagnosis": "Occupational lung disease",
+          "probability": "75%"
+        }
+      ]
+    },
+    {
+      "option_text": "No",
+      "next_question_id": "Q95",
+      "potentialDiagnosis": [
+        {
+          "diagnosis": "Non-specific cough",
+          "probability": "50%"
+        }
+      ]
+    }
+  ],
+  "diagnosis": ""
+},{
+  "_id": {
+    "$oid": "6442004ec03169a3584be0b6"
+  },
+  "question_id": "Q47",
+  "chief_complaint": "cough",
+  "is_first_question": false,
+  "is_last_question": false,
+  "question": "Are you taking any ACE inhibitors for hypertension?",
+  "options": [
+    "Yes",
+    "No"
+  ],
+  "type": "single type",
+  "next_path": [
+    {
+      "option_text": "Yes",
+      "next_question_id": "Q96",
+      "potentialDiagnosis": [
+        {
+          "diagnosis": "ACE inhibitor-induced cough",
+          "probability": "90%"
+        }
+      ]
+    },
+    {
+      "option_text": "No",
+      "next_question_id": "Q97",
+      "potentialDiagnosis": [
+        {
+          "diagnosis": "Non-specific cough",
+          "probability": "50%"
+        }
+      ]
+    }
+  ],
+  "diagnosis": ""
+},{
+  "_id": {
+    "$oid": "6442004ec03169a3584be0b7"
+  },
+  "question_id": "Q48",
+  "chief_complaint": "cough",
+  "is_first_question": false,
+  "is_last_question": false,
+  "question": "Have you recently started taking any new medications?",
+  "options": [
+    "Yes",
+    "No"
+  ],
+  "type": "single type",
+  "next_path": [
+    {
+      "option_text": "Yes",
+      "next_question_id": "Q106",
+      "potentialDiagnosis": [
+        {
+          "diagnosis": "Drug-induced cough",
+          "probability": "75%"
+        }
+      ]
+    },
+    {
+      "option_text": "No",
+      "next_question_id": "Q107",
+      "potentialDiagnosis": [
+        {
+          "diagnosis": "Non-specific cough",
+          "probability": "50%"
+        }
+      ]
+    }
+  ],
+  "diagnosis": ""
+},{
+  "_id": {
+    "$oid": "6442004ec03169a3584be0b8"
+  },
+  "question_id": "Q49",
+  "chief_complaint": "cough",
+  "is_first_question": false,
+  "is_last_question": false,
+  "question": "Do you have a fever?",
+  "options": [
+    "Yes",
+    "No"
+  ],
+  "type": "single type",
+  "next_path": [
+    {
+      "option_text": "Yes",
+      "next_question_id": "Q108",
+      "potentialDiagnosis": [
+        {
+          "diagnosis": "Pneumonia",
+          "probability": "75%"
+        }
+      ]
+    },
+    {
+      "option_text": "No",
+      "next_question_id": "Q109",
+      "potentialDiagnosis": [
+        {
+          "diagnosis": "Bronchitis",
+          "probability": "60%"
+        }
+      ]
+    }
+  ],
+  "diagnosis": ""
+},{
+  "_id": {
+    "$oid": "6442004ec03169a3584be0b9"
+  },
+  "question_id": "Q50",
+  "chief_complaint": "cough",
+  "is_first_question": false,
+  "is_last_question": false,
+  "question": "Do you have a productive cough?",
+  "options": [
+    "Yes",
+    "No"
+  ],
+  "type": "single type",
+  "next_path": [
+    {
+      "option_text": "Yes",
+      "next_question_id": "Q110",
+      "potentialDiagnosis": [
+        {
+          "diagnosis": "Bronchitis",
+          "probability": "70%"
+        }
+      ]
+    },
+    {
+      "option_text": "No",
+      "next_question_id": "Q111",
+      "potentialDiagnosis": [
+        {
+          "diagnosis": "Non-specific cough",
+          "probability": "50%"
+        }
+      ]
+    }
+  ],
+  "diagnosis": ""
+},{
+  "_id": {
+    "$oid": "6442004ec03169a3584be0ba"
+  },
+  "question_id": "Q51",
+  "chief_complaint": "cough",
+  "is_first_question": false,
+  "is_last_question": false,
+  "question": "Do you have night sweats?",
+  "options": [
+    "Yes",
+    "No"
+  ],
+  "type": "single type",
+  "next_path": [
+    {
+      "option_text": "Yes",
+      "next_question_id": "Q112",
+      "potentialDiagnosis": [
+        {
+          "diagnosis": "Tuberculosis",
+          "probability": "80%"
+        }
+      ]
+    },
+    {
+      "option_text": "No",
+      "next_question_id": "Q113",
+      "potentialDiagnosis": [
+        {
+          "diagnosis": "Non-specific cough",
+          "probability": "50%"
+        }
+      ]
+    }
+  ],
+  "diagnosis": ""
+},{
+  "_id": {
+    "$oid": "6442004ec03169a3584be0bb"
+  },
+  "question_id": "Q52",
+  "chief_complaint": "cough",
+  "is_first_question": false,
+  "is_last_question": false,
+  "question": "Do you have a headache?",
+  "options": [
+    "Yes",
+    "No"
+  ],
+  "type": "single type",
+  "next_path": [
+    {
+      "option_text": "Yes",
+      "next_question_id": "Q114",
+      "potentialDiagnosis": [
+        {
+          "diagnosis": "Sinusitis",
+          "probability": "60%"
+        }
+      ]
+    },
+    {
+      "option_text": "No",
+      "next_question_id": "Q115",
+      "potentialDiagnosis": [
+        {
+          "diagnosis": "Non-specific cough",
+          "probability": "50%"
+        }
+      ]
+    }
+  ],
+  "diagnosis": ""
+},{
+  "_id": {
+    "$oid": "6442004ec03169a3584be0bc"
+  },
+  "question_id": "Q53",
+  "chief_complaint": "cough",
+  "is_first_question": false,
+  "is_last_question": false,
+  "question": "Do you have heartburn or acid reflux?",
+  "options": [
+    "Yes",
+    "No"
+  ],
+  "type": "single type",
+  "next_path": [
+    {
+      "option_text": "Yes",
+      "next_question_id": "Q116",
+      "potentialDiagnosis": [
+        {
+          "diagnosis": "Gastroesophageal reflux disease (GERD)",
+          "probability": "70%"
+        }
+      ]
+    },
+    {
+      "option_text": "No",
+      "next_question_id": "Q117",
+      "potentialDiagnosis": [
+        {
+          "diagnosis": "Non-specific cough",
+          "probability": "50%"
+        }
+      ]
+    }
+  ],
+  "diagnosis": ""
+},{
+  "_id": {
+    "$oid": "6442004ec03169a3584be0bd"
+  },
+  "question_id": "Q54",
+  "chief_complaint": "cough",
+  "is_first_question": false,
+  "is_last_question": false,
+  "question": "Do you have a sore throat?",
+  "options": [
+    "Yes",
+    "No"
+  ],
+  "type": "single type",
+  "next_path": [
+    {
+      "option_text": "Yes",
+      "next_question_id": "Q118",
+      "potentialDiagnosis": [
+        {
+          "diagnosis": "Postnasal drip syndrome",
+          "probability": "70%"
+        }
+      ]
+    },
+    {
+      "option_text": "No",
+      "next_question_id": "Q119",
+      "potentialDiagnosis": [
+        {
+          "diagnosis": "Non-specific cough",
+          "probability": "50%"
+        }
+      ]
+    }
+  ],
+  "diagnosis": ""
+},{
+  "_id": {
+    "$oid": "6442004ec03169a3584be0be"
+  },
+  "question_id": "Q55",
+  "chief_complaint": "cough",
+  "is_first_question": false,
+  "is_last_question": false,
+  "question": "Do you have a history of smoking?",
+  "options": [
+    "Yes",
+    "No"
+  ],
+  "type": "single type",
+  "next_path": [
+    {
+      "option_text": "Yes",
+      "next_question_id": "Q120",
+      "potentialDiagnosis": [
+        {
+          "diagnosis": "Chronic obstructive pulmonary disease (COPD)",
+          "probability": "80%"
+        }
+      ]
+    },
+    {
+      "option_text": "No",
+      "next_question_id": "Q121",
+      "potentialDiagnosis": [
+        {
+          "diagnosis": "Non-specific cough",
+          "probability": "50%"
+        }
+      ]
+    }
+  ],
+  "diagnosis": ""
+},{
+  "_id": {
+    "$oid": "6442004ec03169a3584be0bf"
+  },
+  "question_id": "Q56",
+  "chief_complaint": "cough",
+  "is_first_question": false,
+  "is_last_question": false,
+  "question": "Do you have chest pain or discomfort?",
+  "options": [
+    "Yes",
+    "No"
+  ],
+  "type": "single type",
+  "next_path": [
+    {
+      "option_text": "Yes",
+      "next_question_id": "Q122",
+      "potentialDiagnosis": [
+        {
+          "diagnosis": "Pleurisy",
+          "probability": "70%"
+        }
+      ]
+    },
+    {
+      "option_text": "No",
+      "next_question_id": "Q123",
+      "potentialDiagnosis": [
+        {
+          "diagnosis": "Non-specific cough",
+          "probability": "50%"
+        }
+      ]
+    }
+  ],
+  "diagnosis": ""
+},{
+  "_id": {
+    "$oid": "6442004ec03169a3584be0c0"
+  },
+  "question_id": "Q57",
+  "chief_complaint": "cough",
+  "is_first_question": false,
+  "is_last_question": false,
+  "question": "Do you have a history of allergies?",
+  "options": [
+    "Yes",
+    "No"
+  ],
+  "type": "single type",
+  "next_path": [
+    {
+      "option_text": "Yes",
+      "next_question_id": "Q130",
+      "potentialDiagnosis": [
+        {
+          "diagnosis": "Allergic rhinitis",
+          "probability": "70%"
+        }
+      ]
+    },
+    {
+      "option_text": "No",
+      "next_question_id": "Q131",
+      "potentialDiagnosis": [
+        {
+          "diagnosis": "Non-specific cough",
+          "probability": "50%"
+        }
+      ]
+    }
+  ],
+  "diagnosis": ""
+},{
+  "_id": {
+    "$oid": "6442004ec03169a3584be0c1"
+  },
+  "question_id": "Q58",
+  "chief_complaint": "cough",
+  "is_first_question": false,
+  "is_last_question": false,
+  "question": "Have you had a recent chest x-ray?",
+  "options": [
+    "Yes",
+    "No"
+  ],
+  "type": "single type",
+  "next_path": [
+    {
+      "option_text": "Yes",
+      "next_question_id": "Q132",
+      "potentialDiagnosis": [
+        {
+          "diagnosis": "Lung cancer",
+          "probability": "80%"
+        }
+      ]
+    },
+    {
+      "option_text": "No",
+      "next_question_id": "Q133",
+      "potentialDiagnosis": [
+        {
+          "diagnosis": "Non-specific cough",
+          "probability": "50%"
+        }
+      ]
+    }
+  ],
+  "diagnosis": ""
+},{
+  "_id": {
+    "$oid": "6442004ec03169a3584be0c2"
+  },
+  "question_id": "Q59",
+  "chief_complaint": "cough",
+  "is_first_question": false,
+  "is_last_question": false,
+  "question": "Do you have a family history of lung disease?",
+  "options": [
+    "Yes",
+    "No"
+  ],
+  "type": "single type",
+  "next_path": [
+    {
+      "option_text": "Yes",
+      "next_question_id": "Q134",
+      "potentialDiagnosis": [
+        {
+          "diagnosis": "Genetic predisposition to lung disease",
+          "probability": "70%"
+        }
+      ]
+    },
+    {
+      "option_text": "No",
+      "next_question_id": "Q135",
+      "potentialDiagnosis": [
+        {
+          "diagnosis": "Non-specific cough",
+          "probability": "50%"
+        }
+      ]
+    }
+  ],
+  "diagnosis": ""
+},{
+  "_id": {
+    "$oid": "6442004ec03169a3584be0c3"
+  },
+  "question_id": "Q60",
+  "chief_complaint": "cough",
+  "is_first_question": false,
+  "is_last_question": false,
+  "question": "Do you have a history of heart disease?",
+  "options": [
+    "Yes",
+    "No"
+  ],
+  "type": "single type",
+  "next_path": [
+    {
+      "option_text": "Yes",
+      "next_question_id": "Q136",
+      "potentialDiagnosis": [
+        {
+          "diagnosis": "Congestive heart failure",
+          "probability": "80%"
+        }
+      ]
+    },
+    {
+      "option_text": "No",
+      "next_question_id": "Q137",
+      "potentialDiagnosis": [
+        {
+          "diagnosis": "Non-specific cough",
+          "probability": "50%"
+        }
+      ]
+    }
+  ],
+  "diagnosis": ""
+},{
+  "_id": {
+    "$oid": "6442004ec03169a3584be0c4"
+  },
+  "question_id": "Q61",
+  "chief_complaint": "cough",
+  "is_first_question": false,
+  "is_last_question": false,
+  "question": "Do you have a history of immunodeficiency?",
+  "options": [
+    "Yes",
+    "No"
+  ],
+  "type": "single type",
+  "next_path": [
+    {
+      "option_text": "Yes",
+      "next_question_id": "Q138",
+      "potentialDiagnosis": [
+        {
+          "diagnosis": "Pneumocystis pneumonia",
+          "probability": "70%"
+        }
+      ]
+    },
+    {
+      "option_text": "No",
+      "next_question_id": "Q139",
+      "potentialDiagnosis": [
+        {
+          "diagnosis": "Non-specific cough",
+          "probability": "50%"
+        }
+      ]
+    }
+  ],
+  "diagnosis": ""
+},{
+  "_id": {
+    "$oid": "6442004ec03169a3584be0c5"
+  },
+  "question_id": "Q62",
+  "chief_complaint": "cough",
+  "is_first_question": false,
+  "is_last_question": false,
+  "question": "Do you have a history of gastroesophageal reflux disease (GERD)?",
+  "options": [
+    "Yes",
+    "No"
+  ],
+  "type": "single type",
+  "next_path": [
+    {
+      "option_text": "Yes",
+      "next_question_id": "Q140",
+      "potentialDiagnosis": [
+        {
+          "diagnosis": "GERD-induced cough",
+          "probability": "70%"
+        }
+      ]
+    },
+    {
+      "option_text": "No",
+      "next_question_id": "Q141",
+      "potentialDiagnosis": [
+        {
+          "diagnosis": "Non-specific cough",
+          "probability": "50%"
+        }
+      ]
+    }
+  ],
+  "diagnosis": ""
+},{
+  "_id": {
+    "$oid": "6442004ec03169a3584be0c6"
+  },
+  "question_id": "Q63",
+  "chief_complaint": "cough",
+  "is_first_question": false,
+  "is_last_question": false,
+  "question": "Do you have a history of tuberculosis?",
+  "options": [
+    "Yes",
+    "No"
+  ],
+  "type": "single type",
+  "next_path": [
+    {
+      "option_text": "Yes",
+      "next_question_id": "Q142",
+      "potentialDiagnosis": [
+        {
+          "diagnosis": "Tuberculosis",
+          "probability": "80%"
+        }
+      ]
+    },
+    {
+      "option_text": "No",
+      "next_question_id": "Q143",
+      "potentialDiagnosis": [
+        {
+          "diagnosis": "Non-specific cough",
+          "probability": "50%"
+        }
+      ]
+    }
+  ],
+  "diagnosis": ""
+},{
+  "_id": {
+    "$oid": "6442004ec03169a3584be0c7"
+  },
+  "question_id": "Q64",
+  "chief_complaint": "cough",
+  "is_first_question": false,
+  "is_last_question": false,
+  "question": "Do you have a history of aspiration?",
+  "options": [
+    "Yes",
+    "No"
+  ],
+  "type": "single type",
+  "next_path": [
+    {
+      "option_text": "Yes",
+      "next_question_id": "Q144",
+      "potentialDiagnosis": [
+        {
+          "diagnosis": "Aspiration pneumonia",
+          "probability": "70%"
+        }
+      ]
+    },
+    {
+      "option_text": "No",
+      "next_question_id": "Q145",
+      "potentialDiagnosis": [
+        {
+          "diagnosis": "Non-specific cough",
+          "probability": "50%"
+        }
+      ]
+    }
+  ],
+  "diagnosis": ""
+},{
+  "_id": {
+    "$oid": "6442004ec03169a3584be0c8"
+  },
+  "question_id": "Q65",
+  "chief_complaint": "cough",
+  "is_first_question": false,
+  "is_last_question": false,
+  "question": "Do you have a history of medication use?",
+  "options": [
+    "Yes",
+    "No"
+  ],
+  "type": "single type",
+  "next_path": [
+    {
+      "option_text": "Yes",
+      "next_question_id": "Q146",
+      "potentialDiagnosis": [
+        {
+          "diagnosis": "Drug-induced cough",
+          "probability": "70%"
+        }
+      ]
+    },
+    {
+      "option_text": "No",
+      "next_question_id": "Q147",
+      "potentialDiagnosis": [
+        {
+          "diagnosis": "Non-specific cough",
+          "probability": "50%"
+        }
+      ]
+    }
+  ],
+  "diagnosis": ""
+},{
+  "_id": {
+    "$oid": "6442004ec03169a3584be0c9"
+  },
+  "question_id": "Q66",
+  "chief_complaint": "cough",
+  "is_first_question": false,
+  "is_last_question": false,
+  "question": "Do you have a history of pulmonary embolism?",
+  "options": [
+    "Yes",
+    "No"
+  ],
+  "type": "single type",
+  "next_path": [
+    {
+      "option_text": "Yes",
+      "next_question_id": "Q148",
+      "potentialDiagnosis": [
+        {
+          "diagnosis": "Pulmonary embolism",
+          "probability": "80%"
+        }
+      ]
+    },
+    {
+      "option_text": "No",
+      "next_question_id": "Q149",
+      "potentialDiagnosis": [
+        {
+          "diagnosis": "Non-specific cough",
+          "probability": "50%"
+        }
+      ]
+    }
+  ],
+  "diagnosis": ""
+},{
+  "_id": {
+    "$oid": "6442004ec03169a3584be0ca"
+  },
+  "question_id": "Q67",
+  "chief_complaint": "cough",
+  "is_first_question": false,
+  "is_last_question": false,
+  "question": "Do you have a history of bronchiectasis?",
+  "options": [
+    "Yes",
+    "No"
+  ],
+  "type": "single type",
+  "next_path": [
+    {
+      "option_text": "Yes",
+      "next_question_id": "Q150",
+      "potentialDiagnosis": [
+        {
+          "diagnosis": "Bronchiectasis",
+          "probability": "70%"
+        }
+      ]
+    },
+    {
+      "option_text": "No",
+      "next_question_id": "Q151",
+      "potentialDiagnosis": [
+        {
+          "diagnosis": "Non-specific cough",
+          "probability": "50%"
+        }
+      ]
+    }
+  ],
+  "diagnosis": ""
+},{
+  "_id": {
+    "$oid": "6442004ec03169a3584be0cb"
+  },
+  "question_id": "Q68",
+  "chief_complaint": "cough",
+  "is_first_question": false,
+  "is_last_question": false,
+  "question": "Do you have a history of lung fibrosis?",
+  "options": [
+    "Yes",
+    "No"
+  ],
+  "type": "single type",
+  "next_path": [
+    {
+      "option_text": "Yes",
+      "next_question_id": "Q152",
+      "potentialDiagnosis": [
+        {
+          "diagnosis": "Interstitial lung disease",
+          "probability": "70%"
+        }
+      ]
+    },
+    {
+      "option_text": "No",
+      "next_question_id": "Q153",
+      "potentialDiagnosis": [
+        {
+          "diagnosis": "Non-specific cough",
+          "probability": "50%"
+        }
+      ]
+    }
+  ],
+  "diagnosis": ""
+},{
+  "_id": {
+    "$oid": "6442004ec03169a3584be0cc"
+  },
+  "question_id": "Q69",
+  "chief_complaint": "cough",
+  "is_first_question": false,
+  "is_last_question": false,
+  "question": "Do you have a history of pneumonia?",
+  "options": [
+    "Yes",
+    "No"
+  ],
+  "type": "single type",
+  "next_path": [
+    {
+      "option_text": "Yes",
+      "next_question_id": "Q154",
+      "potentialDiagnosis": [
+        {
+          "diagnosis": "Recurrent pneumonia",
+          "probability": "70%"
+        }
+      ]
+    },
+    {
+      "option_text": "No",
+      "next_question_id": "Q155",
+      "potentialDiagnosis": [
+        {
+          "diagnosis": "Non-specific cough",
+          "probability": "50%"
+        }
+      ]
+    }
+  ],
+  "diagnosis": ""
+},{
+  "_id": {
+    "$oid": "6442004ec03169a3584be0cd"
+  },
+  "question_id": "Q70",
+  "chief_complaint": "cough",
+  "is_first_question": false,
+  "is_last_question": false,
+  "question": "Do you have a history of smoking?",
+  "options": [
+    "Yes",
+    "No"
+  ],
+  "type": "single type",
+  "next_path": [
+    {
+      "option_text": "Yes",
+      "next_question_id": "Q156",
+      "potentialDiagnosis": [
+        {
+          "diagnosis": "Smoker's cough",
+          "probability": "80%"
+        }
+      ]
+    },
+    {
+      "option_text": "No",
+      "next_question_id": "Q157",
+      "potentialDiagnosis": [
+        {
+          "diagnosis": "Non-specific cough",
+          "probability": "50%"
+        }
+      ]
+    }
+  ],
+  "diagnosis": ""
+},{
+  "_id": {
+    "$oid": "6442004ec03169a3584be0ce"
+  },
+  "question_id": "Q71",
+  "chief_complaint": "cough",
+  "is_first_question": false,
+  "is_last_question": false,
+  "question": "Do you have a history of lung cancer?",
+  "options": [
+    "Yes",
+    "No"
+  ],
+  "type": "single type",
+  "next_path": [
+    {
+      "option_text": "Yes",
+      "next_question_id": "Q158",
+      "potentialDiagnosis": [
+        {
+          "diagnosis": "Lung cancer",
+          "probability": "80%"
+        }
+      ]
+    },
+    {
+      "option_text": "No",
+      "next_question_id": "Q159",
+      "potentialDiagnosis": [
+        {
+          "diagnosis": "Non-specific cough",
+          "probability": "50%"
+        }
+      ]
+    }
+  ],
+  "diagnosis": ""
+},{
+  "_id": {
+    "$oid": "6442004ec03169a3584be0cf"
+  },
+  "question_id": "Q72",
+  "chief_complaint": "cough",
+  "is_first_question": false,
+  "is_last_question": false,
+  "question": "Do you have a history of heartburn?",
+  "options": [
+    "Yes",
+    "No"
+  ],
+  "type": "single type",
+  "next_path": [
+    {
+      "option_text": "Yes",
+      "next_question_id": "Q160",
+      "potentialDiagnosis": [
+        {
+          "diagnosis": "GERD-induced cough",
+          "probability": "70%"
+        }
+      ]
+    },
+    {
+      "option_text": "No",
+      "next_question_id": "Q161",
+      "potentialDiagnosis": [
+        {
+          "diagnosis": "Non-specific cough",
+          "probability": "50%"
+        }
+      ]
+    }
+  ],
+  "diagnosis": ""
+},{
+  "_id": {
+    "$oid": "6442004ec03169a3584be0d0"
+  },
+  "question_id": "Q73",
+  "chief_complaint": "cough",
+  "is_first_question": false,
+  "is_last_question": false,
+  "question": "Do you have a history of sinus problems?",
+  "options": [
+    "Yes",
+    "No"
+  ],
+  "type": "single type",
+  "next_path": [
+    {
+      "option_text": "Yes",
+      "next_question_id": "Q162",
+      "potentialDiagnosis": [
+        {
+          "diagnosis": "Chronic sinusitis",
+          "probability": "70%"
+        }
+      ]
+    },
+    {
+      "option_text": "No",
+      "next_question_id": "Q163",
+      "potentialDiagnosis": [
+        {
+          "diagnosis": "Non-specific cough",
+          "probability": "50%"
+        }
+      ]
+    }
+  ],
+  "diagnosis": ""
+},{
+  "_id": {
+    "$oid": "6442004ec03169a3584be0d1"
+  },
+  "question_id": "Q74",
+  "chief_complaint": "cough",
+  "is_first_question": false,
+  "is_last_question": false,
+  "question": "Do you have a history of sleep apnea?",
+  "options": [
+    "Yes",
+    "No"
+  ],
+  "type": "single type",
+  "next_path": [
+    {
+      "option_text": "Yes",
+      "next_question_id": "Q164",
+      "potentialDiagnosis": [
+        {
+          "diagnosis": "Obstructive sleep apnea",
+          "probability": "70%"
+        }
+      ]
+    },
+    {
+      "option_text": "No",
+      "next_question_id": "Q165",
+      "potentialDiagnosis": [
+        {
+          "diagnosis": "Non-specific cough",
+          "probability": "50%"
+        }
+      ]
+    }
+  ],
+  "diagnosis": ""
+},{
+  "_id": {
+    "$oid": "6442004ec03169a3584be0d2"
+  },
+  "question_id": "Q75",
+  "chief_complaint": "cough",
+  "is_first_question": false,
+  "is_last_question": false,
+  "question": "Do you have a history of anxiety?",
+  "options": [
+    "Yes",
+    "No"
+  ],
+  "type": "single type",
+  "next_path": [
+    {
+      "option_text": "Yes",
+      "next_question_id": "Q166",
+      "potentialDiagnosis": [
+        {
+          "diagnosis": "Psychogenic cough",
+          "probability": "70%"
+        }
+      ]
+    },
+    {
+      "option_text": "No",
+      "next_question_id": "Q167",
+      "potentialDiagnosis": [
+        {
+          "diagnosis": "Non-specific cough",
+          "probability": "50%"
+        }
+      ]
+    }
+  ],
+  "diagnosis": ""
+},{
+  "_id": {
+    "$oid": "6442004ec03169a3584be0d3"
+  },
+  "question_id": "Q76",
+  "chief_complaint": "cough",
+  "is_first_question": false,
+  "is_last_question": false,
+  "question": "Do you have a history of a chronic cough?",
+  "options": [
+    "Yes",
+    "No"
+  ],
+  "type": "single type",
+  "next_path": [
+    {
+      "option_text": "Yes",
+      "next_question_id": "Q168",
+      "potentialDiagnosis": [
+        {
+          "diagnosis": "Post-infectious cough",
+          "probability": "70%"
+        }
+      ]
+    },
+    {
+      "option_text": "No",
+      "next_question_id": "Q169",
+      "potentialDiagnosis": [
+        {
+          "diagnosis": "Non-specific cough",
+          "probability": "50%"
+        }
+      ]
+    }
+  ],
+  "diagnosis": ""
+},{
+  "_id": {
+    "$oid": "6442004ec03169a3584be0d4"
+  },
+  "question_id": "Q77",
+  "chief_complaint": "cough",
+  "is_first_question": false,
+  "is_last_question": false,
+  "question": "Do you have a history of COPD?",
+  "options": [
+    "Yes",
+    "No"
+  ],
+  "type": "single type",
+  "next_path": [
+    {
+      "option_text": "Yes",
+      "next_question_id": "Q170",
+      "potentialDiagnosis": [
+        {
+          "diagnosis": "COPD exacerbation",
+          "probability": "70%"
+        }
+      ]
+    },
+    {
+      "option_text": "No",
+      "next_question_id": "Q171",
+      "potentialDiagnosis": [
+        {
+          "diagnosis": "Non-specific cough",
+          "probability": "50%"
+        }
+      ]
+    }
+  ],
+  "diagnosis": ""
+},{
+  "_id": {
+    "$oid": "6442004ec03169a3584be0d5"
+  },
+  "question_id": "Q78",
+  "chief_complaint": "cough",
+  "is_first_question": false,
+  "is_last_question": false,
+  "question": "Do you have a history of asthma?",
+  "options": [
+    "Yes",
+    "No"
+  ],
+  "type": "single type",
+  "next_path": [
+    {
+      "option_text": "Yes",
+      "next_question_id": "Q172",
+      "potentialDiagnosis": [
+        {
+          "diagnosis": "Asthma exacerbation",
+          "probability": "70%"
+        }
+      ]
+    },
+    {
+      "option_text": "No",
+      "next_question_id": "Q173",
+      "potentialDiagnosis": [
+        {
+          "diagnosis": "Non-specific cough",
+          "probability": "50%"
+        }
+      ]
+    }
+  ],
+  "diagnosis": ""
+},{
+  "_id": {
+    "$oid": "6442004ec03169a3584be0d6"
+  },
+  "question_id": "Q79",
+  "chief_complaint": "cough",
+  "is_first_question": false,
+  "is_last_question": false,
+  "question": "Have you recently traveled to a foreign country?",
+  "options": [
+    "Yes",
+    "No"
+  ],
+  "type": "single type",
+  "next_path": [
+    {
+      "option_text": "Yes",
+      "next_question_id": "Q174",
+      "potentialDiagnosis": [
+        {
+          "diagnosis": "Travel-related infection",
+          "probability": "70%"
+        }
+      ]
+    },
+    {
+      "option_text": "No",
+      "next_question_id": "Q175",
+      "potentialDiagnosis": [
+        {
+          "diagnosis": "Non-specific cough",
+          "probability": "50%"
+        }
+      ]
+    }
+  ],
+  "diagnosis": ""
+},{
+  "_id": {
+    "$oid": "6442004ec03169a3584be0d7"
+  },
+  "question_id": "Q80",
+  "chief_complaint": "cough",
+  "is_first_question": false,
+  "is_last_question": false,
+  "question": "Have you been exposed to any irritants or pollutants?",
+  "options": [
+    "Yes",
+    "No"
+  ],
+  "type": "single type",
+  "next_path": [
+    {
+      "option_text": "Yes",
+      "next_question_id": "Q176",
+      "potentialDiagnosis": [
+        {
+          "diagnosis": "Environmental irritation-induced cough",
+          "probability": "70%"
+        }
+      ]
+    },
+    {
+      "option_text": "No",
+      "next_question_id": "Q177",
+      "potentialDiagnosis": [
+        {
+          "diagnosis": "Non-specific cough",
+          "probability": "50%"
+        }
+      ]
+    }
+  ],
+  "diagnosis": ""
+},{
+  "_id": {
+    "$oid": "6442004ec03169a3584be0d8"
+  },
+  "question_id": "Q81",
+  "chief_complaint": "cough",
+  "is_first_question": false,
+  "is_last_question": false,
+  "question": "Have you been diagnosed with any immunodeficiency disorder?",
+  "options": [
+    "Yes",
+    "No"
+  ],
+  "type": "single type",
+  "next_path": [
+    {
+      "option_text": "Yes",
+      "next_question_id": "Q178",
+      "potentialDiagnosis": [
+        {
+          "diagnosis": "Immunodeficiency-related infection",
+          "probability": "70%"
+        }
+      ]
+    },
+    {
+      "option_text": "No",
+      "next_question_id": "Q179",
+      "potentialDiagnosis": [
+        {
+          "diagnosis": "Non-specific cough",
+          "probability": "50%"
+        }
+      ]
+    }
+  ],
+  "diagnosis": ""
+},{
+  "_id": {
+    "$oid": "6442004ec03169a3584be0d9"
+  },
+  "question_id": "Q82",
+  "chief_complaint": "cough",
+  "is_first_question": false,
+  "is_last_question": false,
+  "question": "Have you recently started taking any new medications?",
+  "options": [
+    "Yes",
+    "No"
+  ],
+  "type": "single type",
+  "next_path": [
+    {
+      "option_text": "Yes",
+      "next_question_id": "Q180",
+      "potentialDiagnosis": [
+        {
+          "diagnosis": "Drug-induced cough",
+          "probability": "70%"
+        }
+      ]
+    },
+    {
+      "option_text": "No",
+      "next_question_id": "Q181",
+      "potentialDiagnosis": [
+        {
+          "diagnosis": "Non-specific cough",
+          "probability": "50%"
+        }
+      ]
+    }
+  ],
+  "diagnosis": ""
+},{
+  "_id": {
+    "$oid": "6442004ec03169a3584be0da"
+  },
+  "question_id": "Q83",
+  "chief_complaint": "cough",
+  "is_first_question": false,
+  "is_last_question": false,
+  "question": "Do you have a history of acid reflux?",
+  "options": [
+    "Yes",
+    "No"
+  ],
+  "type": "single type",
+  "next_path": [
+    {
+      "option_text": "Yes",
+      "next_question_id": "Q182",
+      "potentialDiagnosis": [
+        {
+          "diagnosis": "GERD-induced cough",
+          "probability": "70%"
+        }
+      ]
+    },
+    {
+      "option_text": "No",
+      "next_question_id": "Q183",
+      "potentialDiagnosis": [
+        {
+          "diagnosis": "Non-specific cough",
+          "probability": "50%"
+        }
+      ]
+    }
+  ],
+  "diagnosis": ""
+},{
+  "_id": {
+    "$oid": "6442004ec03169a3584be0db"
+  },
+  "question_id": "Q84",
+  "chief_complaint": "cough",
+  "is_first_question": false,
+  "is_last_question": false,
+  "question": "Do you have a history of bronchiectasis?",
+  "options": [
+    "Yes",
+    "No"
+  ],
+  "type": "single type",
+  "next_path": [
+    {
+      "option_text": "Yes",
+      "next_question_id": "Q184",
+      "potentialDiagnosis": [
+        {
+          "diagnosis": "Bronchiectasis-related cough",
+          "probability": "70%"
+        }
+      ]
+    },
+    {
+      "option_text": "No",
+      "next_question_id": "Q185",
+      "potentialDiagnosis": [
+        {
+          "diagnosis": "Non-specific cough",
+          "probability": "50%"
+        }
+      ]
+    }
+  ],
+  "diagnosis": ""
+},{
+  "_id": {
+    "$oid": "6442004ec03169a3584be0dc"
+  },
+  "question_id": "Q86",
+  "chief_complaint": "cough",
+  "is_first_question": false,
+  "is_last_question": false,
+  "question": "Do you have a history of tuberculosis?",
+  "options": [
+    "Yes",
+    "No"
+  ],
+  "type": "single type",
+  "next_path": [
+    {
+      "option_text": "Yes",
+      "next_question_id": "Q186",
+      "potentialDiagnosis": [
+        {
+          "diagnosis": "Tuberculosis",
+          "probability": "70%"
+        }
+      ]
+    },
+    {
+      "option_text": "No",
+      "next_question_id": "Q187",
+      "potentialDiagnosis": [
+        {
+          "diagnosis": "Non-specific cough",
+          "probability": "50%"
+        }
+      ]
+    }
+  ],
+  "diagnosis": ""
+},{
+  "_id": {
+    "$oid": "6442004ec03169a3584be0dd"
+  },
+  "question_id": "Q87",
+  "chief_complaint": "cough",
+  "is_first_question": false,
+  "is_last_question": false,
+  "question": "Do you have a history of lung fibrosis?",
+  "options": [
+    "Yes",
+    "No"
+  ],
+  "type": "single type",
+  "next_path": [
+    {
+      "option_text": "Yes",
+      "next_question_id": "Q188",
+      "potentialDiagnosis": [
+        {
+          "diagnosis": "Interstitial lung disease-related cough",
+          "probability": "70%"
+        }
+      ]
+    },
+    {
+      "option_text": "No",
+      "next_question_id": "Q189",
+      "potentialDiagnosis": [
+        {
+          "diagnosis": "Non-specific cough",
+          "probability": "50%"
+        }
+      ]
+    }
+  ],
+  "diagnosis": ""
+},{
+  "_id": {
+    "$oid": "6442004ec03169a3584be0de"
+  },
+  "question_id": "Q88",
+  "chief_complaint": "cough",
+  "is_first_question": false,
+  "is_last_question": false,
+  "question": "Do you have a history of congestive heart failure?",
+  "options": [
+    "Yes",
+    "No"
+  ],
+  "type": "single type",
+  "next_path": [
+    {
+      "option_text": "Yes",
+      "next_question_id": "Q190",
+      "potentialDiagnosis": [
+        {
+          "diagnosis": "Cardiac-related cough",
+          "probability": "70%"
+        }
+      ]
+    },
+    {
+      "option_text": "No",
+      "next_question_id": "Q191",
+      "potentialDiagnosis": [
+        {
+          "diagnosis": "Non-specific cough",
+          "probability": "50%"
+        }
+      ]
+    }
+  ],
+  "diagnosis": ""
+},{
+  "_id": {
+    "$oid": "6442004ec03169a3584be0df"
+  },
+  "question_id": "Q90",
+  "chief_complaint": "cough",
+  "is_first_question": false,
+  "is_last_question": false,
+  "question": "Do you have a history of lung cancer?",
+  "options": [
+    "Yes",
+    "No"
+  ],
+  "type": "single type",
+  "next_path": [
+    {
+      "option_text": "Yes",
+      "next_question_id": "Q192",
+      "potentialDiagnosis": [
+        {
+          "diagnosis": "Lung cancer-related cough",
+          "probability": "70%"
+        }
+      ]
+    },
+    {
+      "option_text": "No",
+      "next_question_id": "Q193",
+      "potentialDiagnosis": [
+        {
+          "diagnosis": "Non-specific cough",
+          "probability": "50%"
+        }
+      ]
+    }
+  ],
+  "diagnosis": ""
+},{
+  "_id": {
+    "$oid": "6442004ec03169a3584be0e0"
+  },
+  "question_id": "Q91",
+  "chief_complaint": "cough",
+  "is_first_question": false,
+  "is_last_question": false,
+  "question": "Have you been exposed to any animals or pets?",
+  "options": [
+    "Yes",
+    "No"
+  ],
+  "type": "single type",
+  "next_path": [
+    {
+      "option_text": "Yes",
+      "next_question_id": "Q194",
+      "potentialDiagnosis": [
+        {
+          "diagnosis": "Animal exposure-related cough",
+          "probability": "70%"
+        }
+      ]
+    },
+    {
+      "option_text": "No",
+      "next_question_id": "Q195",
+      "potentialDiagnosis": [
+        {
+          "diagnosis": "Non-specific cough",
+          "probability": "50%"
+        }
+      ]
+    }
+  ],
+  "diagnosis": ""
+},{
+  "_id": {
+    "$oid": "6442004ec03169a3584be0e1"
+  },
+  "question_id": "Q92",
+  "chief_complaint": "cough",
+  "is_first_question": false,
+  "is_last_question": false,
+  "question": "Do you have a history of lung infections?",
+  "options": [
+    "Yes",
+    "No"
+  ],
+  "type": "single type",
+  "next_path": [
+    {
+      "option_text": "Yes",
+      "next_question_id": "Q196",
+      "potentialDiagnosis": [
+        {
+          "diagnosis": "Chronic infection-related cough",
+          "probability": "70%"
+        }
+      ]
+    },
+    {
+      "option_text": "No",
+      "next_question_id": "Q197",
+      "potentialDiagnosis": [
+        {
+          "diagnosis": "Non-specific cough",
+          "probability": "50%"
+        }
+      ]
+    }
+  ],
+  "diagnosis": ""
+},{
+  "_id": {
+    "$oid": "6442004ec03169a3584be0e2"
+  },
+  "question_id": "Q94",
+  "chief_complaint": "cough",
+  "is_first_question": false,
+  "is_last_question": false,
+  "question": "Do you have a history of smoking?",
+  "options": [
+    "Yes",
+    "No"
+  ],
+  "type": "single type",
+  "next_path": [
+    {
+      "option_text": "Yes",
+      "next_question_id": "Q198",
+      "potentialDiagnosis": [
+        {
+          "diagnosis": "Smoking-related cough",
+          "probability": "70%"
+        }
+      ]
+    },
+    {
+      "option_text": "No",
+      "next_question_id": "Q199",
+      "potentialDiagnosis": [
+        {
+          "diagnosis": "Non-specific cough",
+          "probability": "50%"
+        }
+      ]
+    }
+  ],
+  "diagnosis": ""
+},{
+  "_id": {
+    "$oid": "6442004ec03169a3584be0e3"
+  },
+  "question_id": "Q95",
+  "chief_complaint": "cough",
+  "is_first_question": false,
+  "is_last_question": false,
+  "question": "Do you have a history of drug abuse?",
+  "options": [
+    "Yes",
+    "No"
+  ],
+  "type": "single type",
+  "next_path": [
+    {
+      "option_text": "Yes",
+      "next_question_id": "Q200",
+      "potentialDiagnosis": [
+        {
+          "diagnosis": "Drug abuse-related cough",
+          "probability": "70%"
+        }
+      ]
+    },
+    {
+      "option_text": "No",
+      "next_question_id": "Q201",
+      "potentialDiagnosis": [
+        {
+          "diagnosis": "Non-specific cough",
+          "probability": "50%"
+        }
+      ]
+    }
+  ],
+  "diagnosis": ""
+},{
+  "_id": {
+    "$oid": "6442004ec03169a3584be0e4"
+  },
+  "question_id": "Q96",
+  "chief_complaint": "cough",
+  "is_first_question": false,
+  "is_last_question": false,
+  "question": "Do you have a history of alcohol abuse?",
+  "options": [
+    "Yes",
+    "No"
+  ],
+  "type": "single type",
+  "next_path": [
+    {
+      "option_text": "Yes",
+      "next_question_id": "Q202",
+      "potentialDiagnosis": [
+        {
+          "diagnosis": "Alcohol abuse-related cough",
+          "probability": "70%"
+        }
+      ]
+    },
+    {
+      "option_text": "No",
+      "next_question_id": "Q203",
+      "potentialDiagnosis": [
+        {
+          "diagnosis": "Non-specific cough",
+          "probability": "50%"
+        }
+      ]
+    }
+  ],
+  "diagnosis": ""
+},{
+  "_id": {
+    "$oid": "6442004ec03169a3584be0e5"
+  },
+  "question_id": "Q97",
+  "chief_complaint": "cough",
+  "is_first_question": false,
+  "is_last_question": false,
+  "question": "Do you have a history of drug-induced liver disease?",
+  "options": [
+    "Yes",
+    "No"
+  ],
+  "type": "single type",
+  "next_path": [
+    {
+      "option_text": "Yes",
+      "next_question_id": "Q204",
+      "potentialDiagnosis": [
+        {
+          "diagnosis": "Drug-induced liver disease-related cough",
+          "probability": "70%"
+        }
+      ]
+    },
+    {
+      "option_text": "No",
+      "next_question_id": "Q205",
+      "potentialDiagnosis": [
+        {
+          "diagnosis": "Non-specific cough",
+          "probability": "50%"
+        }
+      ]
+    }
+  ],
+  "diagnosis": ""
+},{
+  "_id": {
+    "$oid": "6442004ec03169a3584be0e6"
+  },
+  "question_id": "Q106",
+  "chief_complaint": "cough",
+  "is_first_question": false,
+  "is_last_question": false,
+  "question": "Which medication did you start taking?",
+  "options": [
+    "PCM"
+  ],
+  "type": "text type",
+  "next_path": [
+    {
+      "option_text": "PCM",
+      "next_question_id": "Q107",
+      "potentialDiagnosis": [
+        {
+          "diagnosis": "Non-specific cough",
+          "probability": "50%"
+        }
+      ]
+    }
+  ],
+  "diagnosis": "Drug-induced cough"
+},{
+  "_id": {
+    "$oid": "6442004ec03169a3584be0e7"
+  },
+  "question_id": "Q107",
+  "chief_complaint": "cough",
+  "is_first_question": false,
+  "is_last_question": false,
+  "question": "Do you have shortness of breath or difficulty breathing?",
+  "options": [
+    "Yes",
+    "No"
+  ],
+  "type": "single type",
+  "next_path": [
+    {
+      "option_text": "Yes",
+      "next_question_id": "P116",
+      "potentialDiagnosis": [
+        {
+          "diagnosis": "Pulmonary embolism",
+          "probability": "80%"
+        }
+      ]
+    },
+    {
+      "option_text": "No",
+      "next_question_id": "P117",
+      "potentialDiagnosis": [
+        {
+          "diagnosis": "Non-specific cough",
+          "probability": "50%"
+        }
+      ]
+    }
+  ],
+  "diagnosis": ""
+},{
+  "_id": {
+    "$oid": "6442004ec03169a3584be0e8"
+  },
+  "question_id": "Q108",
+  "chief_complaint": "cough",
+  "is_first_question": false,
+  "is_last_question": false,
+  "question": "Do you have chest pain or discomfort?",
+  "options": [
+    "Yes",
+    "No"
+  ],
+  "type": "single type",
+  "next_path": [
+    {
+      "option_text": "Yes",
+      "next_question_id": "P118",
+      "potentialDiagnosis": [
+        {
+          "diagnosis": "Pleural effusion",
+          "probability": "70%"
+        }
+      ]
+    },
+    {
+      "option_text": "No",
+      "next_question_id": "P119",
+      "potentialDiagnosis": [
+        {
+          "diagnosis": "Pneumonia",
+          "probability": "50%"
+        }
+      ]
+    }
+  ],
+  "diagnosis": ""
+},{
+  "_id": {
+    "$oid": "6442004ec03169a3584be0e9"
+  },
+  "question_id": "Q109",
+  "chief_complaint": "cough",
+  "is_first_question": false,
+  "is_last_question": false,
+  "question": "Do you have wheezing or shortness of breath?",
+  "options": [
+    "Yes",
+    "No"
+  ],
+  "type": "single type",
+  "next_path": [
+    {
+      "option_text": "Yes",
+      "next_question_id": "P120",
+      "potentialDiagnosis": [
+        {
+          "diagnosis": "Asthma",
+          "probability": "70%"
+        }
+      ]
+    },
+    {
+      "option_text": "No",
+      "next_question_id": "P121",
+      "potentialDiagnosis": [
+        {
+          "diagnosis": "Non-specific cough",
+          "probability": "50%"
+        }
+      ]
+    }
+  ],
+  "diagnosis": "Bronchitis"
+},{
+  "_id": {
+    "$oid": "6442004ec03169a3584be0ea"
+  },
+  "question_id": "Q110",
+  "chief_complaint": "cough",
+  "is_first_question": false,
+  "is_last_question": false,
+  "question": "Do you have fever or chills?",
+  "options": [
+    "Yes",
+    "No"
+  ],
+  "type": "single type",
+  "next_path": [
+    {
+      "option_text": "Yes",
+      "next_question_id": "Q108",
+      "potentialDiagnosis": [
+        {
+          "diagnosis": "Pneumonia",
+          "probability": "75%"
+        }
+      ]
+    },
+    {
+      "option_text": "No",
+      "next_question_id": "P122",
+      "potentialDiagnosis": [
+        {
+          "diagnosis": "Bronchitis",
+          "probability": "50%"
+        }
+      ]
+    }
+  ],
+  "diagnosis": ""
+},{
+  "_id": {
+    "$oid": "6442004ec03169a3584be0eb"
+  },
+  "question_id": "Q111",
+  "chief_complaint": "cough",
+  "is_first_question": false,
+  "is_last_question": false,
+  "question": "Have you been exposed to irritants or allergens such as smoke or pollen?",
+  "options": [
+    "Yes",
+    "No"
+  ],
+  "type": "single type",
+  "next_path": [
+    {
+      "option_text": "Yes",
+      "next_question_id": "P123",
+      "potentialDiagnosis": [
+        {
+          "diagnosis": "Allergic cough",
+          "probability": "60%"
+        }
+      ]
+    },
+    {
+      "option_text": "No",
+      "next_question_id": "P124",
+      "potentialDiagnosis": [
+        {
+          "diagnosis": "Non-specific cough",
+          "probability": "50%"
+        }
+      ]
+    }
+  ],
+  "diagnosis": ""
+},{
+  "_id": {
+    "$oid": "6442004ec03169a3584be0ec"
+  },
+  "question_id": "Q112",
+  "chief_complaint": "cough",
+  "is_first_question": false,
+  "is_last_question": false,
+  "question": "Do you have loss of appetite or unexplained weight loss?",
+  "options": [
+    "Yes",
+    "No"
+  ],
+  "type": "single type",
+  "next_path": [
+    {
+      "option_text": "Yes",
+      "next_question_id": "P125",
+      "potentialDiagnosis": [
+        {
+          "diagnosis": "Tuberculosis",
+          "probability": "90%"
+        }
+      ]
+    }
+  ],
+  "diagnosis": ""
+},{
+  "_id": {
+    "$oid": "6442004ec03169a3584be0ed"
+  },
+  "question_id": "Q113",
+  "chief_complaint": "cough",
+  "is_first_question": false,
+  "is_last_question": false,
+  "question": "Have you been exposed to secondhand smoke?",
+  "options": [
+    "Yes",
+    "No"
+  ],
+  "type": "single type",
+  "next_path": [
+    {
+      "option_text": "Yes",
+      "next_question_id": "P126",
+      "potentialDiagnosis": [
+        {
+          "diagnosis": "Secondhand smoke exposure cough",
+          "probability": "70%"
+        }
+      ]
+    },
+    {
+      "option_text": "No",
+      "next_question_id": "P127",
+      "potentialDiagnosis": [
+        {
+          "diagnosis": "Non-specific cough",
+          "probability": "50%"
+        }
+      ]
+    }
+  ],
+  "diagnosis": ""
+},{
+  "_id": {
+    "$oid": "6442004ec03169a3584be0ee"
+  },
+  "question_id": "Q114",
+  "chief_complaint": "cough",
+  "is_first_question": false,
+  "is_last_question": false,
+  "question": "Do you have pain or pressure around your eyes or cheeks?",
+  "options": [
+    "Yes",
+    "No"
+  ],
+  "type": "single type",
+  "next_path": [
+    {
+      "option_text": "Yes",
+      "next_question_id": "P128",
+      "potentialDiagnosis": [
+        {
+          "diagnosis": "Sinusitis",
+          "probability": "80%"
+        }
+      ]
+    },
+    {
+      "option_text": "No",
+      "next_question_id": "P129",
+      "potentialDiagnosis": [
+        {
+          "diagnosis": "Non-specific cough",
+          "probability": "50%"
+        }
+      ]
+    }
+  ],
+  "diagnosis": ""
+},{
+  "_id": {
+    "$oid": "6442004ec03169a3584be0ef"
+  },
+  "question_id": "Q115",
+  "chief_complaint": "cough",
+  "is_first_question": false,
+  "is_last_question": false,
+  "question": "Have you recently had a cold or flu?",
+  "options": [
+    "Yes",
+    "No"
+  ],
+  "type": "single type",
+  "next_path": [
+    {
+      "option_text": "Yes",
+      "next_question_id": "P130",
+      "potentialDiagnosis": [
+        {
+          "diagnosis": "Post-viral cough",
+          "probability": "60%"
+        }
+      ]
+    },
+    {
+      "option_text": "No",
+      "next_question_id": "P131",
+      "potentialDiagnosis": [
+        {
+          "diagnosis": "Non-specific cough",
+          "probability": "50%"
+        }
+      ]
+    }
+  ],
+  "diagnosis": ""
+},{
+  "_id": {
+    "$oid": "6442004ec03169a3584be0f0"
+  },
+  "question_id": "P116",
+  "chief_complaint": "cough",
+  "is_first_question": false,
+  "is_last_question": false,
+  "question": "Do you have leg pain, swelling or redness?",
+  "options": [
+    "Yes",
+    "No"
+  ],
+  "type": "single type",
+  "next_path": [
+    {
+      "option_text": "Yes",
+      "next_question_id": "P132",
+      "potentialDiagnosis": [
+        {
+          "diagnosis": "Deep vein thrombosis",
+          "probability": "80%"
+        }
+      ]
+    },
+    {
+      "option_text": "No",
+      "next_question_id": "P133",
+      "potentialDiagnosis": [
+        {
+          "diagnosis": "Pulmonary embolism",
+          "probability": "50%"
+        }
+      ]
+    }
+  ],
+  "diagnosis": ""
+},{
+  "_id": {
+    "$oid": "6442004ec03169a3584be0f1"
+  },
+  "question_id": "P117",
+  "chief_complaint": "cough",
+  "is_first_question": false,
+  "is_last_question": false,
+  "question": "Do you have heartburn or acid reflux?",
+  "options": [
+    "Yes",
+    "No"
+  ],
+  "type": "single type",
+  "next_path": [
+    {
+      "option_text": "Yes",
+      "next_question_id": "P134",
+      "potentialDiagnosis": [
+        {
+          "diagnosis": "Gastroesophageal reflux disease (GERD)",
+          "probability": "60%"
+        }
+      ]
+    },
+    {
+      "option_text": "No",
+      "next_question_id": "P135",
+      "potentialDiagnosis": [
+        {
+          "diagnosis": "Non-specific cough",
+          "probability": "50%"
+        }
+      ]
+    }
+  ],
+  "diagnosis": ""
+},{
+  "_id": {
+    "$oid": "6442004ec03169a3584be0f2"
+  },
+  "question_id": "P118",
+  "chief_complaint": "cough",
+  "is_first_question": false,
+  "is_last_question": false,
+  "question": "Do you have shortness of breath or difficulty breathing?",
+  "options": [
+    "Yes",
+    "No"
+  ],
+  "type": "single type",
+  "next_path": [
+    {
+      "option_text": "Yes",
+      "next_question_id": "P116",
+      "potentialDiagnosis": [
+        {
+          "diagnosis": "Pulmonary embolism",
+          "probability": "70%"
+        }
+      ]
+    },
+    {
+      "option_text": "No",
+      "next_question_id": "P136",
+      "potentialDiagnosis": [
+        {
+          "diagnosis": "Pleural effusion",
+          "probability": "50%"
+        }
+      ]
+    }
+  ],
+  "diagnosis": ""
+},{
+  "_id": {
+    "$oid": "6442004ec03169a3584be0f3"
+  },
+  "question_id": "P119",
+  "chief_complaint": "cough",
+  "is_first_question": false,
+  "is_last_question": false,
+  "question": "Do you have a cough that produces phlegm or mucus?",
+  "options": [
+    "Yes",
+    "No"
+  ],
+  "type": "single type",
+  "next_path": [
+    {
+      "option_text": "Yes",
+      "next_question_id": "P137",
+      "potentialDiagnosis": [
+        {
+          "diagnosis": "Pneumonia",
+          "probability": "70%"
+        }
+      ]
+    },
+    {
+      "option_text": "No",
+      "next_question_id": "P138",
+      "potentialDiagnosis": [
+        {
+          "diagnosis": "Non-specific cough",
+          "probability": "50%"
+        }
+      ]
+    }
+  ],
+  "diagnosis": ""
+},{
+  "_id": {
+    "$oid": "6442004ec03169a3584be0f4"
+  },
+  "question_id": "P120",
+  "chief_complaint": "cough",
+  "is_first_question": false,
+  "is_last_question": false,
+  "question": "Do you have a history of allergies or asthma?",
+  "options": [
+    "Yes",
+    "No"
+  ],
+  "type": "single type",
+  "next_path": [
+    {
+      "option_text": "Yes",
+      "next_question_id": "P139",
+      "potentialDiagnosis": [
+        {
+          "diagnosis": "Asthma",
+          "probability": "80%"
+        }
+      ]
+    },
+    {
+      "option_text": "No",
+      "next_question_id": "P140",
+      "potentialDiagnosis": [
+        {
+          "diagnosis": "Bronchitis",
+          "probability": "50%"
+        }
+      ]
+    }
+  ],
+  "diagnosis": ""
+},{
+  "_id": {
+    "$oid": "6442004ec03169a3584be0f5"
+  },
+  "question_id": "P121",
+  "chief_complaint": "cough",
+  "is_first_question": false,
+  "is_last_question": false,
+  "question": "Do you have a history of smoking or exposure to secondhand smoke?",
+  "options": [
+    "Yes",
+    "No"
+  ],
+  "type": "single type",
+  "next_path": [
+    {
+      "option_text": "Yes",
+      "next_question_id": "P141",
+      "potentialDiagnosis": [
+        {
+          "diagnosis": "Chronic obstructive pulmonary disease (COPD)",
+          "probability": "70%"
+        }
+      ]
+    },
+    {
+      "option_text": "No",
+      "next_question_id": "P142",
+      "potentialDiagnosis": [
+        {
+          "diagnosis": "Non-specific cough",
+          "probability": "50%"
+        }
+      ]
+    }
+  ],
+  "diagnosis": "Bronchitis"
+},{
+  "_id": {
+    "$oid": "6442004ec03169a3584be0f6"
+  },
+  "question_id": "P122",
+  "chief_complaint": "cough",
+  "is_first_question": false,
+  "is_last_question": false,
+  "question": "Do you have a sore throat?",
+  "options": [
+    "Yes",
+    "No"
+  ],
+  "type": "single type",
+  "next_path": [
+    {
+      "option_text": "Yes",
+      "next_question_id": "P143",
+      "potentialDiagnosis": [
+        {
+          "diagnosis": "Post-nasal drip",
+          "probability": "60%"
+        }
+      ]
+    },
+    {
+      "option_text": "No",
+      "next_question_id": "P144",
+      "potentialDiagnosis": [
+        {
+          "diagnosis": "Non-specific cough",
+          "probability": "50%"
+        }
+      ]
+    }
+  ],
+  "diagnosis": ""
+},{
+  "_id": {
+    "$oid": "6442004ec03169a3584be0f7"
+  },
+  "question_id": "P123",
+  "chief_complaint": "cough",
+  "is_first_question": false,
+  "is_last_question": false,
+  "question": "Do you have itchy eyes or a runny nose?",
+  "options": [
+    "Yes",
+    "No"
+  ],
+  "type": "single type",
+  "next_path": [
+    {
+      "option_text": "Yes",
+      "next_question_id": "P145",
+      "potentialDiagnosis": [
+        {
+          "diagnosis": "Allergic cough",
+          "probability": "70%"
+        }
+      ]
+    },
+    {
+      "option_text": "No",
+      "next_question_id": "P146",
+      "potentialDiagnosis": [
+        {
+          "diagnosis": "Non-specific cough",
+          "probability": "50%"
+        }
+      ]
+    }
+  ],
+  "diagnosis": "Allergic cough"
+},{
+  "_id": {
+    "$oid": "6442004ec03169a3584be0f8"
+  },
+  "question_id": "P124",
+  "chief_complaint": "cough",
+  "is_first_question": false,
+  "is_last_question": false,
+  "question": "Do you have heartburn or acid reflux?",
+  "options": [
+    "Yes",
+    "No"
+  ],
+  "type": "single type",
+  "next_path": [
+    {
+      "option_text": "Yes",
+      "next_question_id": "P134",
+      "potentialDiagnosis": [
+        {
+          "diagnosis": "Gastroesophageal reflux disease (GERD)",
+          "probability": "60%"
+        }
+      ]
+    },
+    {
+      "option_text": "No",
+      "next_question_id": "P147",
+      "potentialDiagnosis": [
+        {
+          "diagnosis": "Non-specific cough",
+          "probability": "50%"
+        }
+      ]
+    }
+  ],
+  "diagnosis": ""
+},{
+  "_id": {
+    "$oid": "6442004ec03169a3584be0f9"
+  },
+  "question_id": "P125",
+  "chief_complaint": "cough",
+  "is_first_question": false,
+  "is_last_question": false,
+  "question": "Do you have a cough that lasts more than 3 weeks?",
+  "options": [
+    "Yes",
+    "No"
+  ],
+  "type": "single type",
+  "next_path": [
+    {
+      "option_text": "Yes",
+      "next_question_id": "P148",
+      "potentialDiagnosis": [
+        {
+          "diagnosis": "Chronic bronchitis",
+          "probability": "80%"
+        }
+      ]
+    },
+    {
+      "option_text": "No",
+      "next_question_id": "P149",
+      "potentialDiagnosis": [
+        {
+          "diagnosis": "Tuberculosis",
+          "probability": "50%"
+        }
+      ]
+    }
+  ],
+  "diagnosis": "Tuberculosis"
+},{
+  "_id": {
+    "$oid": "6442004ec03169a3584be0fa"
+  },
+  "question_id": "P126",
+  "chief_complaint": "cough",
+  "is_first_question": false,
+  "is_last_question": false,
+  "question": "Do you have wheezing or shortness of breath?",
+  "options": [
+    "Yes",
+    "No"
+  ],
+  "type": "single type",
+  "next_path": [
+    {
+      "option_text": "Yes",
+      "next_question_id": "P120",
+      "potentialDiagnosis": [
+        {
+          "diagnosis": "Asthma",
+          "probability": "70%"
+        }
+      ]
+    },
+    {
+      "option_text": "No",
+      "next_question_id": "P150",
+      "potentialDiagnosis": [
+        {
+          "diagnosis": "Secondhand smoke exposure cough",
+          "probability": "50%"
+        }
+      ]
+    }
+  ],
+  "diagnosis": "Secondhand smoke exposure cough"
+},{
+  "_id": {
+    "$oid": "6442004ec03169a3584be0fb"
+  },
+  "question_id": "P127",
+  "chief_complaint": "cough",
+  "is_first_question": false,
+  "is_last_question": false,
+  "question": "Do you have heartburn or acid reflux?",
+  "options": [
+    "Yes",
+    "No"
+  ],
+  "type": "single type",
+  "next_path": [
+    {
+      "option_text": "Yes",
+      "next_question_id": "P134",
+      "potentialDiagnosis": [
+        {
+          "diagnosis": "Gastroesophageal reflux disease (GERD)",
+          "probability": "60%"
+        }
+      ]
+    },
+    {
+      "option_text": "No",
+      "next_question_id": "P151",
+      "potentialDiagnosis": [
+        {
+          "diagnosis": "Non-specific cough",
+          "probability": "50%"
+        }
+      ]
+    }
+  ],
+  "diagnosis": ""
+},{
+  "_id": {
+    "$oid": "6442004ec03169a3584be0fc"
+  },
+  "question_id": "P128",
+  "chief_complaint": "cough",
+  "is_first_question": false,
+  "is_last_question": false,
+  "question": "Do you have a headache or tooth pain?",
+  "options": [
+    "Yes",
+    "No"
+  ],
+  "type": "single type",
+  "next_path": [
+    {
+      "option_text": "Yes",
+      "next_question_id": "P152",
+      "potentialDiagnosis": [
+        {
+          "diagnosis": "Dental abscess",
+          "probability": "70%"
+        }
+      ]
+    },
+    {
+      "option_text": "No",
+      "next_question_id": "P153",
+      "potentialDiagnosis": [
+        {
+          "diagnosis": "Sinusitis",
+          "probability": "50%"
+        }
+      ]
+    }
+  ],
+  "diagnosis": "Sinusitis"
+},{
+  "_id": {
+    "$oid": "6442004ec03169a3584be0fd"
+  },
+  "question_id": "P129",
+  "chief_complaint": "cough",
+  "is_first_question": false,
+  "is_last_question": false,
+  "question": "Do you have a runny or stuffy nose?",
+  "options": [
+    "Yes",
+    "No"
+  ],
+  "type": "single type",
+  "next_path": [
+    {
+      "option_text": "Yes",
+      "next_question_id": "P154",
+      "potentialDiagnosis": [
+        {
+          "diagnosis": "Upper respiratory infection",
+          "probability": "60%"
+        }
+      ]
+    },
+    {
+      "option_text": "No",
+      "next_question_id": "P155",
+      "potentialDiagnosis": [
+        {
+          "diagnosis": "Non-specific cough",
+          "probability": "50%"
+        }
+      ]
+    }
+  ],
+  "diagnosis": ""
+},{
+  "_id": {
+    "$oid": "6442004ec03169a3584be0fe"
+  },
+  "question_id": "P130",
+  "chief_complaint": "cough",
+  "is_first_question": false,
+  "is_last_question": false,
+  "question": "Do you have wheezing or shortness of breath?",
+  "options": [
+    "Yes",
+    "No"
+  ],
+  "type": "single type",
+  "next_path": [
+    {
+      "option_text": "Yes",
+      "next_question_id": "P120",
+      "potentialDiagnosis": [
+        {
+          "diagnosis": "Asthma",
+          "probability": "70%"
+        }
+      ]
+    },
+    {
+      "option_text": "No",
+      "next_question_id": "P156",
+      "potentialDiagnosis": [
+        {
+          "diagnosis": "Post-viral cough",
+          "probability": "50%"
+        }
+      ]
+    }
+  ],
+  "diagnosis": "Post-viral cough"
+},{
+  "_id": {
+    "$oid": "6442004ec03169a3584be0ff"
+  },
+  "question_id": "P131",
+  "chief_complaint": "cough",
+  "is_first_question": false,
+  "is_last_question": false,
+  "question": "Do you have any other symptoms such as fatigue or body aches?",
+  "options": [
+    "Yes",
+    "No"
+  ],
+  "type": "single type",
+  "next_path": [
+    {
+      "option_text": "Yes",
+      "next_question_id": "P157",
+      "potentialDiagnosis": [
+        {
+          "diagnosis": "Chronic fatigue syndrome",
+          "probability": "60%"
+        }
+      ]
+    },
+    {
+      "option_text": "No",
+      "next_question_id": "P158",
+      "potentialDiagnosis": [
+        {
+          "diagnosis": "Non-specific cough",
+          "probability": "50%"
+        }
+      ]
+    }
+  ],
+  "diagnosis": ""
+},{
+  "_id": {
+    "$oid": "6442004ec03169a3584be100"
+  },
+  "question_id": "P132",
+  "chief_complaint": "cough",
+  "is_first_question": false,
+  "is_last_question": false,
+  "question": "Do you have pain or tenderness in your calf muscles?",
+  "options": [
+    "Yes",
+    "No"
+  ],
+  "type": "single type",
+  "next_path": [
+    {
+      "option_text": "Yes",
+      "next_question_id": "P159",
+      "potentialDiagnosis": [
+        {
+          "diagnosis": "Muscle strain or injury",
+          "probability": "70%"
+        }
+      ]
+    },
+    {
+      "option_text": "No",
+      "next_question_id": "P160",
+      "potentialDiagnosis": [
+        {
+          "diagnosis": "Deep vein thrombosis",
+          "probability": "50%"
+        }
+      ]
+    }
+  ],
+  "diagnosis": "Deep vein thrombosis"
+},{
+  "_id": {
+    "$oid": "6442004ec03169a3584be101"
+  },
+  "question_id": "P133",
+  "chief_complaint": "cough",
+  "is_first_question": false,
+  "is_last_question": false,
+  "question": "Do you have chest pain or discomfort?",
+  "options": [
+    "Yes",
+    "No"
+  ],
+  "type": "single type",
+  "next_path": [
+    {
+      "option_text": "Yes",
+      "next_question_id": "P161",
+      "potentialDiagnosis": [
+        {
+          "diagnosis": "Pulmonary embolism",
+          "probability": "70%"
+        }
+      ]
+    },
+    {
+      "option_text": "No",
+      "next_question_id": "P162",
+      "potentialDiagnosis": [
+        {
+          "diagnosis": "Non-specific cough",
+          "probability": "50%"
+        }
+      ]
+    }
+  ],
+  "diagnosis": "Pulmonary embolism"
+},{
+  "_id": {
+    "$oid": "6442004ec03169a3584be102"
+  },
+  "question_id": "P134",
+  "chief_complaint": "cough",
+  "is_first_question": false,
+  "is_last_question": false,
+  "question": "Do you have a bitter taste in your mouth or a chronic cough?",
+  "options": [
+    "Yes",
+    "No"
+  ],
+  "type": "single type",
+  "next_path": [
+    {
+      "option_text": "Yes",
+      "next_question_id": "P163",
+      "potentialDiagnosis": [
+        {
+          "diagnosis": "Gastroesophageal reflux disease (GERD)",
+          "probability": "80%"
+        }
+      ]
+    },
+    {
+      "option_text": "No",
+      "next_question_id": "P164",
+      "potentialDiagnosis": [
+        {
+          "diagnosis": "Non-specific cough",
+          "probability": "50%"
+        }
+      ]
+    }
+  ],
+  "diagnosis": "Gastroesophageal reflux disease (GERD)"
+},{
+  "_id": {
+    "$oid": "6442004ec03169a3584be103"
+  },
+  "question_id": "P135",
+  "chief_complaint": "cough",
+  "is_first_question": false,
+  "is_last_question": false,
+  "question": "Do you have any other symptoms such as fever or body aches?",
+  "options": [
+    "Yes",
+    "No"
+  ],
+  "type": "single type",
+  "next_path": [
+    {
+      "option_text": "Yes",
+      "next_question_id": "P165",
+      "potentialDiagnosis": [
+        {
+          "diagnosis": "Viral respiratory infection",
+          "probability": "60%"
+        }
+      ]
+    },
+    {
+      "option_text": "No",
+      "next_question_id": "P166",
+      "potentialDiagnosis": [
+        {
+          "diagnosis": "Non-specific cough",
+          "probability": "50%"
+        }
+      ]
+    }
+  ],
+  "diagnosis": ""
+},{
+  "_id": {
+    "$oid": "6442004ec03169a3584be104"
+  },
+  "question_id": "P136",
+  "chief_complaint": "cough",
+  "is_first_question": false,
+  "is_last_question": false,
+  "question": "Do you have chest pain or discomfort?",
+  "options": [
+    "Yes",
+    "No"
+  ],
+  "type": "single type",
+  "next_path": [
+    {
+      "option_text": "Yes",
+      "next_question_id": "P161",
+      "potentialDiagnosis": [
+        {
+          "diagnosis": "Pulmonary embolism",
+          "probability": "70%"
+        }
+      ]
+    },
+    {
+      "option_text": "No",
+      "next_question_id": "P167",
+      "potentialDiagnosis": [
+        {
+          "diagnosis": "Pleural effusion",
+          "probability": "50%"
+        }
+      ]
+    }
+  ],
+  "diagnosis": "Pleural"
+},{
+  "_id": {
+    "$oid": "6442004ec03169a3584be105"
+  },
+  "question_id": "P137",
+  "chief_complaint": "cough",
+  "is_first_question": false,
+  "is_last_question": false,
+  "question": "Is the phlegm or mucus you produce clear or white?",
+  "options": [
+    "Clear or white",
+    "Yellow or green"
+  ],
+  "type": "single type",
+  "next_path": [
+    {
+      "option_text": "Clear or white",
+      "next_question_id": "P168",
+      "potentialDiagnosis": [
+        {
+          "diagnosis": "Viral respiratory infection",
+          "probability": "70%"
+        }
+      ]
+    },
+    {
+      "option_text": "Yellow or green",
+      "next_question_id": "P169",
+      "potentialDiagnosis": [
+        {
+          "diagnosis": "Bacterial respiratory infection",
+          "probability": "70%"
+        }
+      ]
+    }
+  ],
+  "diagnosis": ""
+},{
+  "_id": {
+    "$oid": "6442004ec03169a3584be106"
+  },
+  "question_id": "P138",
+  "chief_complaint": "cough",
+  "is_first_question": false,
+  "is_last_question": false,
+  "question": "Do you have any other symptoms such as fever or body aches?",
+  "options": [
+    "Yes",
+    "No"
+  ],
+  "type": "single type",
+  "next_path": [
+    {
+      "option_text": "Yes",
+      "next_question_id": "P165",
+      "potentialDiagnosis": [
+        {
+          "diagnosis": "Viral respiratory infection",
+          "probability": "60%"
+        }
+      ]
+    },
+    {
+      "option_text": "No",
+      "next_question_id": "P170",
+      "potentialDiagnosis": [
+        {
+          "diagnosis": "Non-specific cough",
+          "probability": "50%"
+        }
+      ]
+    }
+  ],
+  "diagnosis": ""
+},{
+  "_id": {
+    "$oid": "6442004ec03169a3584be107"
+  },
+  "question_id": "P139",
+  "chief_complaint": "cough",
+  "is_first_question": false,
+  "is_last_question": false,
+  "question": "Do you have a family history of allergies or asthma?",
+  "options": [
+    "Yes",
+    "No"
+  ],
+  "type": "single type",
+  "next_path": [
+    {
+      "option_text": "Yes",
+      "next_question_id": "P171",
+      "potentialDiagnosis": [
+        {
+          "diagnosis": "Asthma",
+          "probability": "80%"
+        }
+      ]
+    },
+    {
+      "option_text": "No",
+      "next_question_id": "P140",
+      "potentialDiagnosis": [
+        {
+          "diagnosis": "Bronchitis",
+          "probability": "50%"
+        }
+      ]
+    }
+  ],
+  "diagnosis": "Asthma"
+},{
+  "_id": {
+    "$oid": "6442004ec03169a3584be108"
+  },
+  "question_id": "P140",
+  "chief_complaint": "cough",
+  "is_first_question": false,
+  "is_last_question": false,
+  "question": "Have you recently had a cold or flu?",
+  "options": [
+    "Yes",
+    "No"
+  ],
+  "type": "single type",
+  "next_path": [
+    {
+      "option_text": "Yes",
+      "next_question_id": "P172",
+      "potentialDiagnosis": [
+        {
+          "diagnosis": "Acute bronchitis",
+          "probability": "70%"
+        }
+      ]
+    },
+    {
+      "option_text": "No",
+      "next_question_id": "P173",
+      "potentialDiagnosis": [
+        {
+          "diagnosis": "Chronic bronchitis",
+          "probability": "50%"
+        }
+      ]
+    }
+  ],
+  "diagnosis": ""
+},{
+  "_id": {
+    "$oid": "6442004ec03169a3584be109"
+  },
+  "question_id": "P141",
+  "chief_complaint": "cough",
+  "is_first_question": false,
+  "is_last_question": false,
+  "question": "Do you have shortness of breath or wheezing?",
+  "options": [
+    "Yes",
+    "No"
+  ],
+  "type": "single type",
+  "next_path": [
+    {
+      "option_text": "Yes",
+      "next_question_id": "P174",
+      "potentialDiagnosis": [
+        {
+          "diagnosis": "Chronic obstructive pulmonary disease (COPD)",
+          "probability": "80%"
+        }
+      ]
+    },
+    {
+      "option_text": "No",
+      "next_question_id": "P175",
+      "potentialDiagnosis": [
+        {
+          "diagnosis": "Non-specific cough",
+          "probability": "50%"
+        }
+      ]
+    }
+  ],
+  "diagnosis": "Chronic obstructive pulmonary disease (COPD)"
+},{
+  "_id": {
+    "$oid": "6442004ec03169a3584be10a"
+  },
+  "question_id": "P142",
+  "chief_complaint": "cough",
+  "is_first_question": false,
+  "is_last_question": false,
+  "question": "Do you have a history of exposure to environmental irritants such as chemicals or pollution?",
+  "options": [
+    "Yes",
+    "No"
+  ],
+  "type": "single type",
+  "next_path": [
+    {
+      "option_text": "Yes",
+      "next_question_id": "P176",
+      "potentialDiagnosis": [
+        {
+          "diagnosis": "Occupational lung disease",
+          "probability": "70%"
+        }
+      ]
+    },
+    {
+      "option_text": "No",
+      "next_question_id": "P177",
+      "potentialDiagnosis": [
+        {
+          "diagnosis": "Non-specific cough",
+          "probability": "50%"
+        }
+      ]
+    }
+  ],
+  "diagnosis": ""
+},{
+  "_id": {
+    "$oid": "6442004ec03169a3584be10b"
+  },
+  "question_id": "P143",
+  "chief_complaint": "cough",
+  "is_first_question": false,
+  "is_last_question": false,
+  "question": "Do you have a history of smoking or exposure to secondhand smoke?",
+  "options": [
+    "Yes",
+    "No"
+  ],
+  "type": "single type",
+  "next_path": [
+    {
+      "option_text": "Yes",
+      "next_question_id": "P178",
+      "potentialDiagnosis": [
+        {
+          "diagnosis": "Chronic bronchitis",
+          "probability": "70%"
+        }
+      ]
+    },
+    {
+      "option_text": "No",
+      "next_question_id": "P179",
+      "potentialDiagnosis": [
+        {
+          "diagnosis": "Non-specific cough",
+          "probability": "50%"
+        }
+      ]
+    }
+  ],
+  "diagnosis": ""
+},{
+  "_id": {
+    "$oid": "6442004ec03169a3584be10c"
+  },
+  "question_id": "P144",
+  "chief_complaint": "cough",
+  "is_first_question": false,
+  "is_last_question": false,
+  "question": "Do you have a history of heart disease or heart failure?",
+  "options": [
+    "Yes",
+    "No"
+  ],
+  "type": "single type",
+  "next_path": [
+    {
+      "option_text": "Yes",
+      "next_question_id": "P180",
+      "potentialDiagnosis": [
+        {
+          "diagnosis": "Cardiac cough",
+          "probability": "70%"
+        }
+      ]
+    },
+    {
+      "option_text": "No",
+      "next_question_id": "P181",
+      "potentialDiagnosis": [
+        {
+          "diagnosis": "Non-specific cough",
+          "probability": "50%"
+        }
+      ]
+    }
+  ],
+  "diagnosis": "Cardiac cough"
+},{
+  "_id": {
+    "$oid": "6442004ec03169a3584be10d"
+  },
+  "question_id": "P145",
+  "chief_complaint": "cough",
+  "is_first_question": false,
+  "is_last_question": false,
+  "question": "Do you have a history of cancer?",
+  "options": [
+    "Yes",
+    "No"
+  ],
+  "type": "single type",
+  "next_path": [
+    {
+      "option_text": "Yes",
+      "next_question_id": "P182",
+      "potentialDiagnosis": [
+        {
+          "diagnosis": "Lung cancer",
+          "probability": "70%"
+        }
+      ]
+    },
+    {
+      "option_text": "No",
+      "next_question_id": "P183",
+      "potentialDiagnosis": [
+        {
+          "diagnosis": "Non-specific cough",
+          "probability": "50%"
+        }
+      ]
+    }
+  ],
+  "diagnosis": "Lung cancer"
+},{
+  "_id": {
+    "$oid": "6442004ec03169a3584be10e"
+  },
+  "question_id": "P146",
+  "chief_complaint": "cough",
+  "is_first_question": false,
+  "is_last_question": false,
+  "question": "Do you have any other symptoms such as fatigue or weight loss?",
+  "options": [
+    "Yes",
+    "No"
+  ],
+  "type": "single type",
+  "next_path": [
+    {
+      "option_text": "Yes",
+      "next_question_id": "P184",
+      "potentialDiagnosis": [
+        {
+          "diagnosis": "Lung cancer",
+          "probability": "60%"
+        }
+      ]
+    },
+    {
+      "option_text": "No",
+      "next_question_id": "P185",
+      "potentialDiagnosis": [
+        {
+          "diagnosis": "Non-specific cough",
+          "probability": "50%"
+        }
+      ]
+    }
+  ],
+  "diagnosis": ""
+},{
+  "_id": {
+    "$oid": "6442004ec03169a3584be10f"
+  },
+  "question_id": "P147",
+  "chief_complaint": "cough",
+  "is_first_question": false,
+  "is_last_question": false,
+  "question": "Do you have a history of tuberculosis or exposure to someone with tuberculosis?",
+  "options": [
+    "Yes",
+    "No"
+  ],
+  "type": "single type",
+  "next_path": [
+    {
+      "option_text": "Yes",
+      "next_question_id": "P186",
+      "potentialDiagnosis": [
+        {
+          "diagnosis": "Tuberculosis",
+          "probability": "70%"
+        }
+      ]
+    },
+    {
+      "option_text": "No",
+      "next_question_id": "P187",
+      "potentialDiagnosis": [
+        {
+          "diagnosis": "Non-specific cough",
+          "probability": "50%"
+        }
+      ]
+    }
+  ],
+  "diagnosis": "Tuberculosis"
+},{
+  "_id": {
+    "$oid": "6442004ec03169a3584be110"
+  },
+  "question_id": "P148",
+  "chief_complaint": "cough",
+  "is_first_question": false,
+  "is_last_question": false,
+  "question": "Do you have shortness of breath or wheezing?",
+  "options": [
+    "Yes",
+    "No"
+  ],
+  "type": "single type",
+  "next_path": [
+    {
+      "option_text": "Yes",
+      "next_question_id": "P174",
+      "potentialDiagnosis": [
+        {
+          "diagnosis": "Chronic obstructive pulmonary disease (COPD)",
+          "probability": "80%"
+        }
+      ]
+    },
+    {
+      "option_text": "No",
+      "next_question_id": "P188",
+      "potentialDiagnosis": [
+        {
+          "diagnosis": "Chronic bronchitis",
+          "probability": "70%"
+        }
+      ]
+    }
+  ],
+  "diagnosis": "Chronic bronchitis"
+},{
+  "_id": {
+    "$oid": "6442004ec03169a3584be111"
+  },
+  "question_id": "P149",
+  "chief_complaint": "cough",
+  "is_first_question": false,
+  "is_last_question": false,
+  "question": "Do you have a history of anxiety or panic attacks?",
+  "options": [
+    "Yes",
+    "No"
+  ],
+  "type": "single type",
+  "next_path": [
+    {
+      "option_text": "Yes",
+      "next_question_id": "P189",
+      "potentialDiagnosis": [
+        {
+          "diagnosis": "Psychogenic cough",
+          "probability": "70%"
+        }
+      ]
+    },
+    {
+      "option_text": "No",
+      "next_question_id": "P190",
+      "potentialDiagnosis": [
+        {
+          "diagnosis": "Non-specific cough",
+          "probability": "50%"
+        }
+      ]
+    }
+  ],
+  "diagnosis": "Psychogenic cough"
+},{
+  "_id": {
+    "$oid": "6442004ec03169a3584be112"
+  },
+  "question_id": "P150",
+  "chief_complaint": "cough",
+  "is_first_question": false,
+  "is_last_question": false,
+  "question": "Do you have any other symptoms such as joint pain or skin rash?",
+  "options": [
+    "Yes",
+    "No"
+  ],
+  "type": "single type",
+  "next_path": [
+    {
+      "option_text": "Yes",
+      "next_question_id": "P191",
+      "potentialDiagnosis": [
+        {
+          "diagnosis": "Autoimmune disease",
+          "probability": "70%"
+        }
+      ]
+    },
+    {
+      "option_text": "No",
+      "next_question_id": "P192",
+      "potentialDiagnosis": [
+        {
+          "diagnosis": "Non-specific cough",
+          "probability": "50%"
+        }
+      ]
+    }
+  ],
+  "diagnosis": ""
+},{
+  "_id": {
+    "$oid": "6442004ec03169a3584be113"
+  },
+  "question_id": "P151",
+  "chief_complaint": "cough",
+  "is_first_question": false,
+  "is_last_question": false,
+  "question": "Do you have a history of diabetes?",
+  "options": [
+    "Yes",
+    "No"
+  ],
+  "type": "single type",
+  "next_path": [
+    {
+      "option_text": "Yes",
+      "next_question_id": "P193",
+      "potentialDiagnosis": [
+        {
+          "diagnosis": "Diabetes-related cough",
+          "probability": "60%"
+        }
+      ]
+    },
+    {
+      "option_text": "No",
+      "next_question_id": "P194",
+      "potentialDiagnosis": [
+        {
+          "diagnosis": "Non-specific cough",
+          "probability": "50%"
+        }
+      ]
+    }
+  ],
+  "diagnosis": "Diabetes-related cough"
+},{
+  "_id": {
+    "$oid": "6442004ec03169a3584be114"
+  },
+  "question_id": "P152",
+  "chief_complaint": "cough",
+  "is_first_question": false,
+  "is_last_question": false,
+  "question": "Do you have a history of gastroesophageal reflux disease (GERD)?",
+  "options": [
+    "Yes",
+    "No"
+  ],
+  "type": "single type",
+  "next_path": [
+    {
+      "option_text": "Yes",
+      "next_question_id": "P195",
+      "potentialDiagnosis": [
+        {
+          "diagnosis": "GERD-related cough",
+          "probability": "70%"
+        }
+      ]
+    },
+    {
+      "option_text": "No",
+      "next_question_id": "P196",
+      "potentialDiagnosis": [
+        {
+          "diagnosis": "Non-specific cough",
+          "probability": "50%"
+        }
+      ]
+    }
+  ],
+  "diagnosis": "GERD-related cough"
+},{
+  "_id": {
+    "$oid": "6442004ec03169a3584be115"
+  },
+  "question_id": "P153",
+  "chief_complaint": "cough",
+  "is_first_question": false,
+  "is_last_question": false,
+  "question": "Do you have a history of chronic sinusitis or nasal allergies?",
+  "options": [
+    "Yes",
+    "No"
+  ],
+  "type": "single type",
+  "next_path": [
+    {
+      "option_text": "Yes",
+      "next_question_id": "P197",
+      "potentialDiagnosis": [
+        {
+          "diagnosis": "Postnasal drip syndrome",
+          "probability": "70%"
+        }
+      ]
+    },
+    {
+      "option_text": "No",
+      "next_question_id": "P198",
+      "potentialDiagnosis": [
+        {
+          "diagnosis": "Non-specific cough",
+          "probability": "50%"
+        }
+      ]
+    }
+  ],
+  "diagnosis": "Postnasal drip syndrome"
+},{
+  "_id": {
+    "$oid": "6442004ec03169a3584be116"
+  },
+  "question_id": "P154",
+  "chief_complaint": "cough",
+  "is_first_question": false,
+  "is_last_question": false,
+  "question": "Do you have a history of sleep apnea or snoring?",
+  "options": [
+    "Yes",
+    "No"
+  ],
+  "type": "single type",
+  "next_path": [
+    {
+      "option_text": "Yes",
+      "next_question_id": "P199",
+      "potentialDiagnosis": [
+        {
+          "diagnosis": "Upper airway cough syndrome (UACS)",
+          "probability": "70%"
+        }
+      ]
+    },
+    {
+      "option_text": "No",
+      "next_question_id": "P200",
+      "potentialDiagnosis": [
+        {
+          "diagnosis": "Non-specific cough",
+          "probability": "50%"
+        }
+      ]
+    }
+  ],
+  "diagnosis": "Upper airway cough syndrome (UACS)"
+},{
+  "_id": {
+    "$oid": "6442004ec03169a3584be117"
+  },
+  "question_id": "P155",
+  "chief_complaint": "cough",
+  "is_first_question": false,
+  "is_last_question": false,
+  "question": "Do you have a history of vocal cord dysfunction or irritation?",
+  "options": [
+    "Yes",
+    "No"
+  ],
+  "type": "single type",
+  "next_path": [
+    {
+      "option_text": "Yes",
+      "next_question_id": "P201",
+      "potentialDiagnosis": [
+        {
+          "diagnosis": "Vocal cord dysfunction",
+          "probability": "70%"
+        }
+      ]
+    },
+    {
+      "option_text": "No",
+      "next_question_id": "P202",
+      "potentialDiagnosis": [
+        {
+          "diagnosis": "Non-specific cough",
+          "probability": "50%"
+        }
+      ]
+    }
+  ],
+  "diagnosis": "Vocal cord dysfunction"
+},{
+  "_id": {
+    "$oid": "6442004ec03169a3584be118"
+  },
+  "question_id": "P156",
+  "chief_complaint": "cough",
+  "is_first_question": false,
+  "is_last_question": false,
+  "question": "Do you have a history of swallowing problems or aspiration?",
+  "options": [
+    "Yes",
+    "No"
+  ],
+  "type": "single type",
+  "next_path": [
+    {
+      "option_text": "Yes",
+      "next_question_id": "P203",
+      "potentialDiagnosis": [
+        {
+          "diagnosis": "Aspiration-related cough",
+          "probability": "70%"
+        }
+      ]
+    },
+    {
+      "option_text": "No",
+      "next_question_id": "P204",
+      "potentialDiagnosis": [
+        {
+          "diagnosis": "Non-specific cough",
+          "probability": "50%"
+        }
+      ]
+    }
+  ],
+  "diagnosis": "Aspiration-related cough"
+},{
+  "_id": {
+    "$oid": "6442004ec03169a3584be119"
+  },
+  "question_id": "P157",
+  "chief_complaint": "cough",
+  "is_first_question": false,
+  "is_last_question": false,
+  "question": "Do you have a history of drug abuse or addiction?",
+  "options": [
+    "Yes",
+    "No"
+  ],
+  "type": "single type",
+  "next_path": [
+    {
+      "option_text": "Yes",
+      "next_question_id": "P205",
+      "potentialDiagnosis": [
+        {
+          "diagnosis": "Drug-induced cough",
+          "probability": "70%"
+        }
+      ]
+    },
+    {
+      "option_text": "No",
+      "next_question_id": "P206",
+      "potentialDiagnosis": [
+        {
+          "diagnosis": "Non-specific cough",
+          "probability": "50%"
+        }
+      ]
+    }
+  ],
+  "diagnosis": "Drug-induced cough"
+},{
+  "_id": {
+    "$oid": "6442004ec03169a3584be11a"
+  },
+  "question_id": "P158",
+  "chief_complaint": "cough",
+  "is_first_question": false,
+  "is_last_question": false,
+  "question": "Do you have a history of immunodeficiency?",
+  "options": [
+    "Yes",
+    "No"
+  ],
+  "type": "single type",
+  "next_path": [
+    {
+      "option_text": "Yes",
+      "next_question_id": "P207",
+      "potentialDiagnosis": [
+        {
+          "diagnosis": "Opportunistic infection",
+          "probability": "70%"
+        }
+      ]
+    },
+    {
+      "option_text": "No",
+      "next_question_id": "P208",
+      "potentialDiagnosis": [
+        {
+          "diagnosis": "Non-specific cough",
+          "probability": "50%"
+        }
+      ]
+    }
+  ],
+  "diagnosis": "Opportunistic infection"
+},{
+  "_id": {
+    "$oid": "6442004ec03169a3584be11b"
+  },
+  "question_id": "P159",
+  "chief_complaint": "cough",
+  "is_first_question": false,
+  "is_last_question": false,
+  "question": "Do you have a history of interstitial lung disease or pulmonary fibrosis?",
+  "options": [
+    "Yes",
+    "No"
+  ],
+  "type": "single type",
+  "next_path": [
+    {
+      "option_text": "Yes",
+      "next_question_id": "P209",
+      "potentialDiagnosis": [
+        {
+          "diagnosis": "Interstitial lung disease",
+          "probability": "70%"
+        }
+      ]
+    },
+    {
+      "option_text": "No",
+      "next_question_id": "P210",
+      "potentialDiagnosis": [
+        {
+          "diagnosis": "Non-specific cough",
+          "probability": "50%"
+        }
+      ]
+    }
+  ],
+  "diagnosis": "Interstitial lung disease"
+},{
+  "_id": {
+    "$oid": "6442004ec03169a3584be11c"
+  },
+  "question_id": "P160",
+  "chief_complaint": "cough",
+  "is_first_question": false,
+  "is_last_question": false,
+  "question": "Do you have a history of heartburn or acid reflux?",
+  "options": [
+    "Yes",
+    "No"
+  ],
+  "type": "single type",
+  "next_path": [
+    {
+      "option_text": "Yes",
+      "next_question_id": "P211",
+      "potentialDiagnosis": [
+        {
+          "diagnosis": "GERD-related cough",
+          "probability": "70%"
+        }
+      ]
+    },
+    {
+      "option_text": "No",
+      "next_question_id": "P212",
+      "potentialDiagnosis": [
+        {
+          "diagnosis": "Non-specific cough",
+          "probability": "50%"
+        }
+      ]
+    }
+  ],
+  "diagnosis": "GERD-related cough"
+},{
+  "_id": {
+    "$oid": "6442004ec03169a3584be11d"
+  },
+  "question_id": "P161",
+  "chief_complaint": "cough",
+  "is_first_question": false,
+  "is_last_question": false,
+  "question": "Have you recently traveled to another country or been in contact with someone who has?",
+  "options": [
+    "Yes",
+    "No"
+  ],
+  "type": "single type",
+  "next_path": [
+    {
+      "option_text": "Yes",
+      "next_question_id": "P213",
+      "potentialDiagnosis": [
+        {
+          "diagnosis": "Respiratory infection",
+          "probability": "70%"
+        }
+      ]
+    },
+    {
+      "option_text": "No",
+      "next_question_id": "P214",
+      "potentialDiagnosis": [
+        {
+          "diagnosis": "Non-specific cough",
+          "probability": "50%"
+        }
+      ]
+    }
+  ],
+  "diagnosis": "Respiratory infection"
+},{
+  "_id": {
+    "$oid": "6442004ec03169a3584be11e"
+  },
+  "question_id": "P162",
+  "chief_complaint": "cough",
+  "is_first_question": false,
+  "is_last_question": false,
+  "question": "Do you have a history of lung or chest surgery?",
+  "options": [
+    "Yes",
+    "No"
+  ],
+  "type": "single type",
+  "next_path": [
+    {
+      "option_text": "Yes",
+      "next_question_id": "P215",
+      "potentialDiagnosis": [
+        {
+          "diagnosis": "Postsurgical complication",
+          "probability": "70%"
+        }
+      ]
+    },
+    {
+      "option_text": "No",
+      "next_question_id": "Q216",
+      "potentialDiagnosis": [
+        {
+          "diagnosis": "Non-specific cough",
+          "probability": "50%"
+        }
+      ]
+    }
+  ],
+  "diagnosis": "Postsurgical complication"
+},{
+  "_id": {
+    "$oid": "6442004ec03169a3584be11f"
+  },
+  "question_id": "P163",
+  "chief_complaint": "cough",
+  "is_first_question": false,
+  "is_last_question": false,
+  "question": "Do you have a history of scleroderma or other connective tissue disorders?",
+  "options": [
+    "Yes",
+    "No"
+  ],
+  "type": "single type",
+  "next_path": [
+    {
+      "option_text": "Yes",
+      "next_question_id": "Q217",
+      "potentialDiagnosis": [
+        {
+          "diagnosis": "Connective tissue disorder-related cough",
+          "probability": "70%"
+        }
+      ]
+    },
+    {
+      "option_text": "No",
+      "next_question_id": "Q218",
+      "potentialDiagnosis": [
+        {
+          "diagnosis": "Non-specific cough",
+          "probability": "50%"
+        }
+      ]
+    }
+  ],
+  "diagnosis": "Connective tissue disorder-related cough"
+},{
+  "_id": {
+    "$oid": "6442004ec03169a3584be120"
+  },
+  "question_id": "P164",
+  "chief_complaint": "cough",
+  "is_first_question": false,
+  "is_last_question": false,
+  "question": "Do you have a history of chronic kidney disease or renal failure?",
+  "options": [
+    "Yes",
+    "No"
+  ],
+  "type": "single type",
+  "next_path": [
+    {
+      "option_text": "Yes",
+      "next_question_id": "Q219",
+      "potentialDiagnosis": [
+        {
+          "diagnosis": "Uremic cough",
+          "probability": "70%"
+        }
+      ]
+    },
+    {
+      "option_text": "No",
+      "next_question_id": "Q220",
+      "potentialDiagnosis": [
+        {
+          "diagnosis": "Non-specific cough",
+          "probability": "50%"
+        }
+      ]
+    }
+  ],
+  "diagnosis": "Uremic cough"
+},{
+  "_id": {
+    "$oid": "6442004ec03169a3584be121"
+  },
+  "question_id": "P165",
+  "chief_complaint": "cough",
+  "is_first_question": false,
+  "is_last_question": false,
+  "question": "Do you have a history of chronic liver disease or cirrhosis?",
+  "options": [
+    "Yes",
+    "No"
+  ],
+  "type": "single type",
+  "next_path": [
+    {
+      "option_text": "Yes",
+      "next_question_id": "Q221",
+      "potentialDiagnosis": [
+        {
+          "diagnosis": "Hepatic cough",
+          "probability": "70%"
+        }
+      ]
+    },
+    {
+      "option_text": "No",
+      "next_question_id": "Q222",
+      "potentialDiagnosis": [
+        {
+          "diagnosis": "Non-specific cough",
+          "probability": "50%"
+        }
+      ]
+    }
+  ],
+  "diagnosis": "Hepatic cough"
+},{
+  "_id": {
+    "$oid": "6442004ec03169a3584be122"
+  },
+  "question_id": "P166",
+  "chief_complaint": "cough",
+  "is_first_question": false,
+  "is_last_question": false,
+  "question": "Do you have a history of pulmonary embolism or deep vein thrombosis?",
+  "options": [
+    "Yes",
+    "No"
+  ],
+  "type": "single type",
+  "next_path": [
+    {
+      "option_text": "Yes",
+      "next_question_id": "Q223",
+      "potentialDiagnosis": [
+        {
+          "diagnosis": "Pulmonary embolism",
+          "probability": "70%"
+        }
+      ]
+    },
+    {
+      "option_text": "No",
+      "next_question_id": "Q224",
+      "potentialDiagnosis": [
+        {
+          "diagnosis": "Non-specific cough",
+          "probability": "50%"
+        }
+      ]
+    }
+  ],
+  "diagnosis": "COPD-related cough"
+},{
+  "_id": {
+    "$oid": "6442004ec03169a3584be123"
+  },
+  "question_id": "P167",
+  "chief_complaint": "cough",
+  "is_first_question": false,
+  "is_last_question": false,
+  "question": "Do you have a history of chronic obstructive pulmonary disease (COPD)?",
+  "options": [
+    "Yes",
+    "No"
+  ],
+  "type": "single type",
+  "next_path": [
+    {
+      "option_text": "Yes",
+      "next_question_id": "Q225",
+      "potentialDiagnosis": [
+        {
+          "diagnosis": "COPD-related cough",
+          "probability": "70%"
+        }
+      ]
+    },
+    {
+      "option_text": "No",
+      "next_question_id": "Q226",
+      "potentialDiagnosis": [
+        {
+          "diagnosis": "Non-specific cough",
+          "probability": "50%"
+        }
+      ]
+    }
+  ],
+  "diagnosis": "COPD-related cough"
+},{
+  "_id": {
+    "$oid": "6442004ec03169a3584be124"
+  },
+  "question_id": "P168",
+  "chief_complaint": "cough",
+  "is_first_question": false,
+  "is_last_question": false,
+  "question": "Do you have a history of heart failure?",
+  "options": [
+    "Yes",
+    "No"
+  ],
+  "type": "single type",
+  "next_path": [
+    {
+      "option_text": "Yes",
+      "next_question_id": "Q227",
+      "potentialDiagnosis": [
+        {
+          "diagnosis": "Cardiac cough",
+          "probability": "70%"
+        }
+      ]
+    },
+    {
+      "option_text": "No",
+      "next_question_id": "Q228",
+      "potentialDiagnosis": [
+        {
+          "diagnosis": "Non-specific cough",
+          "probability": "50%"
+        }
+      ]
+    }
+  ],
+  "diagnosis": "Cardiac cough"
+},{
+  "_id": {
+    "$oid": "6442004ec03169a3584be125"
+  },
+  "question_id": "P169",
+  "chief_complaint": "cough",
+  "is_first_question": false,
+  "is_last_question": false,
+  "question": "Do you have a history of lung cancer?",
+  "options": [
+    "Yes",
+    "No"
+  ],
+  "type": "single type",
+  "next_path": [
+    {
+      "option_text": "Yes",
+      "next_question_id": "Q229",
+      "potentialDiagnosis": [
+        {
+          "diagnosis": "Lung cancer-related cough",
+          "probability": "70%"
+        }
+      ]
+    },
+    {
+      "option_text": "No",
+      "next_question_id": "Q230",
+      "potentialDiagnosis": [
+        {
+          "diagnosis": "Non-specific cough",
+          "probability": "50%"
+        }
+      ]
+    }
+  ],
+  "diagnosis": "Lung cancer-related cough"
+},{
+  "_id": {
+    "$oid": "6442004ec03169a3584be126"
+  },
+  "question_id": "P170",
+  "chief_complaint": "cough",
+  "is_first_question": false,
+  "is_last_question": false,
+  "question": "Do you have a history of anxiety or panic attacks?",
+  "options": [
+    "Yes",
+    "No"
+  ],
+  "type": "single type",
+  "next_path": [
+    {
+      "option_text": "Yes",
+      "next_question_id": "Q231",
+      "potentialDiagnosis": [
+        {
+          "diagnosis": "Psychogenic cough",
+          "probability": "70%"
+        }
+      ]
+    },
+    {
+      "option_text": "No",
+      "next_question_id": "Q232",
+      "potentialDiagnosis": [
+        {
+          "diagnosis": "Non-specific cough",
+          "probability": "50%"
+        }
+      ]
+    }
+  ],
+  "diagnosis": "Psychogenic cough"
+},{
+  "_id": {
+    "$oid": "6442004ec03169a3584be127"
+  },
+  "question_id": "P171",
+  "chief_complaint": "cough",
+  "is_first_question": false,
+  "is_last_question": false,
+  "question": "Do you have a history of diabetes?",
+  "options": [
+    "Yes",
+    "No"
+  ],
+  "type": "single type",
+  "next_path": [
+    {
+      "option_text": "Yes",
+      "next_question_id": "Q233",
+      "potentialDiagnosis": [
+        {
+          "diagnosis": "Diabetes-related cough",
+          "probability": "60%"
+        }
+      ]
+    },
+    {
+      "option_text": "No",
+      "next_question_id": "Q234",
+      "potentialDiagnosis": [
+        {
+          "diagnosis": "Non-specific cough",
+          "probability": "50%"
+        }
+      ]
+    }
+  ],
+  "diagnosis": "Diabetes-related cough"
+},{
+  "_id": {
+    "$oid": "6442004ec03169a3584be128"
+  },
+  "question_id": "P172",
+  "chief_complaint": "cough",
+  "is_first_question": false,
+  "is_last_question": false,
+  "question": "Do you have a history of gastroesophageal reflux disease (GERD)?",
+  "options": [
+    "Yes",
+    "No"
+  ],
+  "type": "single type",
+  "next_path": [
+    {
+      "option_text": "Yes",
+      "next_question_id": "Q235",
+      "potentialDiagnosis": [
+        {
+          "diagnosis": "GERD-related cough",
+          "probability": "70%"
+        }
+      ]
+    },
+    {
+      "option_text": "No",
+      "next_question_id": "Q236",
+      "potentialDiagnosis": [
+        {
+          "diagnosis": "Non-specific cough",
+          "probability": "50%"
+        }
+      ]
+    }
+  ],
+  "diagnosis": "GERD-related cough"
+},{
+  "_id": {
+    "$oid": "6442004ec03169a3584be129"
+  },
+  "question_id": "P173",
+  "chief_complaint": "cough",
+  "is_first_question": false,
+  "is_last_question": false,
+  "question": "Do you have a history of thyroid disease?",
+  "options": [
+    "Yes",
+    "No"
+  ],
+  "type": "single type",
+  "next_path": [
+    {
+      "option_text": "Yes",
+      "next_question_id": "Q237",
+      "potentialDiagnosis": [
+        {
+          "diagnosis": "Thyroid-related cough",
+          "probability": "60%"
+        }
+      ]
+    },
+    {
+      "option_text": "No",
+      "next_question_id": "Q238",
+      "potentialDiagnosis": [
+        {
+          "diagnosis": "Non-specific cough",
+          "probability": "50%"
+        }
+      ]
+    }
+  ],
+  "diagnosis": "Thyroid-related cough"
+},{
+  "_id": {
+    "$oid": "6442004ec03169a3584be12a"
+  },
+  "question_id": "P174",
+  "chief_complaint": "cough",
+  "is_first_question": false,
+  "is_last_question": false,
+  "question": "Do you have a history of lung infections such as tuberculosis or fungal infections?",
+  "options": [
+    "Yes",
+    "No"
+  ],
+  "type": "single type",
+  "next_path": [
+    {
+      "option_text": "Yes",
+      "next_question_id": "Q239",
+      "potentialDiagnosis": [
+        {
+          "diagnosis": "Chronic respiratory infection",
+          "probability": "70%"
+        }
+      ]
+    },
+    {
+      "option_text": "No",
+      "next_question_id": "Q240",
+      "potentialDiagnosis": [
+        {
+          "diagnosis": "Non-specific cough",
+          "probability": "50%"
+        }
+      ]
+    }
+  ],
+  "diagnosis": "Chronic respiratory infection"
+},{
+  "_id": {
+    "$oid": "6442004ec03169a3584be12b"
+  },
+  "question_id": "P175",
+  "chief_complaint": "cough",
+  "is_first_question": false,
+  "is_last_question": false,
+  "question": "Do you have a history of exposure to environmental irritants or pollutants such as dust, smoke or chemicals?",
+  "options": [
+    "Yes",
+    "No"
+  ],
+  "type": "single type",
+  "next_path": [
+    {
+      "option_text": "Yes",
+      "next_question_id": "Q241",
+      "potentialDiagnosis": [
+        {
+          "diagnosis": "Environmental exposure-related cough",
+          "probability": "70%"
+        }
+      ]
+    },
+    {
+      "option_text": "No",
+      "next_question_id": "Q242",
+      "potentialDiagnosis": [
+        {
+          "diagnosis": "Non-specific cough",
+          "probability": "50%"
+        }
+      ]
+    }
+  ],
+  "diagnosis": "Environmental exposure-related cough"
+},{
+  "_id": {
+    "$oid": "6442004ec03169a3584be12c"
+  },
+  "question_id": "P176",
+  "chief_complaint": "cough",
+  "is_first_question": false,
+  "is_last_question": false,
+  "question": "Do you have a history of heart disease or stroke?",
+  "options": [
+    "Yes",
+    "No"
+  ],
+  "type": "single type",
+  "next_path": [
+    {
+      "option_text": "Yes",
+      "next_question_id": "Q243",
+      "potentialDiagnosis": [
+        {
+          "diagnosis": "Cardiac cough",
+          "probability": "70%"
+        }
+      ]
+    },
+    {
+      "option_text": "No",
+      "next_question_id": "Q244",
+      "potentialDiagnosis": [
+        {
+          "diagnosis": "Non-specific cough",
+          "probability": "50%"
+        }
+      ]
+    }
+  ],
+  "diagnosis": "Cardiac cough"
+},{
+  "_id": {
+    "$oid": "6442004ec03169a3584be12d"
+  },
+  "question_id": "P177",
+  "chief_complaint": "cough",
+  "is_first_question": false,
+  "is_last_question": false,
+  "question": "Do you have a history of sleep apnea?",
+  "options": [
+    "Yes",
+    "No"
+  ],
+  "type": "single type",
+  "next_path": [
+    {
+      "option_text": "Yes",
+      "next_question_id": "Q245",
+      "potentialDiagnosis": [
+        {
+          "diagnosis": "Sleep apnea-related cough",
+          "probability": "70%"
+        }
+      ]
+    },
+    {
+      "option_text": "No",
+      "next_question_id": "Q246",
+      "potentialDiagnosis": [
+        {
+          "diagnosis": "Non-specific cough",
+          "probability": "50%"
+        }
+      ]
+    }
+  ],
+  "diagnosis": "Sleep apnea-related cough"
+},{
+  "_id": {
+    "$oid": "6442004ec03169a3584be12e"
+  },
+  "question_id": "P178",
+  "chief_complaint": "cough",
+  "is_first_question": false,
+  "is_last_question": false,
+  "question": "Do you have a history of asthma?",
+  "options": [
+    "Yes",
+    "No"
+  ],
+  "type": "single type",
+  "next_path": [
+    {
+      "option_text": "Yes",
+      "next_question_id": "Q247",
+      "potentialDiagnosis": [
+        {
+          "diagnosis": "Asthma-related cough",
+          "probability": "70%"
+        }
+      ]
+    },
+    {
+      "option_text": "No",
+      "next_question_id": "Q248",
+      "potentialDiagnosis": [
+        {
+          "diagnosis": "Non-specific cough",
+          "probability": "50%"
+        }
+      ]
+    }
+  ],
+  "diagnosis": "Asthma-related cough"
+},{
+  "_id": {
+    "$oid": "6442004ec03169a3584be12f"
+  },
+  "question_id": "P179",
+  "chief_complaint": "cough",
+  "is_first_question": false,
+  "is_last_question": false,
+  "question": "Do you have a history of gastroenteritis or other gastrointestinal disorders?",
+  "options": [
+    "Yes",
+    "No"
+  ],
+  "type": "single type",
+  "next_path": [
+    {
+      "option_text": "Yes",
+      "next_question_id": "Q249",
+      "potentialDiagnosis": [
+        {
+          "diagnosis": "Gastrointestinal-related cough",
+          "probability": "70%"
+        }
+      ]
+    },
+    {
+      "option_text": "No",
+      "next_question_id": "Q250",
+      "potentialDiagnosis": [
+        {
+          "diagnosis": "Non-specific cough",
+          "probability": "50%"
+        }
+      ]
+    }
+  ],
+  "diagnosis": "Gastrointestinal-related cough"
+},{
+  "_id": {
+    "$oid": "6442004ec03169a3584be130"
+  },
+  "question_id": "P180",
+  "chief_complaint": "cough",
+  "is_first_question": false,
+  "is_last_question": false,
+  "question": "Do you have a history of drug or substance abuse?",
+  "options": [
+    "Yes",
+    "No"
+  ],
+  "type": "single type",
+  "next_path": [
+    {
+      "option_text": "Yes",
+      "next_question_id": "Q251",
+      "potentialDiagnosis": [
+        {
+          "diagnosis": "Drug abuse-related cough",
+          "probability": "70%"
+        }
+      ]
+    },
+    {
+      "option_text": "No",
+      "next_question_id": "Q252",
+      "potentialDiagnosis": [
+        {
+          "diagnosis": "Non-specific cough",
+          "probability": "50%"
+        }
+      ]
+    }
+  ],
+  "diagnosis": "Drug abuse-related cough"
+},{
+  "_id": {
+    "$oid": "6442004ec03169a3584be131"
+  },
+  "question_id": "P181",
+  "chief_complaint": "cough",
+  "is_first_question": false,
+  "is_last_question": false,
+  "question": "Do you have a history of sarcoidosis?",
+  "options": [
+    "Yes",
+    "No"
+  ],
+  "type": "single type",
+  "next_path": [
+    {
+      "option_text": "Yes",
+      "next_question_id": "Q253",
+      "potentialDiagnosis": [
+        {
+          "diagnosis": "Sarcoidosis-related cough",
+          "probability": "70%"
+        }
+      ]
+    },
+    {
+      "option_text": "No",
+      "next_question_id": "Q254",
+      "potentialDiagnosis": [
+        {
+          "diagnosis": "Non-specific cough",
+          "probability": "50%"
+        }
+      ]
+    }
+  ],
+  "diagnosis": "Sarcoidosis-related cough"
+},{
+  "_id": {
+    "$oid": "6442004ec03169a3584be132"
+  },
+  "question_id": "P182",
+  "chief_complaint": "cough",
+  "is_first_question": false,
+  "is_last_question": false,
+  "question": "Do you have a history of myasthenia gravis or other neuromuscular disorders?",
+  "options": [
+    "Yes",
+    "No"
+  ],
+  "type": "single type",
+  "next_path": [
+    {
+      "option_text": "Yes",
+      "next_question_id": "Q255",
+      "potentialDiagnosis": [
+        {
+          "diagnosis": "Neuromuscular-related cough",
+          "probability": "70%"
+        }
+      ]
+    },
+    {
+      "option_text": "No",
+      "next_question_id": "Q256",
+      "potentialDiagnosis": [
+        {
+          "diagnosis": "Non-specific cough",
+          "probability": "50%"
+        }
+      ]
+    }
+  ],
+  "diagnosis": "Neuromuscular-related cough"
+},{
+  "_id": {
+    "$oid": "6442004ec03169a3584be133"
+  },
+  "question_id": "P183",
+  "chief_complaint": "cough",
+  "is_first_question": false,
+  "is_last_question": false,
+  "question": "Do you have a history of chronic sinusitis or other sinus problems?",
+  "options": [
+    "Yes",
+    "No"
+  ],
+  "type": "single type",
+  "next_path": [
+    {
+      "option_text": "Yes",
+      "next_question_id": "Q257",
+      "potentialDiagnosis": [
+        {
+          "diagnosis": "Sinusitis-related cough",
+          "probability": "70%"
+        }
+      ]
+    },
+    {
+      "option_text": "No",
+      "next_question_id": "Q258",
+      "potentialDiagnosis": [
+        {
+          "diagnosis": "Non-specific cough",
+          "probability": "50%"
+        }
+      ]
+    }
+  ],
+  "diagnosis": "Sinusitis-related cough"
+},{
+  "_id": {
+    "$oid": "6442004ec03169a3584be134"
+  },
+  "question_id": "P184",
+  "chief_complaint": "cough",
+  "is_first_question": false,
+  "is_last_question": false,
+  "question": "Do you have a history of allergic rhinitis or other allergies?",
+  "options": [
+    "Yes",
+    "No"
+  ],
+  "type": "single type",
+  "next_path": [
+    {
+      "option_text": "Yes",
+      "next_question_id": "Q259",
+      "potentialDiagnosis": [
+        {
+          "diagnosis": "Allergy-related cough",
+          "probability": "70%"
+        }
+      ]
+    },
+    {
+      "option_text": "No",
+      "next_question_id": "Q260",
+      "potentialDiagnosis": [
+        {
+          "diagnosis": "Non-specific cough",
+          "probability": ""
+        }
+      ]
+    }
+  ],
+  "diagnosis": "Autoimmune-related cough"
+},{
+  "_id": {
+    "$oid": "6442004ec03169a3584be135"
+  },
+  "question_id": "P185",
+  "chief_complaint": "cough",
+  "is_first_question": false,
+  "is_last_question": false,
+  "question": "Do you have a history of autoimmune diseases such as rheumatoid arthritis or lupus?",
+  "options": [
+    "Yes",
+    "No"
+  ],
+  "type": "single type",
+  "next_path": [
+    {
+      "option_text": "Yes",
+      "next_question_id": "Q261",
+      "potentialDiagnosis": [
+        {
+          "diagnosis": "Autoimmune-related cough",
+          "probability": "70%"
+        }
+      ]
+    },
+    {
+      "option_text": "No",
+      "next_question_id": "Q262",
+      "potentialDiagnosis": [
+        {
+          "diagnosis": "Non-specific cough",
+          "probability": "50%"
+        }
+      ]
+    }
+  ],
+  "diagnosis": "Autoimmune-related cough"
+},{
+  "_id": {
+    "$oid": "6442004ec03169a3584be136"
+  },
+  "question_id": "P186",
+  "chief_complaint": "cough",
+  "is_first_question": false,
+  "is_last_question": false,
+  "question": "Do you have a history of vocal cord dysfunction?",
+  "options": [
+    "Yes",
+    "No"
+  ],
+  "type": "single type",
+  "next_path": [
+    {
+      "option_text": "Yes",
+      "next_question_id": "Q263",
+      "potentialDiagnosis": [
+        {
+          "diagnosis": "Vocal cord dysfunction-related cough",
+          "probability": "70%"
+        }
+      ]
+    },
+    {
+      "option_text": "No",
+      "next_question_id": "Q264",
+      "potentialDiagnosis": [
+        {
+          "diagnosis": "Non-specific cough",
+          "probability": "50%"
+        }
+      ]
+    }
+  ],
+  "diagnosis": "Vocal cord dysfunction-related cough"
+},{
+  "_id": {
+    "$oid": "6442004ec03169a3584be137"
+  },
+  "question_id": "P187",
+  "chief_complaint": "cough",
+  "is_first_question": false,
+  "is_last_question": false,
+  "question": "Do you have a history of idiopathic pulmonary fibrosis or other interstitial lung diseases?",
+  "options": [
+    "Yes",
+    "No"
+  ],
+  "type": "single type",
+  "next_path": [
+    {
+      "option_text": "Yes",
+      "next_question_id": "Q265",
+      "potentialDiagnosis": [
+        {
+          "diagnosis": "Interstitial lung disease-related cough",
+          "probability": "70%"
+        }
+      ]
+    },
+    {
+      "option_text": "No",
+      "next_question_id": "Q266",
+      "potentialDiagnosis": [
+        {
+          "diagnosis": "Non-specific cough",
+          "probability": "50%"
+        }
+      ]
+    }
+  ],
+  "diagnosis": "Interstitial lung disease-related cough"
+},{
+  "_id": {
+    "$oid": "6442004ec03169a3584be138"
+  },
+  "question_id": "P188",
+  "chief_complaint": "cough",
+  "is_first_question": false,
+  "is_last_question": false,
+  "question": "Do you have a history of cystic fibrosis?",
+  "options": [
+    "Yes",
+    "No"
+  ],
+  "type": "single type",
+  "next_path": [
+    {
+      "option_text": "Yes",
+      "next_question_id": "Q267",
+      "potentialDiagnosis": [
+        {
+          "diagnosis": "Cystic fibrosis-related cough",
+          "probability": "70%"
+        }
+      ]
+    },
+    {
+      "option_text": "No",
+      "next_question_id": "Q268",
+      "potentialDiagnosis": [
+        {
+          "diagnosis": "Non-specific cough",
+          "probability": "50%"
+        }
+      ]
+    }
+  ],
+  "diagnosis": "Cystic fibrosis-related cough"
+},{
+  "_id": {
+    "$oid": "6442004ec03169a3584be139"
+  },
+  "question_id": "P189",
+  "chief_complaint": "cough",
+  "is_first_question": false,
+  "is_last_question": false,
+  "question": "Do you have a history of pulmonary embolism or deep vein thrombosis?",
+  "options": [
+    "Yes",
+    "No"
+  ],
+  "type": "single type",
+  "next_path": [
+    {
+      "option_text": "Yes",
+      "next_question_id": "Q269",
+      "potentialDiagnosis": [
+        {
+          "diagnosis": "Pulmonary embolism-related cough",
+          "probability": "70%"
+        }
+      ]
+    },
+    {
+      "option_text": "No",
+      "next_question_id": "Q270",
+      "potentialDiagnosis": [
+        {
+          "diagnosis": "Non-specific cough",
+          "probability": "50%"
+        }
+      ]
+    }
+  ],
+  "diagnosis": "Pulmonary embolism-related cough"
+},{
+  "_id": {
+    "$oid": "6442004ec03169a3584be13a"
+  },
+  "question_id": "P190",
+  "chief_complaint": "cough",
+  "is_first_question": false,
+  "is_last_question": false,
+  "question": "Do you have a history of chronic kidney disease or dialysis?",
+  "options": [
+    "Yes",
+    "No"
+  ],
+  "type": "single type",
+  "next_path": [
+    {
+      "option_text": "Yes",
+      "next_question_id": "Q271",
+      "potentialDiagnosis": [
+        {
+          "diagnosis": "Uremic cough",
+          "probability": "70%"
+        }
+      ]
+    },
+    {
+      "option_text": "No",
+      "next_question_id": "Q272",
+      "potentialDiagnosis": [
+        {
+          "diagnosis": "Non-specific cough",
+          "probability": "50%"
+        }
+      ]
+    }
+  ],
+  "diagnosis": "Cancer-related cough"
+},{
+  "_id": {
+    "$oid": "6442004ec03169a3584be13b"
+  },
+  "question_id": "P191",
+  "chief_complaint": "cough",
+  "is_first_question": false,
+  "is_last_question": false,
+  "question": "Do you have a history of lung cancer or other cancers?",
+  "options": [
+    "Yes",
+    "No"
+  ],
+  "type": "single type",
+  "next_path": [
+    {
+      "option_text": "Yes",
+      "next_question_id": "Q273",
+      "potentialDiagnosis": [
+        {
+          "diagnosis": "Cancer-related cough",
+          "probability": "70%"
+        }
+      ]
+    },
+    {
+      "option_text": "No",
+      "next_question_id": "Q274",
+      "potentialDiagnosis": [
+        {
+          "diagnosis": "Non-specific cough",
+          "probability": "50%"
+        }
+      ]
+    }
+  ],
+  "diagnosis": "Cancer-related cough"
+},{
+  "_id": {
+    "$oid": "6442004ec03169a3584be13c"
+  },
+  "question_id": "P192",
+  "chief_complaint": "cough",
+  "is_first_question": false,
+  "is_last_question": false,
+  "question": "Do you have a history of GERD (gastroesophageal reflux disease) or acid reflux?",
+  "options": [
+    "Yes",
+    "No"
+  ],
+  "type": "single type",
+  "next_path": [
+    {
+      "option_text": "Yes",
+      "next_question_id": "Q275",
+      "potentialDiagnosis": [
+        {
+          "diagnosis": "GERD-related cough",
+          "probability": "70%"
+        }
+      ]
+    },
+    {
+      "option_text": "No",
+      "next_question_id": "Q276",
+      "potentialDiagnosis": [
+        {
+          "diagnosis": "Non-specific cough",
+          "probability": "50%"
+        }
+      ]
+    }
+  ],
+  "diagnosis": "GERD-related cough"
+},{
+  "_id": {
+    "$oid": "6442004ec03169a3584be13d"
+  },
+  "question_id": "P193",
+  "chief_complaint": "cough",
+  "is_first_question": false,
+  "is_last_question": false,
+  "question": "Do you have a history of pulmonary hypertension?",
+  "options": [
+    "Yes",
+    "No"
+  ],
+  "type": "single type",
+  "next_path": [
+    {
+      "option_text": "Yes",
+      "next_question_id": "Q277",
+      "potentialDiagnosis": [
+        {
+          "diagnosis": "Pulmonary hypertension-related cough",
+          "probability": "70%"
+        }
+      ]
+    },
+    {
+      "option_text": "No",
+      "next_question_id": "Q278",
+      "potentialDiagnosis": [
+        {
+          "diagnosis": "Non-specific cough",
+          "probability": "50%"
+        }
+      ]
+    }
+  ],
+  "diagnosis": "Pulmonary hypertension-related cough"
+},{
+  "_id": {
+    "$oid": "6442004ec03169a3584be13e"
+  },
+  "question_id": "P194",
+  "chief_complaint": "cough",
+  "is_first_question": false,
+  "is_last_question": false,
+  "question": "Do you have a history of lung transplant?",
+  "options": [
+    "Yes",
+    "No"
+  ],
+  "type": "single type",
+  "next_path": [
+    {
+      "option_text": "Yes",
+      "next_question_id": "Q279",
+      "potentialDiagnosis": [
+        {
+          "diagnosis": "Lung transplant-related cough",
+          "probability": "70%"
+        }
+      ]
+    },
+    {
+      "option_text": "No",
+      "next_question_id": "Q280",
+      "potentialDiagnosis": [
+        {
+          "diagnosis": "Non-specific cough",
+          "probability": "50%"
+        }
+      ]
+    }
+  ],
+  "diagnosis": "Lung transplant-related cough"
+},{
+  "_id": {
+    "$oid": "6442004ec03169a3584be13f"
+  },
+  "question_id": "P195",
+  "chief_complaint": "cough",
+  "is_first_question": false,
+  "is_last_question": false,
+  "question": "Do you have a history of anxiety or panic disorder?",
+  "options": [
+    "Yes",
+    "No"
+  ],
+  "type": "single type",
+  "next_path": [
+    {
+      "option_text": "Yes",
+      "next_question_id": "Q281",
+      "potentialDiagnosis": [
+        {
+          "diagnosis": "Psychogenic cough",
+          "probability": "70%"
+        }
+      ]
+    },
+    {
+      "option_text": "No",
+      "next_question_id": "Q282",
+      "potentialDiagnosis": [
+        {
+          "diagnosis": "Non-specific cough",
+          "probability": "50%"
+        }
+      ]
+    }
+  ],
+  "diagnosis": "Psychogenic cough"
+},{
+  "_id": {
+    "$oid": "6442004ec03169a3584be140"
+  },
+  "question_id": "P196",
+  "chief_complaint": "cough",
+  "is_first_question": false,
+  "is_last_question": false,
+  "question": "Do you have a history of chronic obstructive pulmonary disease (COPD) or emphysema?",
+  "options": [
+    "Yes",
+    "No"
+  ],
+  "type": "single type",
+  "next_path": [
+    {
+      "option_text": "Yes",
+      "next_question_id": "Q283",
+      "potentialDiagnosis": [
+        {
+          "diagnosis": "COPD-related cough",
+          "probability": "70%"
+        }
+      ]
+    },
+    {
+      "option_text": "No",
+      "next_question_id": "Q284",
+      "potentialDiagnosis": [
+        {
+          "diagnosis": "Non-specific cough",
+          "probability": "50%"
+        }
+      ]
+    }
+  ],
+  "diagnosis": ""
+},{
+  "_id": {
+    "$oid": "6442004ec03169a3584be141"
+  },
+  "question_id": "P197",
+  "chief_complaint": "cough",
+  "is_first_question": false,
+  "is_last_question": false,
+  "question": "Do you have a history of heart failure or other cardiac diseases?",
+  "options": [
+    "Yes",
+    "No"
+  ],
+  "type": "single type",
+  "next_path": [
+    {
+      "option_text": "Yes",
+      "next_question_id": "Q285",
+      "potentialDiagnosis": [
+        {
+          "diagnosis": "Cardiac-related cough",
+          "probability": "70%"
+        }
+      ]
+    },
+    {
+      "option_text": "No",
+      "next_question_id": "Q286",
+      "potentialDiagnosis": [
+        {
+          "diagnosis": "Non-specific cough",
+          "probability": "50%"
+        }
+      ]
+    }
+  ],
+  "diagnosis": "Cardiac-related cough"
+},{
+  "_id": {
+    "$oid": "6442004ec03169a3584be142"
+  },
+  "question_id": "P198",
+  "chief_complaint": "cough",
+  "is_first_question": false,
+  "is_last_question": false,
+  "question": "Do you have a history of sleep apnea or other sleep disorders?",
+  "options": [
+    "Yes",
+    "No"
+  ],
+  "type": "single type",
+  "next_path": [
+    {
+      "option_text": "Yes",
+      "next_question_id": "Q287",
+      "potentialDiagnosis": [
+        {
+          "diagnosis": "Sleep apnea-related cough",
+          "probability": "70%"
+        }
+      ]
+    },
+    {
+      "option_text": "No",
+      "next_question_id": "Q288",
+      "potentialDiagnosis": [
+        {
+          "diagnosis": "Non-specific cough",
+          "probability": "50%"
+        }
+      ]
+    }
+  ],
+  "diagnosis": "Sleep apnea-related cough"
+},{
+  "_id": {
+    "$oid": "6442004ec03169a3584be143"
+  },
+  "question_id": "P199",
+  "chief_complaint": "cough",
+  "is_first_question": false,
+  "is_last_question": false,
+  "question": "Do you have a history of influenza or other respiratory infections?",
+  "options": [
+    "Yes",
+    "No"
+  ],
+  "type": "single type",
+  "next_path": [
+    {
+      "option_text": "Yes",
+      "next_question_id": "Q289",
+      "potentialDiagnosis": [
+        {
+          "diagnosis": "Post-infectious cough",
+          "probability": "70%"
+        }
+      ]
+    },
+    {
+      "option_text": "No",
+      "next_question_id": "Q290",
+      "potentialDiagnosis": [
+        {
+          "diagnosis": "Non-specific cough",
+          "probability": "50%"
+        }
+      ]
+    }
+  ],
+  "diagnosis": "Post-infectious cough"
+},{
+  "_id": {
+    "$oid": "6442004ec03169a3584be144"
+  },
+  "question_id": "P200",
+  "chief_complaint": "cough",
+  "is_first_question": false,
+  "is_last_question": false,
+  "question": "Do you have a history of asthma or other allergic respiratory diseases?",
+  "options": [
+    "Yes",
+    "No"
+  ],
+  "type": "single type",
+  "next_path": [
+    {
+      "option_text": "Yes",
+      "next_question_id": "Q291",
+      "potentialDiagnosis": [
+        {
+          "diagnosis": "Asthma-related cough",
+          "probability": "70%"
+        }
+      ]
+    },
+    {
+      "option_text": "No",
+      "next_question_id": "Q292",
+      "potentialDiagnosis": [
+        {
+          "diagnosis": "Non-specific cough",
+          "probability": "50%"
+        }
+      ]
+    }
+  ],
+  "diagnosis": "Asthma-related cough"
+},{
+  "_id": {
+    "$oid": "6442004ec03169a3584be145"
+  },
+  "question_id": "P201",
+  "chief_complaint": "cough",
+  "is_first_question": false,
+  "is_last_question": false,
+  "question": "Do you have a history of radiation therapy?",
+  "options": [
+    "Yes",
+    "No"
+  ],
+  "type": "single type",
+  "next_path": [
+    {
+      "option_text": "Yes",
+      "next_question_id": "Q293",
+      "potentialDiagnosis": [
+        {
+          "diagnosis": "Radiation-induced cough",
+          "probability": "70%"
+        }
+      ]
+    },
+    {
+      "option_text": "No",
+      "next_question_id": "Q294",
+      "potentialDiagnosis": [
+        {
+          "diagnosis": "Non-specific cough",
+          "probability": "50%"
+        }
+      ]
+    }
+  ],
+  "diagnosis": "Radiation-induced cough"
+},{
+  "_id": {
+    "$oid": "6442004ec03169a3584be146"
+  },
+  "question_id": "P202",
+  "chief_complaint": "cough",
+  "is_first_question": false,
+  "is_last_question": false,
+  "question": "Do you have a history of chronic bronchitis?",
+  "options": [
+    "Yes",
+    "No"
+  ],
+  "type": "single type",
+  "next_path": [
+    {
+      "option_text": "Yes",
+      "next_question_id": "Q295",
+      "potentialDiagnosis": [
+        {
+          "diagnosis": "Chronic bronchitis-related cough",
+          "probability": "70%"
+        }
+      ]
+    },
+    {
+      "option_text": "No",
+      "next_question_id": "Q296",
+      "potentialDiagnosis": [
+        {
+          "diagnosis": "Non-specific cough",
+          "probability": "50%"
+        }
+      ]
+    }
+  ],
+  "diagnosis": "Chronic bronchitis-related cough"
+},{
+  "_id": {
+    "$oid": "6442004ec03169a3584be147"
+  },
+  "question_id": "P203",
+  "chief_complaint": "cough",
+  "is_first_question": false,
+  "is_last_question": false,
+  "question": "Do you have a history of drug abuse?",
+  "options": [
+    "Yes",
+    "No"
+  ],
+  "type": "single type",
+  "next_path": [
+    {
+      "option_text": "Yes",
+      "next_question_id": "Q297",
+      "potentialDiagnosis": [
+        {
+          "diagnosis": "Substance-induced cough",
+          "probability": "70%"
+        }
+      ]
+    },
+    {
+      "option_text": "No",
+      "next_question_id": "Q298",
+      "potentialDiagnosis": [
+        {
+          "diagnosis": "Non-specific cough",
+          "probability": "50%"
+        }
+      ]
+    }
+  ],
+  "diagnosis": "Substance-induced cough"
+},{
+  "_id": {
+    "$oid": "6442004ec03169a3584be148"
+  },
+  "question_id": "P204",
+  "chief_complaint": "cough",
+  "is_first_question": false,
+  "is_last_question": false,
+  "question": "Do you have a history of environmental exposures to pollutants or chemicals?",
+  "options": [
+    "Yes",
+    "No"
+  ],
+  "type": "single type",
+  "next_path": [
+    {
+      "option_text": "Yes",
+      "next_question_id": "Q299",
+      "potentialDiagnosis": [
+        {
+          "diagnosis": "Toxic exposure-related cough",
+          "probability": "70%"
+        }
+      ]
+    },
+    {
+      "option_text": "No",
+      "next_question_id": "Q300",
+      "potentialDiagnosis": [
+        {
+          "diagnosis": "Non-specific cough",
+          "probability": "50%"
+        }
+      ]
+    }
+  ],
+  "diagnosis": "Toxic exposure-related cough"
+},{
+  "_id": {
+    "$oid": "6442004ec03169a3584be149"
+  },
+  "question_id": "P205",
+  "chief_complaint": "cough",
+  "is_first_question": false,
+  "is_last_question": false,
+  "question": "Do you have a history of sarcoidosis?",
+  "options": [
+    "Yes",
+    "No"
+  ],
+  "type": "single type",
+  "next_path": [
+    {
+      "option_text": "Yes",
+      "next_question_id": "Q301",
+      "potentialDiagnosis": [
+        {
+          "diagnosis": "Sarcoidosis-related cough",
+          "probability": "70%"
+        }
+      ]
+    },
+    {
+      "option_text": "No",
+      "next_question_id": "Q302",
+      "potentialDiagnosis": [
+        {
+          "diagnosis": "Non-specific cough",
+          "probability": "50%"
+        }
+      ]
+    }
+  ],
+  "diagnosis": "Sarcoidosis-related cough"
+},{
+  "_id": {
+    "$oid": "6442004ec03169a3584be14a"
+  },
+  "question_id": "P206",
+  "chief_complaint": "cough",
+  "is_first_question": false,
+  "is_last_question": false,
+  "question": "Do you have a history of myasthenia gravis?",
+  "options": [
+    "Yes",
+    "No"
+  ],
+  "type": "single type",
+  "next_path": [
+    {
+      "option_text": "Yes",
+      "next_question_id": "Q303",
+      "potentialDiagnosis": [
+        {
+          "diagnosis": "Myasthenia gravis-related cough",
+          "probability": "70%"
+        }
+      ]
+    },
+    {
+      "option_text": "No",
+      "next_question_id": "Q304",
+      "potentialDiagnosis": [
+        {
+          "diagnosis": "Non-specific cough",
+          "probability": "50%"
+        }
+      ]
+    }
+  ],
+  "diagnosis": "Myasthenia gravis-related cough"
+},{
+  "_id": {
+    "$oid": "6442004ec03169a3584be14b"
+  },
+  "question_id": "P207",
+  "chief_complaint": "cough",
+  "is_first_question": false,
+  "is_last_question": false,
+  "question": "Do you have a history of thyroid disease?",
+  "options": [
+    "Yes",
+    "No"
+  ],
+  "type": "single type",
+  "next_path": [
+    {
+      "option_text": "Yes",
+      "next_question_id": "Q305",
+      "potentialDiagnosis": [
+        {
+          "diagnosis": "Thyroid disease-related cough",
+          "probability": "70%"
+        }
+      ]
+    },
+    {
+      "option_text": "No",
+      "next_question_id": "Q306",
+      "potentialDiagnosis": [
+        {
+          "diagnosis": "Non-specific cough",
+          "probability": "50%"
+        }
+      ]
+    }
+  ],
+  "diagnosis": "Thyroid disease-related cough"
+},{
+  "_id": {
+    "$oid": "6442004ec03169a3584be14c"
+  },
+  "question_id": "P208",
+  "chief_complaint": "cough",
+  "is_first_question": false,
+  "is_last_question": false,
+  "question": "Do you have a history of amyloidosis?",
+  "options": [
+    "Yes",
+    "No"
+  ],
+  "type": "single type",
+  "next_path": [
+    {
+      "option_text": "Yes",
+      "next_question_id": "Q307",
+      "potentialDiagnosis": [
+        {
+          "diagnosis": "Amyloidosis-related cough",
+          "probability": "70%"
+        }
+      ]
+    },
+    {
+      "option_text": "No",
+      "next_question_id": "Q308",
+      "potentialDiagnosis": [
+        {
+          "diagnosis": "Non-specific cough",
+          "probability": "50%"
+        }
+      ]
+    }
+  ],
+  "diagnosis": "Amyloidosis-related cough"
+},{
+  "_id": {
+    "$oid": "6442004ec03169a3584be14d"
+  },
+  "question_id": "P209",
+  "chief_complaint": "cough",
+  "is_first_question": false,
+  "is_last_question": false,
+  "question": "Do you have a history of cystic fibrosis?",
+  "options": [
+    "Yes",
+    "No"
+  ],
+  "type": "single type",
+  "next_path": [
+    {
+      "option_text": "Yes",
+      "next_question_id": "Q309",
+      "potentialDiagnosis": [
+        {
+          "diagnosis": "Cystic fibrosis-related cough",
+          "probability": "70%"
+        }
+      ]
+    },
+    {
+      "option_text": "No",
+      "next_question_id": "Q310",
+      "potentialDiagnosis": [
+        {
+          "diagnosis": "Non-specific cough",
+          "probability": "50%"
+        }
+      ]
+    }
+  ],
+  "diagnosis": "Cystic fibrosis-related cough"
+},{
+  "_id": {
+    "$oid": "6442004ec03169a3584be14e"
+  },
+  "question_id": "P210",
+  "chief_complaint": "cough",
+  "is_first_question": false,
+  "is_last_question": false,
+  "question": "Do you have a history of bronchiectasis?",
+  "options": [
+    "Yes",
+    "No"
+  ],
+  "type": "single type",
+  "next_path": [
+    {
+      "option_text": "Yes",
+      "next_question_id": "Q311",
+      "potentialDiagnosis": [
+        {
+          "diagnosis": "Bronchiectasis-related cough",
+          "probability": "70%"
+        }
+      ]
+    },
+    {
+      "option_text": "No",
+      "next_question_id": "Q312",
+      "potentialDiagnosis": [
+        {
+          "diagnosis": "Non-specific cough",
+          "probability": "50%"
+        }
+      ]
+    }
+  ],
+  "diagnosis": "Bronchiectasis-related cough"
+},{
+  "_id": {
+    "$oid": "6442004ec03169a3584be14f"
+  },
+  "question_id": "P211",
+  "chief_complaint": "cough",
+  "is_first_question": false,
+  "is_last_question": false,
+  "question": "Do you have a history of lymphoma or other blood cancers?",
+  "options": [
+    "Yes",
+    "No"
+  ],
+  "type": "single type",
+  "next_path": [
+    {
+      "option_text": "Yes",
+      "next_question_id": "Q313",
+      "potentialDiagnosis": [
+        {
+          "diagnosis": "Lymphoma-related cough",
+          "probability": "70%"
+        }
+      ]
+    },
+    {
+      "option_text": "No",
+      "next_question_id": "Q314",
+      "potentialDiagnosis": [
+        {
+          "diagnosis": "Non-specific cough",
+          "probability": "50%"
+        }
+      ]
+    }
+  ],
+  "diagnosis": "Lymphoma-related cough"
+},{
+  "_id": {
+    "$oid": "6442004ec03169a3584be150"
+  },
+  "question_id": "P212",
+  "chief_complaint": "cough",
+  "is_first_question": false,
+  "is_last_question": false,
+  "question": "Do you have a history of pulmonary fibrosis?",
+  "options": [
+    "Yes",
+    "No"
+  ],
+  "type": "single type",
+  "next_path": [
+    {
+      "option_text": "Yes",
+      "next_question_id": "Q315",
+      "potentialDiagnosis": [
+        {
+          "diagnosis": "Pulmonary fibrosis-related cough",
+          "probability": "70%"
+        }
+      ]
+    },
+    {
+      "option_text": "No",
+      "next_question_id": "Q316",
+      "potentialDiagnosis": [
+        {
+          "diagnosis": "Non-specific cough",
+          "probability": "50%"
+        }
+      ]
+    }
+  ],
+  "diagnosis": "Pulmonary fibrosis-related cough"
+},{
+  "_id": {
+    "$oid": "6442004ec03169a3584be151"
+  },
+  "question_id": "P213",
+  "chief_complaint": "cough",
+  "is_first_question": false,
+  "is_last_question": false,
+  "question": "Do you have a history of chronic sinusitis?",
+  "options": [
+    "Yes",
+    "No"
+  ],
+  "type": "single type",
+  "next_path": [
+    {
+      "option_text": "Yes",
+      "next_question_id": "Q317",
+      "potentialDiagnosis": [
+        {
+          "diagnosis": "Sinusitis-related cough",
+          "probability": "70%"
+        }
+      ]
+    },
+    {
+      "option_text": "No",
+      "next_question_id": "Q318",
+      "potentialDiagnosis": [
+        {
+          "diagnosis": "Non-specific cough",
+          "probability": "50%"
+        }
+      ]
+    }
+  ],
+  "diagnosis": "Sinusitis-related cough"
+},{
+  "_id": {
+    "$oid": "6442004ec03169a3584be152"
+  },
+  "question_id": "P214",
+  "chief_complaint": "cough",
+  "is_first_question": false,
+  "is_last_question": false,
+  "question": "Do you have a history of vocal cord dysfunction?",
+  "options": [
+    "Yes",
+    "No"
+  ],
+  "type": "single type",
+  "next_path": [
+    {
+      "option_text": "Yes",
+      "next_question_id": "Q319",
+      "potentialDiagnosis": [
+        {
+          "diagnosis": "Vocal cord dysfunction-related cough",
+          "probability": "70%"
+        }
+      ]
+    },
+    {
+      "option_text": "No",
+      "next_question_id": "Q320",
+      "potentialDiagnosis": [
+        {
+          "diagnosis": "Non-specific cough",
+          "probability": "50%"
+        }
+      ]
+    }
+  ],
+  "diagnosis": "Vocal"
+}]

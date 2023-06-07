@@ -1,0 +1,167 @@
+[{"question_id": "Q1", "chief_complaint": "cough", "is_first_question": "true", "is_last_question": "false", "question":
+"How long have you experienced the cough?", "options": ["Less than 3 weeks", "3-8 weeks", "More than 8 weeks"], "type":
+"single type", "next_path": [{"option_text": "Less than 3 weeks", "next_question_id": "Q2", "potentialDiagnosis":
+{"diagnosis": "", "probability": ""}}, {"option_text": "3-8 weeks", "next_question_id": "Q3", "potentialDiagnosis":
+{"diagnosis": "", "probability": ""}}, {"option_text": "More than 8 weeks", "next_question_id": "Q4",
+"potentialDiagnosis": {"diagnosis": "", "probability": ""}}], "diagnosis": ""},
+{"question_id": "Q2", "chief_complaint": "cough", "is_first_question": "false", "is_last_question": "false", "question":
+"Is the cough productive (with mucus) or nonproductive (dry)?", "options": ["Productive", "Nonproductive"], "type":
+"single type", "next_path": [{"option_text": "Productive", "next_question_id": "Q5", "potentialDiagnosis": {"diagnosis":
+"", "probability": ""}}, {"option_text": "Nonproductive", "next_question_id": "Q6", "potentialDiagnosis": {"diagnosis":
+"", "probability": ""}}], "diagnosis": ""},
+{"question_id": "Q3", "chief_complaint": "cough", "is_first_question": "false", "is_last_question": "false", "question":
+"Is the cough worse at specific times of the day?", "options": ["Yes", "No"], "type": "single type", "next_path":
+[{"option_text": "Yes", "next_question_id": "Q7", "potentialDiagnosis": {"diagnosis": "", "probability": ""}},
+{"option_text": "No", "next_question_id": "Q8", "potentialDiagnosis": {"diagnosis": "", "probability": ""}}],
+"diagnosis": ""},
+{"question_id": "Q4", "chief_complaint": "cough", "is_first_question": "false", "is_last_question": "false", "question":
+"Have you experienced any weight loss or night sweats?", "options": ["Yes", "No"], "type": "single type", "next_path":
+[{"option_text": "Yes", "next_question_id": "Q9", "potentialDiagnosis": {"diagnosis": "", "probability": ""}},
+{"option_text": "No", "next_question_id": "Q10", "potentialDiagnosis": {"diagnosis": "", "probability": ""}}],
+"diagnosis": ""},
+{"question_id": "Q5", "chief_complaint": "cough", "is_first_question": "false", "is_last_question": "false",
+"question": "Do you have symptoms of a common cold?", "options": ["Yes", "No"], "type": "single type", "next_path":
+[{"option_text": "Yes", "next_question_id": "Q11", "potentialDiagnosis": {"diagnosis": "", "probability": ""}},
+{"option_text": "No", "next_question_id": "Q12", "potentialDiagnosis": {"diagnosis": "", "probability": ""}}],
+"diagnosis": ""},
+{"question_id": "Q6", "chief_complaint": "cough", "is_first_question": "false", "is_last_question": "false", "question":
+"Do you have a history of allergies or asthma?", "options": ["Yes", "No"], "type": "single type", "next_path":
+[{"option_text": "Yes", "next_question_id": "Q13", "potentialDiagnosis": {"diagnosis": "", "probability": ""}},
+{"option_text": "No", "next_question_id": "Q14", "potentialDiagnosis": {"diagnosis": "", "probability": ""}}],
+"diagnosis": ""},
+{"question_id": "Q7", "chief_complaint": "cough", "is_first_question": "false", "is_last_question": "false", "question":
+"Do you smoke or have exposure to secondhand smoke?", "options": ["Yes", "No"], "type": "single type", "next_path":
+[{"option_text": "Yes", "next_question_id": "Q15", "potentialDiagnosis": {"diagnosis": "", "probability": ""}},
+{"option_text": "No", "next_question_id": "Q16", "potentialDiagnosis": {"diagnosis": "", "probability": ""}}],
+"diagnosis": ""},
+{"question_id": "Q8", "chief_complaint": "cough", "is_first_question": "false", "is_last_question": "false", "question":
+"Any history of lung disease or respiratory infections?", "options": ["Yes", "No"], "type": "single type", "next_path":
+[{"option_text": "Yes", "next_question_id": "Q17", "potentialDiagnosis": {"diagnosis": "", "probability": ""}},
+{"option_text": "No", "next_question_id": "Q18", "potentialDiagnosis": {"diagnosis": "", "probability": ""}}],
+"diagnosis": ""},
+{"question_id": "Q9", "chief_complaint": "cough", "is_first_question": "false", "is_last_question": "false", "question":
+"Do you have a history of tuberculosis or contact with someone with tuberculosis?", "options": ["Yes", "No"], "type":
+"single type", "next_path": [{"option_text": "Yes", "next_question_id": "Q19", "potentialDiagnosis": {"diagnosis": "",
+"probability": ""}}, {"option_text": "No", "next_question_id": "Q20", "potentialDiagnosis": {"diagnosis": "",
+"probability": ""}}], "diagnosis": ""},
+{"question_id": "Q10", "chief_complaint": "cough", "is_first_question": "false", "is_last_question": "false",
+"question": "Do you take any medications that could cause a cough?", "options": ["Yes", "No"], "type": "single type",
+"next_path": [{"option_text": "Yes", "next_question_id": "Q21", "potentialDiagnosis": {"diagnosis": "", "probability":
+""}}, {"option_text": "No", "next_question_id": "Q22", "potentialDiagnosis": {"diagnosis": "", "probability": ""}}],
+"diagnosis": ""},
+{"question_id": "Q11", "chief_complaint": "cough", "is_first_question": "false", "is_last_question": "false",
+"question": "Are there any other symptoms like fever, body aches, or sore throat?", "options": ["Yes", "No"], "type":
+"single type", "next_path": [{"option_text": "Yes", "next_question_id": "Q23", "potentialDiagnosis": {"diagnosis": "",
+"probability": ""}}, {"option_text": "No", "next_question_id": "Q24", "potentialDiagnosis": {"diagnosis": "",
+"probability": ""}}], "diagnosis": ""},
+{"question_id": "Q12", "chief_complaint": "cough", "is_first_question": "false", "is_last_question": "false",
+"question": "Any exposure to an environment with poor air quality, chemicals, or irritants?", "options": ["Yes", "No"],
+"type": "single type", "next_path": [{"option_text": "Yes", "next_question_id": "Q25", "potentialDiagnosis":
+{"diagnosis": "", "probability": ""}}, {"option_text": "No", "next_question_id": "Q26", "potentialDiagnosis":
+{"diagnosis": "", "probability": ""}}], "diagnosis": ""},
+{"question_id": "Q13", "chief_complaint": "cough", "is_first_question": "false", "is_last_question": "false",
+"question": "Are you currently receiving allergy or asthma treatment?", "options": ["Yes", "No"], "type": "single type",
+"next_path": [{"option_text": "Yes", "next_question_id": "Q27", "potentialDiagnosis": {"diagnosis": "", "probability":
+""}}, {"option_text": "No", "next_question_id": "Q28", "potentialDiagnosis": {"diagnosis": "", "probability": ""}}],
+"diagnosis": ""},
+{"question_id": "Q14", "chief_complaint": "cough", "is_first_question": "false", "is_last_question": "false",
+"question": "Does the cough worsen when exposed to cold air or after eating or drinking?", "options": ["Yes", "No"],
+"type": "single type", "next_path": [{"option_text": "Yes", "next_question_id": "Q29", "potentialDiagnosis":
+{"diagnosis": "", "probability": ""}}, {"option_text": "No", "next_question_id": "Q30", "potentialDiagnosis":
+{"diagnosis": "", "probability": ""}}], "diagnosis": ""},
+{"question_id": "Q15", "chief_complaint": "cough", "is_first_question": "false", "is_last_question": "false",
+"question": "Are you experiencing shortness of breath or chest pain?", "options": ["Yes", "No"], "type": "single type",
+"next_path": [{"option_text": "Yes", "next_question_id": "Q31", "potentialDiagnosis": {"diagnosis": "", "probability":
+""}}, {"option_text": "No", "next_question_id": "Q32", "potentialDiagnosis": {"diagnosis": "", "probability": ""}}],
+"diagnosis": ""},
+{"question_id": "Q16", "chief_complaint": "cough", "is_first_question": "false", "is_last_question": "false",
+"question": "Are you experiencing heartburn, regurgitation, or difficulty swallowing?", "options": ["Yes", "No"],
+"type": "single type", "next_path": [{"option_text": "Yes", "next_question_id": "Q33", "potentialDiagnosis":
+{"diagnosis": "", "probability": ""}}, {"option_text": "No", "next_question_id": "Q34", "potentialDiagnosis":
+{"diagnosis": "", "probability": ""}}], "diagnosis": ""},
+{"question_id": "Q17", "chief_complaint": "cough", "is_first_question": "false", "is_last_question": "false",
+"question": "Are you currently receiving treatment for your lung disease or respiratory infection?", "options": ["Yes",
+"No"], "type": "single type", "next_path": [{"option_text": "Yes", "next_question_id": "Q35", "potentialDiagnosis":
+{"diagnosis": "", "probability": ""}}, {"option_text": "No", "next_question_id": "Q36", "potentialDiagnosis":
+{"diagnosis": "", "probability": ""}}], "diagnosis": ""},
+{"question_id": "Q18", "chief_complaint": "cough", "is_first_question": "false", "is_last_question": "false",
+"question": "Do you have any history of chronic sinus infections?", "options": ["Yes", "No"], "type": "single type",
+"next_path": [{"option_text": "Yes", "next_question_id": "Q37", "potentialDiagnosis": {"diagnosis": "", "probability":
+""}}, {"option_text": "No", "next_question_id": "Q38", "potentialDiagnosis": {"diagnosis": "", "probability": ""}}],
+"diagnosis": ""},
+{"question_id": "Q19", "chief_complaint": "cough", "is_first_question": "false", "is_last_question": "false",
+"question": "Are you currently on treatment for tuberculosis?", "options": ["Yes", "No"], "type": "single type",
+"next_path": [{"option_text": "Yes", "next_question_id": "Q39", "potentialDiagnosis": {"diagnosis": "", "probability":
+""}}, {"option_text": "No", "next_question_id": "Q40", "potentialDiagnosis": {"diagnosis": "", "probability": ""}}],
+"diagnosis": ""},
+{"question_id": "Q20", "chief_complaint": "cough", "is_first_question": "false", "is_last_question": "false",
+"question": "Do you have a persistent fever or is cough accompanied by bloody sputum?", "options": ["Yes", "No"],
+"type": "single type", "next_path": [{"option_text": "Yes", "next_question_id": "Q41", "potentialDiagnosis":
+{"diagnosis": "", "probability": ""}}, {"option_text": "No", "next_question_id": "Q42", "potentialDiagnosis":
+{"diagnosis": "", "probability": ""}}], "diagnosis": ""},
+{"question_id": "Q21", "chief_complaint": "cough", "is_first_question": "false", "is_last_question": "false",
+"question": "Did the cough start or worsen after starting the medication?", "options": ["Yes", "No"], 
+"type": "single type", "next_path": [{"option_text": "Yes", "next_question_id": "Q43", "potentialDiagnosis": {"diagnosis": "",
+"probability": ""}}, {"option_text": "No", "next_question_id": "Q44", "potentialDiagnosis": {"diagnosis": "",
+"probability": ""}}], "diagnosis": ""},
+{"question_id": "Q22", "chief_complaint": "cough", "is_first_question": "false", "is_last_question": "false",
+"question": "Are you experiencing sinus congestion, postnasal drip, or frequent throat clearing?", "options": ["Yes",
+"No"], "type": "single type", "next_path": [{"option_text": "Yes", "next_question_id": "Q45", "potentialDiagnosis":
+{"diagnosis": "", "probability": ""}}, {"option_text": "No", "next_question_id": "Q46", "potentialDiagnosis":
+{"diagnosis": "", "probability": ""}}], "diagnosis": ""},
+{"question_id": "Q23", "chief_complaint": "cough", "is_first_question": "false", "is_last_question": "true", "question":
+"", "options": [], "type": "", "next_path": [], "diagnosis": {"diagnosis": "Acute viral upper respiratory infection (common cold)", "probability": "high"}},
+{"question_id": "Q24", "chief_complaint": "cough", "is_first_question": "false", "is_last_question": "true", "question":
+"", "options": [], "type": "", "next_path": [], "diagnosis": {"diagnosis": "Acute bronchitis", "probability":
+"moderate"}},
+{"question_id": "Q25", "chief_complaint": "cough", "is_first_question": "false", "is_last_question": "true", "question":
+"", "options": [], "type": "", "next_path": [], "diagnosis": {"diagnosis": "Exposure to irritants or poor air quality",
+"probability": "high"}},
+{"question_id": "Q26", "chief_complaint": "cough", "is_first_question": "false", "is_last_question": "true", "question":
+"", "options": [], "type": "", "next_path": [], "diagnosis": {"diagnosis": "Acute bronchitis", "probability":
+"moderate"}},
+{"question_id": "Q27", "chief_complaint": "cough", "is_first_question": "false", "is_last_question": "true", "question":
+"", "options": [], "type": "", "next_path": [], "diagnosis": {"diagnosis": "Allergy or asthma exacerbation",
+"probability": "high"}},
+{"question_id": "Q28", "chief_complaint": "cough", "is_first_question": "false", "is_last_question": "true", "question":
+"", "options": [], "type": "", "next_path": [], "diagnosis": {"diagnosis": "Allergy or asthma-related cough",
+"probability": "moderate"}},
+{"question_id": "Q29", "chief_complaint": "cough", "is_first_question": "false", "is_last_question": "true", "question":
+"", "options": [], "type": "", "next_path": [], "diagnosis": {"diagnosis": "Vasomotor rhinitis or laryngopharyngeal reflux", "probability": "moderate"}},
+{"question_id": "Q30", "chief_complaint": "cough", "is_first_question": "false", "is_last_question": "true", "question":
+"", "options": [], "type": "", "next_path": [], "diagnosis": {"diagnosis": "Non-specific cough", "probability": "low"}},
+{"question_id": "Q31", "chief_complaint": "cough", "is_first_question": "false", "is_last_question": "true",
+"question": "", "options": [], "type": "", "next_path": [], "diagnosis": {"diagnosis": "Chronic obstructive pulmonary disease (COPD) exacerbation", "probability": "high"}},
+{"question_id": "Q32", "chief_complaint": "cough", "is_first_question": "false", "is_last_question": "true", "question":
+"", "options": [], "type": "", "next_path": [], "diagnosis": {"diagnosis": "Chronic bronchitis", "probability":
+"moderate"}},
+{"question_id": "Q33", "chief_complaint": "cough", "is_first_question": "false", "is_last_question": "true", "question":
+"", "options": [], "type": "", "next_path": [], "diagnosis": {"diagnosis": "Gastroesophageal reflux disease (GERD) related cough", "probability": "high"}},
+{"question_id": "Q34", "chief_complaint": "cough", "is_first_question": "false", "is_last_question": "true", "question":
+"", "options": [], "type": "", "next_path": [], "diagnosis": {"diagnosis": "Non-specific cough", "probability": "low"}},
+{"question_id": "Q35", "chief_complaint": "cough", "is_first_question": "false", "is_last_question": "true", "question":
+"", "options": [], "type": "", "next_path": [], "diagnosis": {"diagnosis": "Treatment-resistant or recurrent respiratory infection", "probability": "moderate"}},
+{"question_id": "Q36", "chief_complaint": "cough", "is_first_question": "false", "is_last_question": "true", "question":
+"", "options": [], "type": "", "next_path": [], "diagnosis": {"diagnosis": "Respiratory infection", "probability":
+"high"}},
+{"question_id": "Q37", "chief_complaint": "cough", "is_first_question": "false", "is_last_question": "true", "question":
+"", "options": [], "type": "", "next_path": [], "diagnosis": {"diagnosis": "Chronic sinusitis", "probability": "high"}},
+{"question_id": "Q38", "chief_complaint": "cough", "is_first_question": "false", "is_last_question": "true", "question":
+"", "options": [], "type": "", "next_path": [], "diagnosis": {"diagnosis": "Non-specific cough", "probability": "low"}},
+{"question_id": "Q39", "chief_complaint": "cough", "is_first_question": "false", "is_last_question": "true", "question":
+"", "options": [], "type": "", "next_path": [], "diagnosis": {"diagnosis": "Tuberculosis treatment side effects",
+"probability": "moderate"}},
+{"question_id": "Q40", "chief_complaint": "cough", "is_first_question": "false", "is_last_question": "true", "question":
+"", "options": [], "type": "", "next_path": [], "diagnosis": {"diagnosis": "Possible tuberculosis", "probability":
+"high"}},
+{"question_id": "Q41", "chief_complaint": "cough", "is_first_question": "false", "is_last_question": "true", "question":
+"", "options": [], "type": "", "next_path": [], "diagnosis": {"diagnosis": "Possible pneumonia or lung abscess",
+"probability": "high"}},
+{"question_id": "Q42", "chief_complaint": "cough", "is_first_question": "false", "is_last_question": "true", "question":
+"", "options": [], "type": "", "next_path": [], "diagnosis": {"diagnosis": "Non-specific cough", "probability": "low"}},
+{"question_id": "Q43", "chief_complaint": "cough", "is_first_question": "false", "is_last_question": "true", "question":
+"", "options": [], "type": "", "next_path": [], "diagnosis": {"diagnosis": "Medication-induced cough", "probability":
+"high"}},
+{"question_id": "Q44", "chief_complaint": "cough", "is_first_question": "false", "is_last_question": "true", "question":
+"", "options": [], "type": "", "next_path": [], "diagnosis": {"diagnosis": "Non-specific cough", "probability": "low"}},
+

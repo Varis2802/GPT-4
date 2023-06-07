@@ -1,0 +1,1722 @@
+{ queid: "q1", question : "What is your gender?", options : { "Male":"q2", "Female":"q3"}, level:"1"}
+
+{ queid: "q2", question : "Do you have a history of prostate problems?", options : { "Yes":"q4", "No":"q5"}, level:"2"}
+
+{ queid: "q3", question : "Are you pregnant?", options : { "Yes":"q126", "No":"q6"}, level:"2"}
+
+{ queid: "q4", question : "Are you experiencing pain in your lower back?", options : { "Yes":"q7", "No":"q126"}, level:"3"}
+
+{ queid: "q5", question : "Are you experiencing pain in your upper back?", options : { "Yes":"q8", "No":"q9"}, level:"3"}
+
+{ queid: "q6", question : "Is the pain in your lower or upper back?", options : { "Lower back":"q10", "Upper back":"q8"}, level:"3"}
+
+{ queid: "q7", question : "Are you experiencing any of these symptoms - numbness, tingling, weakness, incontinence or fever?", options : { "Yes":"q11", "No":["Muscle strain", "Muscle spasm"]}, level:"4"}
+
+{ queid: "q8", question : "Have you recently performed an activity that involves repetitive motion, such as shoveling, raking, or twisting?", options : { "Yes":"q12", "No":["Poor posture", "Muscle strain", "Arthritis"]}, level:"4"}
+
+{ queid: "q9", question : "Do you have a history of osteoporosis or bone fractures?", options : { "Yes":"q13", "No":["Poor posture", "Muscle strain", "Arthritis"]}, level:"4"}
+
+{ queid: "q10", question : "Do you have a history of kidney problems?", options : { "Yes":"q14", "No":"q15"}, level:"4"}
+
+{ queid: "q11", question : "Have you recently experienced a traumatic event or accident?", options : { "Yes":["Spinal cord injury", "Compression fracture"], "No":["Herniated disc", "Sciatica", "Muscle strain"]}, level:"5"}
+
+{ queid: "q12", question : "Are you experiencing any of these symptoms - numbness, tingling, or weakness in your arms or legs?", options : { "Yes":["Herniated disc", "Sciatica"], "No":["Muscle strain"]}, level:"5"}
+
+{ queid: "q13", question : "Are you experiencing any of these symptoms - sudden onset of severe back pain, numbness or tingling in the lower extremities?", options : { "Yes":"q16", "No":["Poor posture", "Muscle strain", "Arthritis"]}, level:"5"}
+
+{ queid: "q14", question : "Are you experiencing any of these symptoms - fever, nausea, vomiting, or pain in the lower abdomen?", options : { "Yes":"q17", "No":["Kidney stones", "Kidney infection"]}, level:"5"}
+
+{ queid: "q15", question : "Have you recently lifted or moved a heavy object?", options : { "Yes":"q18", "No":["Poor posture", "Muscle strain", "Arthritis"]}, level:"5"}
+
+{ queid: "q16", question : "Do you have a history of spinal stenosis?", options : { "Yes":["Spinal stenosis", "Degenerative disc disease"], "No":"q19"}, level:"6"}
+
+{ queid: "q17", question : "Do you have a history of cancer?", options : { "Yes":["Spinal metastases", "Multiple myeloma"], "No":"q20"}, level:"6"}
+
+{ queid: "q18", question : "Did you use proper lifting technique?", options : { "Yes":"q21", "No":["Muscle strain"]}, level:"6"}
+
+{ queid: "q19", question : "Are you experiencing pain in your legs while walking or standing?", options : { "Yes":["Lumbar spinal stenosis", "Sciatica"], "No":"q22"}, level:"7"}
+
+{ queid: "q20", question : "Are you experiencing any of these symptoms - unintentional weight loss, fatigue, or night sweats?", options : { "Yes":"q23", "No":["Spinal metastases", "Multiple myeloma"]}, level:"7"}
+
+{ queid: "q21", question : "Have you tried any pain reduction methods?", options : { "Yes":"q24", "No":["Muscle strain"]}, level:"7"}
+
+{ queid: "q22", question : "Are you experiencing any of these symptoms - pain that improves with rest, sudden loss of bladder or bowel function, or unexplained fever?", options : { "Yes":["Spinal cord compression", "Cauda equina syndrome"], "No":["Muscle strain"]}, level:"8"}
+
+{ queid: "q23", question : "Do you have a family history of cancer?", options : { "Yes":["Spinal metastases", "Multiple myeloma"], "No":"q25"}, level:"8"}
+
+{ queid: "q24", question : "Are you experiencing any of these symptoms - numbness or weakness in your extremities, difficulty walking or standing, or loss of bowel or bladder control?", options : { "Yes":["Herniated disc with nerve root compression","Spinal stenosis"], "No":["Muscle strain"]}, level:"8"}
+
+{ queid: "q25", question : "Are you experiencing any of these symptoms - unexplained weight loss, fatigue, or night sweats?", options : { "Yes":"q26", "No":["Muscle strain"]}, level:"9"}
+
+{ queid: "q26", question : "Have you recently traveled outside of your local area or been exposed to someone with a contagious disease?", options : { "Yes":"q27", "No":["Cancer"]}, level:"10"}
+
+{ queid: "q27", question : "Are you experiencing any of these symptoms - fever, cough, shortness of breath, or body aches?", options : { "Yes":"q28", "No":["Viral infection"]}, level:"11"}
+
+{ queid: "q28", question : "Seek medical attention immediately", options : { "":"Diagnosis: COVID-19"}, level:"12"}
+
+{
+  queid: "q1",
+  question: "Is the back pain new or existing?",
+  options: {
+    "New": "q2",
+    "Existing": "q6"
+  },
+  level: "1"
+},
+{
+  queid: "q2",
+  question: "Did the back pain begin after a recent injury or trauma?",
+  options: {
+    "Yes": "q3",
+    "No": "q4"
+  },
+  level: "2"
+},
+{
+  queid: "q3",
+  question: "What type of injury or trauma caused the pain?",
+  options: {
+    "Heavy lifting": "q5"
+  },
+  level: "3"
+},
+{
+  queid: "q4",
+  question: "Does the patient have any other symptoms besides the back pain?",
+  options: {
+    "Yes": "q10",
+    "No": "q11"
+  },
+  level: "4"
+},
+{
+  queid: "q5",
+  question: "Did you use proper technique when lifting the heavy object?",
+  options: {
+    "Yes": "q7",
+    "No": "q8"
+  },
+  level: "5"
+},
+{
+  queid: "q6",
+  question: "How long have you had the existing back pain?",
+  options: {
+    "Less than a month": "q10",
+    "Between 1-6 months": "q11",
+    "More than 6 months": "q12"
+  },
+  level: "2"
+},
+{
+  queid: "q7",
+  question: "Are you experiencing muscle spasms?",
+  options: {
+    "Yes": "q9",
+    "No": "q13"
+  },
+  level: "6"
+},
+{
+  queid: "q8",
+  question: "Did you receive any immediate medical treatment after the injury?",
+  options: {
+    "Yes": "q9",
+    "No": "q13"
+  },
+  level: "6"
+},
+{
+  queid: "q9",
+  question: "Have you tried any pain reduction methods?",
+  options: {
+    "Yes": "q10",
+    "No": "q11"
+  },
+  level: "7"
+},
+{
+  queid: "q10",
+  question: "What pain reduction methods have you tried?",
+  options: {
+    "Physical therapy": "q14",
+    "Medication": "q15",
+    "Hot or cold therapy": "q16",
+    "None": "q17"
+  },
+  level: "8"
+},
+{
+  queid: "q11",
+  question: "Has the patient undergone any surgeries in the past?",
+  options: {
+    "Yes": "q18",
+    "No": "q19"
+  },
+  level: "8"
+},
+{
+  queid: "q12",
+  question: "Has the patient undergone any imaging tests for the back pain?",
+  options: {
+    "Yes": "q20",
+    "No": "q21"
+  },
+  level: "3"
+},
+{
+  queid: "q13",
+  question: "Did the back pain improve over time or worsen?",
+  options: {
+    "Improved": "q17",
+    "Worsened": "q22"
+  },
+  level: "7"
+},
+{
+  queid: "q14",
+  question: "Did the physical therapy provide any relief to the back pain?",
+  options: {
+    "Yes": "q23",
+    "No": "q24"
+  },
+  level: "9"
+},
+{
+  queid: "q15",
+  question: "What type of medication was prescribed for the back pain?",
+  options: {
+    "Over the counter medication": "q24",
+    "Prescription medication": "q25"
+  },
+  level: "9"
+},
+{
+  queid: "q16",
+  question: "Did the hot or cold therapy provide any relief to the back pain?",
+  options: {
+    "Yes": "q23",
+    "No": "q24"
+  },
+  level: "9"
+},
+{
+  queid: "q17",
+  question: "What is the frequency of the back pain?",
+  options: {
+    "Occasional": "q26",
+    "Constant": "q27"
+  },
+  level: "8"
+},
+{
+  queid: "q18",
+  question: "What type of surgery was performed?",
+  options: {
+    "Spinal fusion": "q28",
+    "Discectomy": "q29",
+    "Other": "q30"
+  },
+  level: "9"
+},
+{
+  queid: "q19",
+  question: "What condition was the patient diagnosed with in the past?",
+  options: {
+    "Herniated disc": "q31",
+    "Spinal stenosis": "q32",
+    "Degenerative disc disease": "q33",
+    "Other": "q34"
+  },
+  level: "9"
+},
+{
+  queid: "q20",
+  question: "What imaging tests were performed?",
+  options: {
+    "X-ray": "q35",
+    "MRI": "q36",
+    "CT scan": "q37"
+  },
+  level: "4"
+},
+{
+  queid: "q21",
+  question: "What is the duration of the existing back pain?",
+  options: {
+    "Less than a month": "q26",
+    "Between 1-6 months": "q27",
+    "More than 6 months": "q38"
+  },
+  level: "4"
+},
+{
+  queid: "q22",
+  question: "Have you tried any pain reduction methods?",
+  options: {
+    "Yes": "q10",
+    "No": "q39"
+  },
+  level: "8"
+},
+{
+  queid: "q23",
+  question: "What is the frequency of the back pain?",
+  options: {
+    "Occasional": "q40",
+    "Constant": "q41"
+  },
+  level: "10"
+},
+{
+  queid: "q24",
+  question: "What is the frequency of the back pain?",
+  options: {
+    "Occasional": "q40",
+    "Constant": "q41"
+  },
+  level: "9"
+},
+{
+  queid: "q25",
+  question: "Did the prescription medication provide any relief to the back pain?",
+  options: {
+    "Yes": "q42",
+    "No": "q43"
+  },
+  level: "10"
+},
+{
+  queid: "q26",
+  question: "Does the patient have any underlying medical conditions?",
+  options: {
+    "Yes": "q44",
+    "No": "q40"
+  },
+  level: "10"
+},
+{
+  queid: "q27",
+  question: "Has the patient experienced any recent weight loss or loss of appetite?",
+  options: {
+    "Yes": "q45",
+    "No": "q41"
+  },
+  level: "10"
+},
+{
+  queid: "q28",
+  question: "Has the patient experienced any weakness in the legs following the surgery?",
+  options: {
+    "Yes": "q46",
+    "No": "q47"
+  },
+  level: "10"
+},
+{
+  queid: "q29",
+  question: "Has the patient experienced any complications such as infection or bleeding following the surgery?",
+  options: {
+    "Yes": "q46",
+    "No": "q47"
+  },
+  level: "10"
+},
+{
+  queid: "q30",
+  question: "What other surgery was performed?",
+  options: {
+    "Laminectomy": "q48",
+    "Vertebroplasty": "q49",
+    "Other": "q50"
+  },
+  level: "10"
+},
+{
+  queid: "q31",
+  question: "Has the herniated disc been operated upon before?",
+  options: {
+    "Yes": "q51",
+    "No": "q47"
+  },
+  level: "10"
+},
+{
+  queid: "q32",
+  question: "What is the severity of the spinal stenosis?",
+  options: {
+    "Mild": "q52",
+    "Moderate": "q53",
+    "Severe": "q54"
+  },
+  level: "10"
+},
+{
+  queid: "q33",
+  question: "What is the severity of the degenerative disc disease?",
+  options: {
+    "Mild": "q55",
+    "Moderate": "q56",
+    "Severe": "q57"
+  },
+  level: "10"
+},
+{
+  queid: "q34",
+  question: "What is the condition diagnosed?",
+  options: {
+    "Sciatica": "q58",
+    "Scoliosis": "q59",
+    "Spinal cord injury": "q60"
+  },
+  level: "10"
+},
+{
+  queid: "q35",
+  question: "Does the X-ray show any bone abnormalities or fractures?",
+  options: {
+    "Yes": "q61",
+    "No": "q62"
+  },
+  level: "5"
+},
+{
+  queid: "q36",
+  question: "What did the MRI show?",
+  options: {
+    "Herniated disc": "q63",
+    "Spinal stenosis": "q64",
+    "Degenerative disc disease": "q65",
+  },
+  level: "5"
+},
+{
+  queid: "q37",
+  question: "Does the CT scan show any abnormalities in the bone or spinal column?",
+  options: {
+    "Yes": "q66",
+    "No": "q67"
+  },
+  level: "5"
+},
+{
+  queid: "q38",
+  question: "Has the patient tried any pain reduction methods?",
+  options: {
+    "Yes": "q10",
+    "No": "q68"
+  },
+  level: "9"
+},
+{
+  queid: "q39",
+  question: "What is the frequency of the back pain?",
+  options: {
+    "Occasional": "q69",
+    "Constant": "q70"
+  },
+  level: "9"
+},
+{
+  queid: "q40",
+  question: "Has the patient undergone any physical therapy for the back pain?",
+  options: {
+    "Yes": "q71",
+    "No": "q72"
+  },
+  level: "11"
+},
+{
+  queid: "q41",
+  question: "Has the patient undergone any imaging tests for the back pain?",
+  options: {
+    "Yes": "q73",
+    "No": "q74"
+  },
+  level: "11"
+},
+{
+  queid: "q42",
+  question: "Has the patient continued to use the prescription medication?",
+  options: {
+    "Yes": ["Disc herniation", "Muscle strain"],
+    "No": ["Sciatica", "Spinal stenosis"]
+  },
+  level: "11"
+},
+{
+  queid: "q43",
+  question: "What alternative medication options are available to the patient?",
+  options: {
+    "Alternative medicine": ["Fibromyalgia", "Cervical radiculopathy"],
+    "Pain clinics": ["Chronic pain"],
+    "None": ["Rheumatoid arthritis", "Ankylosing spondylitis"]
+  },
+  level: "11"
+},
+{
+  queid: "q44",
+  question: "Does the patient have any autoimmune disorders or underlying medical conditions?",
+  options: {
+    "Yes": ["Rheumatoid arthritis", "Ankylosing spondylitis"],
+    "No": ["Muscle strain", "Sciatica"]
+  },
+  level: "11"
+},
+{
+  queid: "q45",
+  question: "What other symptoms does the patient have besides the back pain?",
+  options: {
+    "Numbness or tingling in the legs": ["Lumbar spinal stenosis"],
+    "Unexplained weight loss or loss of appetite": ["Pancreatic cancer", "Osteomyelitis"]
+  },
+  level: "11"
+},
+{
+  queid: "q46",
+  question: "What treatment options are available for the patient?",
+  options: {
+    "Physical therapy": ["Failed back surgery syndrome"],
+    "Surgical intervention": ["Spinal hematoma","Vertebral fracture","Spondylolisthesis"],
+    "Pain management": ["Complex regional pain syndrome"],
+    "Pathology review": ["Infection"]
+  },
+  level: "11"
+},
+{
+  queid: "q47",
+  question: "What lifestyle changes can the patient adopt to manage the back pain?",
+  options: {
+    "Weight management": ["Muscle strain","Sciatica"],
+    "Healthy eating and exercise": ["Degenerative disc disease","Osteoporosis","Scoliosis","Spinal stenosis"],
+    "Physical therapy": ["Herniated disc"],
+    "Reduction of stress": ["Fibromyalgia","Chronic fatigue syndrome","Myofascial pain syndrome"],
+    "None": ["Lumbar spinal stenosis","Discogenic pain"]
+  },
+  level: "11"
+},
+{
+  queid: "q48",
+  question: "Does the patient require additional surgery for the back pain?",
+  options: {
+    "Yes": ["Post-laminectomy syndrome"],
+    "No": ["Failed back surgery syndrome"]
+  },
+  level: "11"
+},
+{
+  queid: "q49",
+  question: "What treatment options are available for the patient?",
+  options: {
+    "Rest and pain management": ["Vertebral fracture"],
+    "Physical therapy": ["Osteoporosis"],
+    "Surgical intervention": ["Infection"],
+    "Pathology review": ["Metastases"]
+  },
+  level: "11"
+},
+{
+  queid: "q50",
+  question: "What other surgical intervention was performed?",
+  options: {
+    "Spinal cord decompression": ["Cauda equina syndrome"],
+    "Nerve root decompression": ["Cervical radiculopathy"],
+    "Pain clinics": ["Failed back surgery syndrome"],
+    "None": ["Muscle strain","Sciatica"]
+  },
+  level: "11"
+},
+{
+  queid: "q51",
+  question: "What surgical options are available?",
+  options: {
+    "Laminectomy": ["Failed back surgery syndrome"],
+    "Microdiscectomy": ["Recurrence of herniation"],
+    "Spinal fusion": ["Discogenic pain"],
+    "Spinal surgery": ["Chronic pain"]
+  },
+  level: "11"
+},
+{
+  queid: "q52",
+  question: "What treatment options are available?",
+  options: {
+    "Physical therapy": ["Spinal stenosis"],
+    "Non-steroidal anti-inflammatory medication": ["Cervical spondylosis"],
+    "Cervical traction": ["Cervical radiculopathy"]
+  },
+  level: "11"
+},
+{
+  queid: "q53",
+  question: "What surgical options are available?",
+  options: {
+    "Minimally invasive decompressive surgery": ["Spinal stenosis"],
+    "Minimally invasive laminoforaminotomy": ["Cervical spondylosis"],
+    "Laminoplasty": ["Myelopathy"],
+    "Spinal fusion": ["Spondylolisthesis"]
+  },
+  level: "11"
+},
+{
+  queid: "q54",
+  question: "What surgical options are available?",
+  options: {
+    "Decompressive laminectomy": ["Spinal stenosis"],
+    "Minimally invasive surgery": ["Myelopathy"],
+    "Spinal fusion": ["Spondylolisthesis"]
+  },
+  level: "11"
+},
+{
+  queid: "q55",
+  question: "What treatment options are available?",
+  options: {
+    "Physical therapy": ["Degenerative disc disease"],
+    "Non-steroidal anti-inflammatory medication": ["Cervical spondylosis","Lumbar spondylosis"],
+    "Cervical traction": ["Cervical radiculopathy"]
+  },
+  level: "11"
+},
+{
+  queid: "q56",
+  question: "What surgical options are available?",
+  options: {
+    "Endoscopic discectomy or vertebroplasty": ["Painful lumbar disc"],
+    "Minimally invasive discectomy or laminotomy": ["L
+{
+  queid: "q1",
+  question: "Is the back pain new or existing?",
+  options: {
+    "New": "q2",
+    "Existing": "q6"
+  },
+  level: "1"
+},
+{
+  queid: "q2",
+  question: "Did the back pain begin after a recent injury or trauma?",
+  options: {
+    "Yes": "q3",
+    "No": "q4"
+  },
+  level: "2"
+},
+{
+  queid: "q3",
+  question: "What type of injury or trauma caused the pain?",
+  options: {
+    "Heavy lifting": "q5"
+  },
+  level: "3"
+},
+{
+  queid: "q4",
+  question: "Does the patient have any other symptoms besides the back pain?",
+  options: {
+    "Yes": "q10",
+    "No": "q11"
+  },
+  level: "4"
+},
+{
+  queid: "q5",
+  question: "Did you use proper technique when lifting the heavy object?",
+  options: {
+    "Yes": "q7",
+    "No": "q8"
+  },
+  level: "5"
+},
+{
+  queid: "q6",
+  question: "How long have you had the existing back pain?",
+  options: {
+    "Less than a month": "q10",
+    "Between 1-6 months": "q11",
+    "More than 6 months": "q12"
+  },
+  level: "2"
+},
+{
+  queid: "q7",
+  question: "Are you experiencing muscle spasms?",
+  options: {
+    "Yes": "q9",
+    "No": "q13"
+  },
+  level: "6"
+},
+{
+  queid: "q8",
+  question: "Did you receive any immediate medical treatment after the injury?",
+  options: {
+    "Yes": "q9",
+    "No": "q13"
+  },
+  level: "6"
+},
+{
+  queid: "q9",
+  question: "Have you tried any pain reduction methods?",
+  options: {
+    "Yes": "q10",
+    "No": "q11"
+  },
+  level: "7"
+},
+{
+  queid: "q10",
+  question: "What pain reduction methods have you tried?",
+  options: {
+    "Physical therapy": "q14",
+    "Medication": "q15",
+    "Hot or cold therapy": "q16",
+    "None": "q17"
+  },
+  level: "8"
+},
+{
+  queid: "q11",
+  question: "Has the patient undergone any surgeries in the past?",
+  options: {
+    "Yes": "q18",
+    "No": "q19"
+  },
+  level: "8"
+},
+{
+  queid: "q12",
+  question: "Has the patient undergone any imaging tests for the back pain?",
+  options: {
+    "Yes": "q20",
+    "No": "q21"
+  },
+  level: "3"
+},
+{
+  queid: "q13",
+  question: "Did the back pain improve over time or worsen?",
+  options: {
+    "Improved": "q17",
+    "Worsened": "q22"
+  },
+  level: "7"
+},
+{
+  queid: "q14",
+  question: "Did the physical therapy provide any relief to the back pain?",
+  options: {
+    "Yes": "q23",
+    "No": "q24"
+  },
+  level: "9"
+},
+{
+  queid: "q15",
+  question: "What type of medication was prescribed for the back pain?",
+  options: {
+    "Over the counter medication": "q24",
+    "Prescription medication": "q25"
+  },
+  level: "9"
+},
+{
+  queid: "q16",
+  question: "Did the hot or cold therapy provide any relief to the back pain?",
+  options: {
+    "Yes": "q23",
+    "No": "q24"
+  },
+  level: "9"
+},
+{
+  queid: "q17",
+  question: "What is the frequency of the back pain?",
+  options: {
+    "Occasional": "q26",
+    "Constant": "q27"
+  },
+  level: "8"
+},
+{
+  queid: "q18",
+  question: "What type of surgery was performed?",
+  options: {
+    "Spinal fusion": "q28",
+    "Discectomy": "q29",
+    "Other": "q30"
+  },
+  level: "9"
+},
+{
+  queid: "q19",
+  question: "What condition was the patient diagnosed with in the past?",
+  options: {
+    "Herniated disc": "q31",
+    "Spinal stenosis": "q32",
+    "Degenerative disc disease": "q33",
+    "Other": "q34"
+  },
+  level: "9"
+},
+{
+  queid: "q20",
+  question: "What imaging tests were performed?",
+  options: {
+    "X-ray": "q35",
+    "MRI": "q36",
+    "CT scan": "q37"
+  },
+  level: "4"
+},
+{
+  queid: "q21",
+  question: "What is the duration of the existing back pain?",
+  options: {
+    "Less than a month": "q26",
+    "Between 1-6 months": "q27",
+    "More than 6 months": "q38"
+  },
+  level: "4"
+},
+{
+  queid: "q22",
+  question: "Have you tried any pain reduction methods?",
+  options: {
+    "Yes": "q10",
+    "No": "q39"
+  },
+  level: "8"
+},
+{
+  queid: "q23",
+  question: "What is the frequency of the back pain?",
+  options: {
+    "Occasional": "q40",
+    "Constant": "q41"
+  },
+  level: "10"
+},
+{
+  queid: "q24",
+  question: "What is the frequency of the back pain?",
+  options: {
+    "Occasional": "q40",
+    "Constant": "q41"
+  },
+  level: "9"
+},
+{
+  queid: "q25",
+  question: "Did the prescription medication provide any relief to the back pain?",
+  options: {
+    "Yes": "q42",
+    "No": "q43"
+  },
+  level: "10"
+},
+{
+  queid: "q26",
+  question: "Does the patient have any underlying medical conditions?",
+  options: {
+    "Yes": "q44",
+    "No": "q40"
+  },
+  level: "10"
+},
+{
+  queid: "q27",
+  question: "Has the patient experienced any recent weight loss or loss of appetite?",
+  options: {
+    "Yes": "q45",
+    "No": "q41"
+  },
+  level: "10"
+},
+{
+  queid: "q28",
+  question: "Has the patient experienced any weakness in the legs following the surgery?",
+  options: {
+    "Yes": "q46",
+    "No": "q47"
+  },
+  level: "10"
+},
+{
+  queid: "q29",
+  question: "Has the patient experienced any complications such as infection or bleeding following the surgery?",
+  options: {
+    "Yes": "q46",
+    "No": "q47"
+  },
+  level: "10"
+},
+{
+  queid: "q30",
+  question: "What other surgery was performed?",
+  options: {
+    "Laminectomy": "q48",
+    "Vertebroplasty": "q49",
+    "Other": "q50"
+  },
+  level: "10"
+},
+{
+  queid: "q31",
+  question: "Has the herniated disc been operated upon before?",
+  options: {
+    "Yes": "q51",
+    "No": "q47"
+  },
+  level: "10"
+},
+{
+  queid: "q32",
+  question: "What is the severity of the spinal stenosis?",
+  options: {
+    "Mild": "q52",
+    "Moderate": "q53",
+    "Severe": "q54"
+  },
+  level: "10"
+},
+{
+  queid: "q33",
+  question: "What is the severity of the degenerative disc disease?",
+  options: {
+    "Mild": "q55",
+    "Moderate": "q56",
+    "Severe": "q57"
+  },
+  level: "10"
+},
+{
+  queid: "q34",
+  question: "What is the condition diagnosed?",
+  options: {
+    "Sciatica": "q58",
+    "Scoliosis": "q59",
+    "Spinal cord injury": "q60"
+  },
+  level: "10"
+},
+{
+  queid: "q35",
+  question: "Does the X-ray show any bone abnormalities or fractures?",
+  options: {
+    "Yes": "q61",
+    "No": "q62"
+  },
+  level: "5"
+},
+{
+  queid: "q36",
+  question: "What did the MRI show?",
+  options: {
+    "Herniated disc": "q63",
+    "Spinal stenosis": "q64",
+    "Degenerative disc disease": "q65",
+  },
+  level: "5"
+},
+{
+  queid: "q37",
+  question: "Does the CT scan show any abnormalities in the bone or spinal column?",
+  options: {
+    "Yes": "q66",
+    "No": "q67"
+  },
+  level: "5"
+},
+{
+  queid: "q38",
+  question: "Has the patient tried any pain reduction methods?",
+  options: {
+    "Yes": "q10",
+    "No": "q68"
+  },
+  level: "9"
+},
+{
+  queid: "q39",
+  question: "What is the frequency of the back pain?",
+  options: {
+    "Occasional": "q69",
+    "Constant": "q70"
+  },
+  level: "9"
+},
+{
+  queid: "q40",
+  question: "Has the patient undergone any physical therapy for the back pain?",
+  options: {
+    "Yes": "q71",
+    "No": "q72"
+  },
+  level: "11"
+},
+{
+  queid: "q41",
+  question: "Has the patient undergone any imaging tests for the back pain?",
+  options: {
+    "Yes": "q73",
+    "No": "q74"
+  },
+  level: "11"
+},
+{
+  queid: "q42",
+  question: "Has the patient continued to use the prescription medication?",
+  options: {
+    "Yes": ["Disc herniation", "Muscle strain"],
+    "No": ["Sciatica", "Spinal stenosis"]
+  },
+  level: "11"
+},
+{
+  queid: "q43",
+  question: "What alternative medication options are available to the patient?",
+  options: {
+    "Alternative medicine": ["Fibromyalgia", "Cervical radiculopathy"],
+    "Pain clinics": ["Chronic pain"],
+    "None": ["Rheumatoid arthritis", "Ankylosing spondylitis"]
+  },
+  level: "11"
+},
+{
+  queid: "q44",
+  question: "Does the patient have any autoimmune disorders or underlying medical conditions?",
+  options: {
+    "Yes": ["Rheumatoid arthritis", "Ankylosing spondylitis"],
+    "No": ["Muscle strain", "Sciatica"]
+  },
+  level: "11"
+},
+{
+  queid: "q45",
+  question: "What other symptoms does the patient have besides the back pain?",
+  options: {
+    "Numbness or tingling in the legs": ["Lumbar spinal stenosis"],
+    "Unexplained weight loss or loss of appetite": ["Pancreatic cancer", "Osteomyelitis"]
+  },
+  level: "11"
+},
+{
+  queid: "q46",
+  question: "What treatment options are available for the patient?",
+  options: {
+    "Physical therapy": ["Failed back surgery syndrome"],
+    "Surgical intervention": ["Spinal hematoma","Vertebral fracture","Spondylolisthesis"],
+    "Pain management": ["Complex regional pain syndrome"],
+    "Pathology review": ["Infection"]
+  },
+  level: "11"
+},
+{
+  queid: "q47",
+  question: "What lifestyle changes can the patient adopt to manage the back pain?",
+  options: {
+    "Weight management": ["Muscle strain","Sciatica"],
+    "Healthy eating and exercise": ["Degenerative disc disease","Osteoporosis","Scoliosis","Spinal stenosis"],
+    "Physical therapy": ["Herniated disc"],
+    "Reduction of stress": ["Fibromyalgia","Chronic fatigue syndrome","Myofascial pain syndrome"],
+    "None": ["Lumbar spinal stenosis","Discogenic pain"]
+  },
+  level: "11"
+},
+{
+  queid: "q48",
+  question: "Does the patient require additional surgery for the back pain?",
+  options: {
+    "Yes": ["Post-laminectomy syndrome"],
+    "No": ["Failed back surgery syndrome"]
+  },
+  level: "11"
+},
+{
+  queid: "q49",
+  question: "What treatment options are available for the patient?",
+  options: {
+    "Rest and pain management": ["Vertebral fracture"],
+    "Physical therapy": ["Osteoporosis"],
+    "Surgical intervention": ["Infection"],
+    "Pathology review": ["Metastases"]
+  },
+  level: "11"
+},
+{
+  queid: "q50",
+  question: "What other surgical intervention was performed?",
+  options: {
+    "Spinal cord decompression": ["Cauda equina syndrome"],
+    "Nerve root decompression": ["Cervical radiculopathy"],
+    "Pain clinics": ["Failed back surgery syndrome"],
+    "None": ["Muscle strain","Sciatica"]
+  },
+  level: "11"
+},
+{
+  queid: "q51",
+  question: "What surgical options are available?",
+  options: {
+    "Laminectomy": ["Failed back surgery syndrome"],
+    "Microdiscectomy": ["Recurrence of herniation"],
+    "Spinal fusion": ["Discogenic pain"],
+    "Spinal surgery": ["Chronic pain"]
+  },
+  level: "11"
+},
+{
+  queid: "q52",
+  question: "What treatment options are available?",
+  options: {
+    "Physical therapy": ["Spinal stenosis"],
+    "Non-steroidal anti-inflammatory medication": ["Cervical spondylosis"],
+    "Cervical traction": ["Cervical radiculopathy"]
+  },
+  level: "11"
+},
+{
+  queid: "q53",
+  question: "What surgical options are available?",
+  options: {
+    "Minimally invasive decompressive surgery": ["Spinal stenosis"],
+    "Minimally invasive laminoforaminotomy": ["Cervical spondylosis"],
+    "Laminoplasty": ["Myelopathy"],
+    "Spinal fusion": ["Spondylolisthesis"]
+  },
+  level: "11"
+},
+{
+  queid: "q54",
+  question: "What surgical options are available?",
+  options: {
+    "Decompressive laminectomy": ["Spinal stenosis"],
+    "Minimally invasive surgery": ["Myelopathy"],
+    "Spinal fusion": ["Spondylolisthesis"]
+  },
+  level: "11"
+},
+{
+  queid: "q55",
+  question: "What treatment options are available?",
+  options: {
+    "Physical therapy": ["Degenerative disc disease"],
+    "Non-steroidal anti-inflammatory medication": ["Cervical spondylosis","Lumbar spondylosis"],
+    "Cervical traction": ["Cervical radiculopathy"]
+  },
+  level: "11"
+},
+{
+  queid: "q56",
+  question: "What surgical options are available?",
+  options: {
+    "Endoscopic discectomy or vertebroplasty": ["Painful lumbar disc"],
+    "Minimally invasive discectomy or laminotomy": ["L
+{ 
+queid: "q1", 
+question : "What is your gender?", 
+options : { 
+    "Male":"q2", 
+    "Female":"q2"
+}, 
+level:"1"
+}, 
+{ 
+queid: "q2", 
+question : "What is your age group?", 
+options : { 
+    "18-30":"q3", 
+    "31-45":"q3", 
+    "46-60":"q3", 
+    ">60":"q3"
+}, 
+level:"2"
+}, 
+{ 
+queid: "q3", 
+question : "Do you have a medical history of back pain or spine disorders?", 
+options : { 
+    "Yes":"q5", 
+    "No":"q4"
+}, 
+level:"3"
+}, 
+{ 
+queid: "q4", 
+question : "Do you engage in heavy physical activity or lifting weights frequently?", 
+options : { 
+    "Yes":"q5", 
+    "No":"q11"
+}, 
+level:"4"
+}, 
+{ 
+queid: "q5", 
+question : "How long have you been experiencing back pain?", 
+options : { 
+    "Less than a week":"q6", 
+    "1-4 weeks":"q7",
+    "1-3 months":"q8",
+    ">3 months":"q9"
+}, 
+level:"5"
+},
+{
+queid: "q6",
+question: "Have you recently had any falls, car accidents, or other injuries?",
+options: {
+    "Yes": "q60",
+    "No": "q10"
+},
+level: "6"
+},
+{
+queid: "q7",
+question: "Do you experience back pain more frequently during certain times of the day or activities?",
+options: {
+    "Yes": "q13",
+    "No": "q12"
+},
+level: "6"
+},
+{
+queid: "q8",
+question: "Is your back pain affecting your day to day activities?",
+options: {
+    "Yes": "q21",
+    "No": "q20"
+},
+level: "6"
+},
+{
+queid: "q9",
+question: "Has your back pain been getting progressively worse over time?",
+options: {
+    "Yes": "q28",
+    "No": "q27"
+},
+level: "6"
+},
+{
+queid: "q10",
+question: "Have you tried any pain management techniques for back pain such as exercise, OTC medications, or physical therapy?",
+options: {
+    "Yes": "q39",
+    "No": "q38"
+},
+level: "7"
+},
+{
+queid: "q11",
+question: "Does your work or lifestyle involve sitting for prolonged periods?",
+options: {
+    "Yes": "q24",
+    "No": "q23"
+},
+level: "7"
+},
+{
+queid: "q12",
+question: "Do you experience any other symptoms such as numbness, tingling, or weakness in your back or lower extremities?",
+options: {
+    "Yes": "q14",
+    "No": "q15"
+},
+level: "7"
+},
+{
+queid: "q13",
+question: "Do you have an active lifestyle or occupation which involves heavy physical activity or weight lifting?",
+options: {
+    "Yes": "q16",
+    "No": "q17"
+},
+level: "7"
+},
+{
+queid: "q14",
+question: "Have you experienced any other significant medical issues recently?",
+options: {
+    "Yes": "q75",
+    "No": "q18"
+},
+level: "8"
+},
+{
+queid: "q15",
+question: "Have you experienced any travel recently?",
+options: {
+    "Yes": "q74",
+    "No": "q19"
+},
+level: "8"
+},
+{
+queid: "q16",
+question: "Are you experiencing any muscle spasms or weakness in your back or lower extremities?",
+options: {
+    "Yes": "q73",
+    "No": "q22"
+},
+level: "8"
+},
+{
+queid: "q17",
+question: "Do you have a family history of back pain or spine disorders?",
+options: {
+    "Yes": "q26",
+    "No": "q25"
+},
+level: "8"
+},
+{
+queid: "q18",
+question: "Have you recently experienced significant stress or anxiety?",
+options: {
+    "Yes": "q70",
+    "No": "q72"
+},
+level: "9"
+},
+{
+queid: "q19",
+question: "Do you have a sedentary lifestyle?",
+options: {
+    "Yes": "q69",
+    "No": "q71"
+},
+level: "9"
+},
+{
+queid: "q20",
+question: "Have you experienced any other significant medical issues recently?",
+options: {
+    "Yes": "q68",
+    "No": "q67"
+},
+level: "9"
+},
+{
+queid: "q21",
+question: "Have you been experiencing any other symptoms along with your back pain such as fever, chills, or rapid weight loss?",
+options: {
+    "Yes": "q66",
+    "No": "q65"
+},
+level: "9"
+},
+{
+queid: "q22",
+question: "Have you tried any pain management techniques such as physical therapy, chiropractic therapy, or massage?",
+options: {
+    "Yes": "q62",
+    "No": "q63"
+},
+level: "8"
+},
+{
+queid: "q23",
+question: "Do you have poor posture or slouch while sitting?",
+options: {
+    "Yes": "q59",
+    "No": "q58"
+},
+level: "8"
+},
+{
+queid: "q24",
+question: "Do you experience any other symptoms such as neck pain or headaches?",
+options: {
+    "Yes": "q56",
+    "No": "q57"
+},
+level: "8"
+},
+{
+queid: "q25",
+question: "Have you experienced any recent trauma or injury to your back or spine?",
+options: {
+    "Yes": "q54",
+    "No": "q55"
+},
+level: "8"
+},
+{
+queid: "q26",
+question: "Do you have a family history of osteoporosis or other bone disorders?",
+options: {
+    "Yes": "q53",
+    "No": "q52"
+},
+level: "8"
+},
+{
+queid: "q27",
+question: "Have you tried any pain management techniques such as massage, acupuncture, or stretching?",
+options: {
+    "Yes": "q51",
+    "No": "q50"
+},
+level: "7"
+},
+{
+queid: "q28",
+question: "Have you experienced any other symptoms such as numbness or tingling in your lower extremities, or loss of bladder or bowel control?",
+options: {
+    "Yes": "q48",
+    "No": "q49"
+},
+level: "7"
+},
+{
+queid: "q38",
+question: "Have you experienced any other symptoms such as numbness or tingling in your lower extremities, or loss of bladder or bowel control?",
+options: {
+    "Yes": "q45",
+    "No": "q46"
+},
+level: "8"
+},
+{
+queid: "q39",
+question: "Have you been diagnosed with any specific medical conditions that could be causing your back pain?",
+options: {
+    "Yes": "q44",
+    "No": "q43"
+},
+level: "8"
+},
+{
+queid: "q43",
+question: "Have you tried any pain management techniques such as exercise, OTC medications, or physical therapy?",
+options: {
+    "Yes": "q39",
+    "No": "q42"
+},
+level: "9"
+},
+{
+queid: "q44",
+question: "Have you been prescribed any medications or treatments specifically for your back pain?",
+options: {
+    "Yes": "q41",
+    "No": "q40"
+},
+level: "9"
+},
+{
+queid: "q50",
+question: "Have you recently experienced significant stress or anxiety?",
+options: {
+    "Yes": "q37",
+    "No": "q36"
+},
+level: "8"
+},
+{
+queid: "q51",
+question: "Have you experienced any other significant medical issues recently?",
+options: {
+    "Yes": "q35",
+    "No": "q34"
+},
+level: "8"
+},
+{
+queid: "q52",
+question: "Have you recently experienced any significant trauma or injury to your back or spine?",
+options: {
+    "Yes": "q32",
+    "No": "q33"
+},
+level: "8"
+},
+{
+queid: "q53",
+question: "Have you had a bone density test or been diagnosed with osteoporosis?",
+options: {
+    "Yes": "q31",
+    "No": "q30"
+},
+level: "8"
+},
+{
+queid: "q54",
+question: "Are you experiencing any other symptoms such as numbness, tingling, or weakness in your back or lower extremities?",
+options: {
+    "Yes": "q29",
+    "No": "q7"
+},
+level: "9"
+},
+{
+queid: "q55",
+question: "Do you have poor posture or slouch while sitting?",
+options: {
+    "Yes": "q26",
+    "No": "q25"
+},
+level: "9"
+},
+{
+queid: "q56",
+question: "Have you been experiencing any other symptoms such as nausea, vomiting, or sensitivity to light?",
+options: {
+    "Yes": "q24",
+    "No": "q23"
+},
+level: "9"
+},
+{
+queid: "q57",
+question: "Are you currently taking any medications or supplements?",
+options: {
+    "Yes": "q86",
+    "No": "q60"
+},
+level: "9"
+},
+{
+queid: "q58",
+question: "Have you been recently diagnosed with or treated for any other medical conditions?",
+options: {
+    "Yes": "q22",
+    "No": "q21"
+},
+level: "9"
+},
+{
+queid: "q59",
+question: "Have you been diagnosed or treated for any other medical conditions recently?",
+options: {
+    "Yes": "q19",
+    "No": "q18"
+},
+level: "9"
+},
+{
+queid: "q60",
+question: "Is your back pain causing difficulty with sleep or daily activities?",
+options: {
+    "Yes": "q81",
+    "No": "q61"
+},
+level: "10"
+},
+{
+queid: "q61",
+question: "Have you tried any pain management techniques such as exercise, OTC medications, or physical therapy?",
+options: {
+    "Yes": "q39",
+    "No": "q83"
+},
+level: "11"
+},
+{
+queid: "q62",
+question: "Have you undergone any diagnostic imaging or medical tests?",
+options: {
+    "Yes": "q76",
+    "No": "q87"
+},
+level: "9"
+},
+{
+queid: "q63",
+question: "Have you tried any pain management techniques such as chiropractic therapy or massage?",
+options: {
+    "Yes": "q64",
+    "No": "q46"
+},
+level: "8"
+},
+{
+queid: "q64",
+question: "Have you been diagnosed with any specific medical conditions such as degenerative disc disease or herniated disc?",
+options: {
+    "Yes": "q80",
+    "No": "q79"
+},
+level: "9"
+},
+{
+queid: "q65",
+question: "Have you been diagnosed or treated for any other medical conditions recently?",
+options: {
+    "Yes": "q77",
+    "No": "q78"
+},
+level: "10"
+},
+{
+queid: "q66",
+question: "Have you recently traveled to any foreign countries?",
+options: {
+    "Yes": "q84",
+    "No": "q85"
+},
+level: "10"
+},
+{
+queid: "q67",
+question: "Have you been diagnosed or treated for any other medical conditions recently?",
+options: {
+    "Yes": ["Muscle strain"], 
+    "No": ["Poor posture, Slouching"]
+},
+level: "10"
+},
+{
+queid: "q68",
+question: "Have you recently traveled to any foreign countries?",
+options: {
+    "Yes": "q184",
+    "No": "q183"
+},
+level: "10"
+},
+{
+queid: "q69",
+question: "Do you engage in regular exercise or physical activity?",
+options: {
+    "Yes": ["Muscle strain"], 
+    "No": ["Poor posture, Slouching"]
+},
+level: "10"
+},
+{
+queid: "q70",
+question: "Have you been diagnosed or treated for any other medical conditions recently?",
+options: {
+    "Yes": ["Stress, Anxiety"], 
+    "No": ["Muscle strain"]
+},
+level: "10"
+},
+{
+queid: "q71",
+question: "Do you experience any other symptoms such as numbness, tingling, or muscle weakness?",
+options: {
+    "Yes": ["Herniated Disc", "Muscle strain"], 
+    "No": ["Poor posture, Slouching"]
+},
+level: "10"
+},
+{
+queid: "q72",
+question: "Are you currently taking any medications or supplements?",
+options: {
+    "Yes": ["Muscle strain"], 
+    "No": ["Poor posture, Slouching"]
+},
+level: "10"
+},
+{
+queid: "q73",
+question: "Are you experiencing any other symptoms such as muscle weakness or numbness in other areas of your body?",
+options: {
+    "Yes": ["Herniated Disc", "Muscle strain"], 
+    "No": ["Muscle strain"]
+},
+level: "9"
+},
+{
+queid: "q74",
+question: "Have you visited any medical facilities or hospitals recently?",
+options: {
+    "Yes": "q127",
+    "No": "q183"
+},
+level: "9"
+},
+{
+queid: "q75",
+question: "Have you been diagnosed or treated for any other medical conditions recently?",
+options: {
+    "Yes": "q76",
+    "No": "q88"
+},
+level: "9"
+},
+{
+queid: "q76",
+question: "Have you undergone any diagnostic imaging or medical tests?",
+options: {
+    "Yes": ["Herniated Disc", "Degenerative Disc Disease"], 
+    "No": "Muscle strain"
+},
+level: "10"
+},
+{
+queid: "q77",
+question: "Are you currently taking any medications or supplements?",
+options: {
+    "Yes": ["Muscle strain"], 
+    "No": ["Spinal Stenosis"]
+},
+level: "11"
+},
+{
+queid: "q78",
+question: "Have you tried any pain management techniques such as exercise or OTC medications?",
+options: {
+    "Yes": ["Muscle strain"], 
+    "No": ["Poor Posture, Slouching"]
+},
+level: "11"
+},
+{
+queid: "q79",
+question: "Have you tried any pain management techniques such as exercise, OTC medications, or physical therapy?",
+options: {
+    "Yes": ["Muscle strain"], 
+    "No": ["Poor Posture, Slouching"]
+},
+level: "10"
+},
+{
+queid: "q80",
+question: "Have you been prescribed any specialized treatments or medications?",
+options: {
+    "Yes": ["Herniated Disc", "Degenerative Disc Disease"], 
+    "No": "Muscle strain"
+},
+level: "10"
+},
+{
+queid: "q81",
+question: "Have you been prescribed any specialized treatments or medications?",
+options: {
+    "Yes": ["Muscle strain"], 
+    "No": ["Poor posture, Slouching"]
+},
+level: "11"
+},
+{
+queid: "q83",
+question: "Have you undergone any diagnostic imaging or medical tests?",
+options: {
+    "Yes": ["Muscle strain"], 
+    "No": ["Poor posture, Slouching"]
+},
+level: "10"
+},
+{
+queid: "q84",
+question: "Have you been diagnosed or treated for any other medical conditions recently?",
+options: {
+    "Yes": "q36",
+    "No": ["Muscle strain", "Poor posture, Slouching"]
+},
+level: "11"
+},
+{
+queid: "q85",
+question: "Have you undergone any diagnostic imaging or medical tests?",
+options: {
+    "Yes": ["Muscle strain"], 
+    "No": ["Poor posture, Slouching"]
+},
+
